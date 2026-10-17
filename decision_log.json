@@ -1,0 +1,11 @@
+{
+  "method": "opencv+ppocrv5-onnx (rule-based CV, no LLM)",
+  "timestamp": "2026-10-17T20:53:40Z",
+  "processed_cases": 13,
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  }
+}
