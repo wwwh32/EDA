@@ -10,6 +10,6 @@
     "SL2.1A"
   ],
   "matches_case": null,
-  "export_menu_path": "文件>文件源码>下载；文件>导出>PNG；已进入原理图Sheet_1并确认1页",
-  "notes": "公开工程；标准版；原理图1页、IC=SL2.1A。已保存工程页截图、标准源码和默认PNG；本轮再次通过360下载源码，下载目录仍指向本工程。SVG、高清PNG、export_dialog.png尚未补齐。未下载PCB/BOM/Gerber。"
+  "export_menu_path": "文件>文件源码>下载；文件>导出>导出图片>PNG；文件>导出>导出图片>SVG",
+  "notes": "公开工程；标准版；原理图1页、IC=SL2.1A。已保存工程页截图、标准源码、默认PNG和SVG；导出PNG对话框截图、高清PNG尚未补齐。未下载PCB/BOM/Gerber。"
 }
