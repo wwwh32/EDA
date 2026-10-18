@@ -84,3 +84,5 @@
 ## 本轮续执行记录（2026-10-18）
 - p03_usb_hub：360安全浏览器打开公开工程 https://oshwhub.com/apana/usbhub，标准版，GPL 3.0，作者 apana；原理图1页，含 SL2.1A。已导出标准源码与默认PNG并整理为 source_std.json、sheet1.png。尚待 page.png、sheet1.svg、sheet1_hires.png、export_dialog.png。
 
+
+- 2026-10-18：p03_usb_hub 已用360保存工程详情页截图为 page.png（120316 bytes）。原理图附件仍缺 SVG、高清PNG、导出对话框截图；当前未下载PCB/BOM/Gerber。任务A仍未确认匹配。
