@@ -1,10 +1,10 @@
 {
-  "project_title": "MT2492 降压模块（专业版候选）",
-  "project_url": "https://oshwhub.com/search?keyword=MT2492",
-  "author": null,
+  "project_title": "基于MT2492的迷你Buck降压模块",
+  "project_url": "https://oshwhub.com/carele/ji-yu-MT2492de-mi-ni-Buckxiang-ya-mu-kuai",
+  "author": "Carele",
   "license": "GPL 3.0",
   "editor": "专业版",
-  "editor_url": null,
+  "editor_url": "https://pro.lceda.cn/editor",
   "sheets": 1,
   "ic_names": [
     "MT2492"
