@@ -1,0 +1,96 @@
+{
+ "project": {
+  "uuid": "c5748de4d63044de8071c13c9367ee72",
+  "path": "tianqing324/dian-han-ji-kong-zhi-qi-v2-0",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "b57b8d82dee134b6",
+   "title": "01 TFT"
+  },
+  {
+   "uuid": "34b76b802706bebb",
+   "title": "02 MCU"
+  },
+  {
+   "uuid": "17d77257cdc2298c",
+   "title": "05 Connector"
+  },
+  {
+   "uuid": "330388789dca52b2",
+   "title": "03 BlueTooth"
+  },
+  {
+   "uuid": "c0192370504db957",
+   "title": "04 Encoder"
+  },
+  {
+   "uuid": "39794001b7c82d30",
+   "title": "Load_V1.0"
+  },
+  {
+   "uuid": "711f50f4cad78fc2",
+   "title": "01 Power"
+  },
+  {
+   "uuid": "9c77f331598721eb",
+   "title": "02 Charge"
+  },
+  {
+   "uuid": "8f666cab5cf14f8e",
+   "title": "03 INPUT"
+  },
+  {
+   "uuid": "2bd5d01c1c7d4220",
+   "title": "04 Out"
+  },
+  {
+   "uuid": "7349971027113250",
+   "title": "05 Ballance"
+  },
+  {
+   "uuid": "fc88366d0f4d7046",
+   "title": "06 Connector"
+  }
+ ],
+ "tried": [
+  {
+   "path": "c5748de4d63044de8071c13c9367ee72",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 12,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "c5748de4d63044de8071c13c9367ee72",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 12,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "c5748de4d63044de8071c13c9367ee72",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"f1db4f2018623b59\", \"name\": \"LCD_V2.0_2.54MM\", \"sch\": \"bd18515669f424e2\", \"pcb\": \"ef0704f815dad621\", \"schematic\": {\"uuid\": \"bd18515669f424e2\", \"display_name\": \"LCD_V2.0_2.54MM\", \"boms\": {\"uuid\": \"bd18515669f424e2bd18515669f424e2\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C101,C103,C203,C205\\\",\\\"Footprint\\\":\\\"C0603_1\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CL10A106KP8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19702\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"AFC01-S18FCA-00\\\",\\\"Designator\\\":\\\"U101\\\",\\\"Footprint\\\":\\\"YT280L030-ST7789\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"AFC01-S18FCA-00\\\",\\\"Manufacturer\\\":\\\"JS(钜硕电子)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C262666\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C102,C104,C206,C204,C401,C403,C402,C607,C606,C604,C605,C602,C603,C601,C608\\\",\\\"Footprint\\\":\\\"C0603_1\\\",\\\"Quantity\\\":15,\\\"Manufacturer Part\\\":\\\"CC0603KRX7R9BB104\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C14663\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"MMBT3904,215-JSM\\\",\\\"Designator\\\":\\\"Q101\\\",\\\"Footprint\\\":\\\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MMBT3904,215-JSM\\\",\\\"Manufacturer\\\":\\\"JSMSEMI(杰盛微)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C53113874\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R102,R202,R201,R401,R402,R403\\\",\\\"Footprint\\\":\\\"R0603_1\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"0603WAF1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25804\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"10Ω\\\",\\\"Designator\\\":\\\"R101\\\",\\\"Footprint\\\":\\\"R0603_1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF100JT5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22859\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"AFC07-S12FCA-00\\\",\\\"Designator\\\":\\\"U102\\\",\\\"Footprint\\\":\\\"FPC-SMD_12P-P0.50_AFC07-S12FCA-00\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"AFC07-S12FCA-00\\\",\\\"Manufacturer\\\":\\\"JS(钜硕电子)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C262559\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"RE-H042TD-1190(LF)(SN)\\\",\\\"Designator\\\":\\\"J202\\\",\\\"Footprint\\\":\\\"HDR-TH_4P-P2.54-V_RE-H042TD-1190\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"RE-H042TD-1190(LF)(SN)\\\",\\\"Manufacturer\\\":\\\"JST\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C160334\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"2.54-1*3P针\\\",\\\"Designator\\\":\\\"J203\\\",\\\"Footprint\\\":\\\"HDR-TH_3P-P2.54-V-M-1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"2.54-1*3P针\\\",\\\"Manufacturer\\\":\\\"BOOMELE(博穆精密)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49257\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"XL-1608UGC-04\\\",\\\"Designator\\\":\\\"D201\\\",\\\"Footprint\\\":\\\"LED0603-RD_GREEN\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608UGC-04\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965804\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"STM32G070CBT6\\\",\\\"Designator\\\":\\\"U201\\\",\\\"Footprint\\\":\\\"LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"STM32G070CBT6\\\",\\\"Manufacturer\\\":\\\"ST(意法半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C529338\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"XL-1608SURC-06\\\",\\\"Designator\\\":\\\"D202\\\",\\\"Footprint\\\":\\\"LED0603-RD_RED\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608SURC-06\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965799\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"BLM18PG121SN1D\\\",\\\"Designator\\\":\\\"L201\\\",\\\"Footprint\\\":\\\"L0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BLM18PG121SN1D\\\",\\\"Manufacturer\\\":\\\"muRata(村田)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C14709\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"ED11301M-FB12A4.0-C20-102-G219\\\",\\\"Designator\\\":\\\"J402\\\",\\\"Footprint\\\":\\\"SW-TH_CTR_ED11301M-FB12A4.0-C20-102-G219\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ED11301M-FB12A4.0-C20-102-G219\\\",\\\"Manufacturer\\\":\\\"CTR(长泰尔电子)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C18213487\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"ZX-XH2.54-4PWZ\\\",\\\"Designator\\\":\\\"J401\\\",\\\"Footprint\\\":\\\"CONN-TH_4P-P2.50_ZX-XH2.54-4PWZ\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ZX-XH2.54-4PWZ\\\",\\\"Manufacturer\\\":\\\"Megastar(兆星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7429643\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"SMF3.3CA\\\",\\\"Designator\\\":\\\"D601,D602\\\",\\\"Footprint\\\":\\\"SOD-123_L2.7-W1.8-LS3.7-BI\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SMF3.3CA\\\",\\\"Manufacturer\\\":\\\"BORN(伯恩半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6165153\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"PZ254V-12-8P\\\",\\\"Designator\\\":\\\"J601,J603,J604,J602\\\",\\\"Footprint\\\":\\\"HDR-TH_8P-P2.54-V-M-R2-C4-S2.54\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"PZ254V-12-8P\\\",\\\"Manufacturer\\\":\\\"XFCN(兴飞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C492421\\\"}]\", \"updated_at\": \"2026-04-24 22:02:16\", \"created_at\": \"2026-04-15 21:19:38\"}, \"documents\": [{\"uuid\": \"b57b8d82dee134b6\", \"schematic_uuid\": \"bd18515669f424e2\", \"display_title\": \"01 TFT\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/3e9bd2c008244098b3a6bc7df802a8d8.webp\"}, {\"uuid\": \"34b76b802706bebb\", \"schematic_uuid\": \"bd18515669f424e2\", \"display_title\": \"02 MCU\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/d0684cdbc49c4db287d30513ddb87f2b.webp\"}, {\"uuid\": \"17d77257cdc2298c\", \"schematic_uuid\": \"bd18515669f424e2\", \"display_title\": \"05 Connector\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/bad4c8be0fc4415f88482306b4fbf576.webp\"}, {\"uuid\": \"330388789dca52b2\", \"schematic_uuid\": \"bd18515669f424e2\", \"display_title\": \"03 BlueTooth\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/3f43c8a38b6546efa9e99d888ce0d4a3.webp\"}, {\"uuid\": \"c0192370504db957\", \"schematic_uuid\": \"bd18515669f424e2\", \"display_title\": \"04 Encoder\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/d714847267ca42ebba6d2b21c24dcff6.webp\"}]}, \"pcb_info\": {\"uuid\": \"ef0704f815dad621\", \"schematic_uuid\": \"\", \"display_title\": \"LCD_V2.0_2.54MM\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/51833c54e3fb4c13bc5cfb935618f717.webp\", \"boms\": {\"uuid\": \"ef0704f815dad621ef0704f815dad621\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"SMF3.3CA\\\",\\\"Designator\\\":\\\"D602,D601\\\",\\\"Footprint\\\":\\\"SOD-123_L2.7-W1.8-LS3.7-BI\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SMF3.3CA\\\",\\\"Manufacturer\\\":\\\"BORN(伯恩半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6165153\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R202,R201,R402,R102,R401,R403\\\",\\\"Footprint\\\":\\\"R0603_1\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"0603WAF1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25804\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"10Ω\\\",\\\"Designator\\\":\\\"R101\\\",\\\"Footprint\\\":\\\"R0603_1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF100JT5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22859\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C101,C203,C205,C303,C306,C103\\\",\\\"Footprint\\\":\\\"C0603_1\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"CL10A106KP8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19702\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C102,C204,C206,C305,C307,C401,C402,C403,C601,C602,C603,C604,C605,C606,C607,C608,C104\\\",\\\"Footprint\\\":\\\"C0603_1\\\",\\\"Quantity\\\":17,\\\"Manufacturer Part\\\":\\\"CC0603KRX7R9BB104\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C14663\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"10pF\\\",\\\"Designator\\\":\\\"C308\\\",\\\"Footprint\\\":\\\"C0603_1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CL10C100JB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C1634\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"XL-1608UGC-04\\\",\\\"Designator\\\":\\\"D201\\\",\\\"Footprint\\\":\\\"LED0603-RD_GREEN\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608UGC-04\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965804\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"XL-1608SURC-06\\\",\\\"Designator\\\":\\\"D202\\\",\\\"Footprint\\\":\\\"LED0603-RD_RED\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608SURC-06\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965799\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"RE-H042TD-1190(LF)(SN)\\\",\\\"Designator\\\":\\\"J202\\\",\\\"Footprint\\\":\\\"HDR-TH_4P-P2.54-V_RE-H042TD-1190\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"RE-H042T"
+}

@@ -1,0 +1,40 @@
+{
+ "project": {
+  "uuid": "44c23560bfb145f885bca4c886157c01",
+  "path": "tonytang2/esp32-armbot",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "f6afcc40e3e88e16",
+   "title": "P1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "44c23560bfb145f885bca4c886157c01",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "44c23560bfb145f885bca4c886157c01",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"ac0bc221cc4da09e\", \"name\": \"Board1\", \"sch\": \"dea9dbd18d734464\", \"pcb\": \"d777e790e90ba2c1\", \"schematic\": {\"uuid\": \"dea9dbd18d734464\", \"display_name\": \"Schematic1\", \"boms\": {\"uuid\": \"dea9dbd18d734464dea9dbd18d734464\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"LX-LBC3充电模块\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"LX-LBC3\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"SK12D07VG4\\\",\\\"Designator\\\":\\\"SW1\\\",\\\"Footprint\\\":\\\"SW-TH_SK12D07VG4-1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SK12D07VG4\\\",\\\"Manufacturer\\\":\\\"HanElectricity(瀚源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22435621\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"TT电机\\\",\\\"Designator\\\":\\\"H1\\\",\\\"Footprint\\\":\\\"排针2.54MM2P\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"77311-818-02LF\\\",\\\"Manufacturer\\\":\\\"Amphenol ICC\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C464599\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"舵机接口\\\",\\\"Designator\\\":\\\"P1\\\",\\\"Footprint\\\":\\\"3*3P 排针\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"chestnut\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"ESP32C3-SUPERMINI-带孔-无名科技\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"ESP32C3-SUPERMINI-无名科技-带孔\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"无名科技nologo\\\",\\\"Supplier\\\":\\\"无名科技nologo\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"XH-2AW\\\",\\\"Designator\\\":\\\"CN2\\\",\\\"Footprint\\\":\\\"CONN-TH_XH-2AW_C2908611\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XH-2AW\\\",\\\"Manufacturer\\\":\\\"HCTL(华灿天禄)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2908611\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"drv8833\\\",\\\"Designator\\\":\\\"U3\\\",\\\"Footprint\\\":\\\"drv8833\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"}]\", \"updated_at\": \"2026-04-21 20:41:07\", \"created_at\": \"2026-01-02 15:32:46\"}, \"documents\": [{\"uuid\": \"f6afcc40e3e88e16\", \"schematic_uuid\": \"dea9dbd18d734464\", \"display_title\": \"P1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/adb560200ef14647b2076c126ae9bbdf.webp\"}]}, \"pcb_info\": {\"uuid\": \"d777e790e90ba2c1\", \"schematic_uuid\": \"\", \"display_title\": \"PCB1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/4bc7d24423db40fcb898fbb4d6426de2.webp\", \"boms\": {\"uuid\": \"d777e790e90ba2c1d777e790e90ba2c1\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"TT电机\\\",\\\"Designator\\\":\\\"H1\\\",\\\"Footprint\\\":\\\"排针2.54MM2P\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"77311-818-02LF\\\",\\\"Manufacturer\\\":\\\"Amphenol ICC\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C464599\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"SK12D07VG4\\\",\\\"Designator\\\":\\\"SW1\\\",\\\"Footprint\\\":\\\"SW-TH_SK12D07VG4-1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SK12D07VG4\\\",\\\"Manufacturer\\\":\\\"HanElectricity(瀚源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22435621\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"LX-LBC3充电模块\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"LX-LBC3\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"舵机接口\\\",\\\"Designator\\\":\\\"P1\\\",\\\"Footprint\\\":\\\"3*3P 排针\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"chestnut\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"ESP32C3-SUPERMINI-带孔-无名科技\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"ESP32C3-SUPERMINI-无名科技-带孔\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"无名科技nologo\\\",\\\"Supplier\\\":\\\"无名科技nologo\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"XH-2AW\\\",\\\"Designator\\\":\\\"CN2\\\",\\\"Footprint\\\":\\\"CONN-TH_XH-2AW_C2908611\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XH-2AW\\\",\\\"Manufacturer\\\":\\\"HCTL(华灿天禄)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2908611\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"drv8833\\\",\\\"Designator\\\":\\\"U3\\\",\\\"Footprint\\\":\\\"drv8833\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"}]\", \"updated_at\": \"2026-04-25 00:36:12\", \"created_at\": \"2026-01-02 15:33:14\"}}}], \"out_schematics\": [], \"out_pcbs\": [], \"panels\": []}}"
+}

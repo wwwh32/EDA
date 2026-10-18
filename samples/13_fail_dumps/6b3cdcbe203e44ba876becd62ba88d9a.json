@@ -1,0 +1,60 @@
+{
+ "project": {
+  "uuid": "6b3cdcbe203e44ba876becd62ba88d9a",
+  "path": "nishi_j/lm5145_demo_v1-1",
+  "origin": "pro",
+  "license": "CC BY-NC-SA 4.0"
+ },
+ "docs": [
+  {
+   "uuid": "9daf974f80bd7c1f",
+   "title": "P1"
+  },
+  {
+   "uuid": "d00c023d367fef95",
+   "title": "P1"
+  },
+  {
+   "uuid": "ae3903b4a314c2f8",
+   "title": "P1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "6b3cdcbe203e44ba876becd62ba88d9a",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 3,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "6b3cdcbe203e44ba876becd62ba88d9a",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 3,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "6b3cdcbe203e44ba876becd62ba88d9a",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"f8042a549948222e\", \"name\": \"V1.1_4L\", \"sch\": \"207940a2343778ec\", \"pcb\": \"69ae547dc72acdf0\", \"schematic\": {\"uuid\": \"207940a2343778ec\", \"display_name\": \"Schematic1_4L\", \"boms\": {\"uuid\": \"207940a2343778ec207940a2343778ec\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"LM5145RGYR\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"VQFN-20_L4.5-W3.5-P0.50-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"LM5145RGYR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C485912\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C1,C6,C121,C122,C9,C10,C11,C14,C18,C19,C21,C25,C27,C26,C35,C31,C32,C37,C30,C40,C49\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":21,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"1N5819WS\\\",\\\"Designator\\\":\\\"D42,D26,D14\\\",\\\"Footprint\\\":\\\"SOD-323_L1.8-W1.3-LS2.5-RD\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"1N5819WS\\\",\\\"Manufacturer\\\":\\\"Hottech(合科泰)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C191023\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"INA240A2PWR\\\",\\\"Designator\\\":\\\"U19\\\",\\\"Footprint\\\":\\\"TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"INA240A2PWR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C93965\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"OPA365AIDBVR\\\",\\\"Designator\\\":\\\"U18,U13,U14\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"OPA365AIDBVR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C96626\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R39,R84\\\",\\\"Footprint\\\":\\\"RES-ADJ-TH_3362P\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"3362P-1-103\\\",\\\"Manufacturer\\\":\\\"BOCHEN(博晨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C118956\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"100uF\\\",\\\"Designator\\\":\\\"C133,C147\\\",\\\"Footprint\\\":\\\"CAP-TH_BD10.0-P5.00-D1.0-FD\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"LKME1402A101MF\\\",\\\"Manufacturer\\\":\\\"Ymin(永铭)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C443138\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"LM5164DDAR\\\",\\\"Designator\\\":\\\"U17\\\",\\\"Footprint\\\":\\\"SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"LM5164DDAR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C477928\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"22uH\\\",\\\"Designator\\\":\\\"L2\\\",\\\"Footprint\\\":\\\"IND-SMD_L4.6-W4.2_SMMS0420\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SMMS0420-220M\\\",\\\"Manufacturer\\\":\\\"SXN(顺翔诺)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2894720\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"XT60PW-M\\\",\\\"Designator\\\":\\\"CN2\\\",\\\"Footprint\\\":\\\"CONN-TH_XT60PW-M\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XT60PW-M\\\",\\\"Manufacturer\\\":\\\"AMASS(艾迈斯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C98732\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"2N7002\\\",\\\"Designator\\\":\\\"Q1,Q7\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"2N7002\\\",\\\"Manufacturer\\\":\\\"宏迦橙\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7420321\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"TLV3201AIDBVR\\\",\\\"Designator\\\":\\\"U22\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TLV3201AIDBVR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C105188\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"PMEG6010CEH,115\\\",\\\"Designator\\\":\\\"D43\\\",\\\"Footprint\\\":\\\"SOD-123FL_L2.7-W1.8-LS3.8-RD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"PMEG6010CEH,115\\\",\\\"Manufacturer\\\":\\\"Nexperia(安世)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C110797\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C2,C44\\\",\\\"Footprint\\\":\\\"C1206\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C3\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"ZXGD3006E6TA\\\",\\\"Designator\\\":\\\"U2,U3\\\",\\\"Footprint\\\":\\\"SOT-26_L3.0-W1.6-P0.95-LS2.8-BL\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"ZXGD3006E6TA\\\",\\\"Manufacturer\\\":\\\"DIODES(美台)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C526792\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"PNE20020ERX\\\",\\\"Designator\\\":\\\"D2,D1,D3\\\",\\\"Footprint\\\":\\\"SOD-123_L2.8-W1.8-LS3.7-RD\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"PNE20020ERX\\\",\\\"Manufacturer\\\":\\\"Nexperia(安世)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C458134\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"1R\\\",\\\"Designator\\\":\\\"R6,R9,R24,R25\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"1R5\\\",\\\"Designator\\\":\\\"R13\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C174,C172,C175,C176,C13\\\",\\\"Footprint\\\":\\\"C1206\\\",\\\"Quantity\\\":5,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"BCV61B,215\\\",\\\"Designator\\\":\\\"Q5\\\",\\\"Footprint\\\":\\\"SOT-143_L2.9-W1.3-P1.92-LS2.3-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BCV61B,215\\\",\\\"Manufacturer\\\":\\\"Nexperia(安世)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C549615\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C119\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CIA0805X5R475K101MT\\\",\\\"Manufacturer\\\":\\\"HRE(芯声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C47117459\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"1K\\\",\\\"Designator\\\":\\\"R7,R43\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"XT60PW-F\\\",\\\"Designator\\\":\\\"U21\\\",\\\"Footprint\\\":\\\"TH_2P-XT60PW-F\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XT60PW-F\\\",\\\"Manufacturer\\\":\\\"AMASS(艾迈斯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C428722\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"100\\\",\\\"Designator\\\":\\\"R2\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":26,\\\"Name\\\":\\\"1uF\\\",\\\"Designator\\\":\\\"C4\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":27,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C8,C183,C182,C181,C180,C177\\\",\\\"Footprint\\\":\\\"C1206\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":28,\\\"Name\\\":\\\"330uF\\\",\\\"Designator\\\":\\\"C148,C142\\\",\\\"Footprint\\\":\\\"CAP-TH_BD10.0-P5.00-D1.0-FD\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"LKME1402A101MF\\\",\\\"Manufacturer\\\":\\\"Ymin(永铭)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":29,\\\"Name\\\":\\\"3.3uH\\\",\\\"Designator\\\":\\\"L3\\\",\\\"Footprint\\\":\\\"IND-SMD_3P-L27.9-W19.7-P10.43-LS27.9-BL_CSCF2918H-3R3MC\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"RSPQ2918-6R8M\\\",\\\"Manufacturer\\\":\\\"Ruishen(瑞申电子)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":30,\\\"Name\\\":\\\"10pF\\\",\\\"Designator\\\":\\\"C34\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CL10C100JB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C1634\\\"},{\\\"ID\\\":31,\\\"Name\\\":\\\"1mΩ\\\",\\\"Designator\\\":\\\"R89\\\",\\\"Footprint\\\":\\\"R1225\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CS25FTGR005\\\",\\\"Manufacturer\\\":\\\"Viking(光颉)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":32,\\\"Name\\\":\\\"1mR\\\",\\\"Designator\\\":\\\"R93\\\",\\\"Footprint\\\":\\\"RES-SMD_L6.4-W3.2_LR2512D-3W-1MR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"HoLR2512-2W-12mR-1%-15ppm\\\",\\\"Manufacturer\\\":\\\"Milliohm(毫欧)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":33,\\\"Name\\\":\\\"LP2951-50DR\\\",\\\"Designator\\\":\\\"U6\\\",\\\"Footprint\\\":\\\"SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"LP2951-50DR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C109380\\\"},{\\\"ID\\\":34,\\\"Name\\\":\\\"220nF\\\",\\\"Designator\\\":\\\"C5\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":35,\\\"Name\\\":\\\"1R0\\\",\\\"Designator\\\":\\\"R1,R20,R3,R21\\\",\\\"Footpr"
+}

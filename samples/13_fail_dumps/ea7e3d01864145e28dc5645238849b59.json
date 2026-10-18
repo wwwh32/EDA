@@ -1,0 +1,56 @@
+{
+ "project": {
+  "uuid": "ea7e3d01864145e28dc5645238849b59",
+  "path": "geekmark/multi-function-power-bank",
+  "origin": "pro",
+  "license": "CC BY-NC-SA 4.0"
+ },
+ "docs": [
+  {
+   "uuid": "d09cdfd37e730077",
+   "title": "P1"
+  },
+  {
+   "uuid": "47f12fadc94948f8",
+   "title": "P1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "ea7e3d01864145e28dc5645238849b59",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 2,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "ea7e3d01864145e28dc5645238849b59",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 2,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "ea7e3d01864145e28dc5645238849b59",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"18b933e0633b143e\", \"name\": \"控制板IP5306-4.2V_V0.1\", \"sch\": \"a8abc1a18095af0a\", \"pcb\": \"d5465008ab49fb28\", \"schematic\": {\"uuid\": \"a8abc1a18095af0a\", \"display_name\": \"Schematic1\", \"boms\": {\"uuid\": \"a8abc1a18095af0aa8abc1a18095af0a\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"4.7kΩ\\\",\\\"Designator\\\":\\\"R4,R3\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F4701T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17673\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"TYPE-C 2.0 6PIN-L7.4\\\",\\\"Designator\\\":\\\"USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPE-C2.06PIN-L7.4\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TYPE-C 2.0 6PIN-L7.4\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C9900021822\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C2,C3\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL21A106KAYNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C15850\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"IP5306\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"IP5306\\\",\\\"Manufacturer\\\":\\\"INJOINIC(英集芯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C181692\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"LED_0805-B\\\",\\\"Designator\\\":\\\"LED1,LED2,LED3,LED4\\\",\\\"Footprint\\\":\\\"LED_0805\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"10Ω\\\",\\\"Designator\\\":\\\"R1\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SR0805FR-7W10RL\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C873772\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R2\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0805W8F1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17414\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"TS665CJ\\\",\\\"Designator\\\":\\\"KEY1\\\",\\\"Footprint\\\":\\\"SW-TH_4P-L6.0-W6.0-P4.50-LS6.5\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TS665CJ\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C393938\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"1uH\\\",\\\"Designator\\\":\\\"L1\\\",\\\"Footprint\\\":\\\"IND-SMD_L7.3-W6.6_MHCI06030\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MHCI06018-1R0M-R8A\\\",\\\"Manufacturer\\\":\\\"chilisin(奇力新)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C285722\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"500mΩ\\\",\\\"Designator\\\":\\\"R5\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"FRL0805JR500TS\\\",\\\"Manufacturer\\\":\\\"FOJAN(富捷)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2934281\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C1,C5,C4\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"TCC0805X5R226K100FT\\\",\\\"Manufacturer\\\":\\\"CCTC(三环)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C380336\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"USB_ Type-A\\\",\\\"Designator\\\":\\\"USB2,USB3\\\",\\\"Footprint\\\":\\\"USB_ Type-A\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"51kΩ\\\",\\\"Designator\\\":\\\"R9,R11\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F5102T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17737\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"S9012\\\",\\\"Designator\\\":\\\"Q1\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"S9012\\\",\\\"Manufacturer\\\":\\\"High Diode(海德)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C466628\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"100kΩ\\\",\\\"Designator\\\":\\\"R7\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"FRH0805B1003TS\\\",\\\"Manufacturer\\\":\\\"FOJAN(富捷)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5713386\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"43kΩ\\\",\\\"Designator\\\":\\\"R10\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0805W8F4302T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17695\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"75kΩ\\\",\\\"Designator\\\":\\\"R8\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0805W8F7502T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17819\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C6\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0805X475K250NT\\\",\\\"Manufacturer\\\":\\\"FH(风华)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C274413\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"100Ω\\\",\\\"Designator\\\":\\\"R6\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"RT0805DRE07100RL\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C728662\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"2.2uF\\\",\\\"Designator\\\":\\\"C7\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CS0805KKX7R7BB225\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C577425\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"IP3005A\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"IP3005A\\\",\\\"Manufacturer\\\":\\\"INJOINIC(英集芯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C181685\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"100uF\\\",\\\"Designator\\\":\\\"C8\\\",\\\"Footprint\\\":\\\"CAP-TH_BD5.0-P2.00-D0.5-FD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ERA10V100M5X7\\\",\\\"Manufacturer\\\":\\\"JIERR(捷而瑞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49256785\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"HDR-M_2.54_1x4P\\\",\\\"Designator\\\":\\\"H1,H2\\\",\\\"Footprint\\\":\\\"HDR-TH_4P-P2.54-V-M\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"C492403\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"HDR-F_2.54_1x5P\\\",\\\"Designator\\\":\\\"H3\\\",\\\"Footprint\\\":\\\"HDR-TH_5P-P2.54-V-F\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"C50950\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"M3螺丝\\\",\\\"Designator\\\":\\\"SCREW1,SCREW2,SCREW3\\\",\\\"Footprint\\\":\\\"M3螺丝\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"}]\", \"updated_at\": \"2025-12-19 16:34:48\", \"created_at\": \"2025-12-19 16:34:48\"}, \"documents\": [{\"uuid\": \"d09cdfd37e730077\", \"schematic_uuid\": \"a8abc1a18095af0a\", \"display_title\": \"P1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/44b02e52b93249e4a8c768fbb0f2d5b8.webp\"}]}, \"pcb_info\": {\"uuid\": \"d5465008ab49fb28\", \"schematic_uuid\": \"\", \"display_title\": \"PCB1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/f5c5afe4d1804cf3893edc84da9f41cf.webp\", \"boms\": {\"uuid\": \"d5465008ab49fb28d5465008ab49fb28\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R2\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0805W8F1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17414\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"TS665CJ\\\",\\\"Designator\\\":\\\"KEY1\\\",\\\"Footprint\\\":\\\"SW-TH_4P-L6.0-W6.0-P4.50-LS6.5\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TS665CJ\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C393938\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"2.2uF\\\",\\\"Designator\\\":\\\"C7\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CS0805KKX7R7BB225\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C577425\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C2,C3\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL21A106KAYNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C15850\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"LED_0805-B\\\",\\\"Designator\\\":\\\"LED4,LED3,LED2,LED1\\\",\\\"Footprint\\\":\\\"LED_0805\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"4.7kΩ\\\",\\\"Designator\\\":\\\"R4,R3\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F4701T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17673\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"TYPE-C 2.0 6PIN-L7.4\\\",\\\"Designator\\\":\\\"USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPE-C2.06PIN-L7.4\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TYPE-C 2.0 6PIN-L7.4\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C9900021822\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"M3螺丝\\\""
+}

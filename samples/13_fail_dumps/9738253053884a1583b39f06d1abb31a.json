@@ -1,0 +1,56 @@
+{
+ "project": {
+  "uuid": "9738253053884a1583b39f06d1abb31a",
+  "path": "stm32eda/project_vyfpikge",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "6c9beecb8a789c0f",
+   "title": "P1"
+  },
+  {
+   "uuid": "723282c7eb247d06",
+   "title": "P1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "9738253053884a1583b39f06d1abb31a",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 2,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "9738253053884a1583b39f06d1abb31a",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 2,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "9738253053884a1583b39f06d1abb31a",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"c03c97a91b064c8b\", \"name\": \"屏幕板\", \"sch\": \"ea9ad623b49e203c\", \"pcb\": \"7eedcc4eb2da0186\", \"schematic\": {\"uuid\": \"ea9ad623b49e203c\", \"display_name\": \"Schematic2\", \"boms\": {\"uuid\": \"ea9ad623b49e203cea9ad623b49e203c\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"FPC 0.5-30P HYH2.0\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"FPC-SMD_30P-P0.50_FPC-0.5-30P-HYH2.0\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"FPC 0.5-30P HYH2.0\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6364668\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"10u\\\",\\\"Designator\\\":\\\"C92,C93\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"ME6211C33M5G-N\\\",\\\"Designator\\\":\\\"U21\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ME6211C33M5G-N\\\",\\\"Manufacturer\\\":\\\"MICRONE(南京微盟)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C82942\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10R\\\",\\\"Designator\\\":\\\"R8\\\",\\\"Footprint\\\":\\\"R0603-S_1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"0.1u\\\",\\\"Designator\\\":\\\"C1\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"HC-FPC-05-09-6RLTAG\\\",\\\"Designator\\\":\\\"FPC1\\\",\\\"Footprint\\\":\\\"FPC-SMD_6P-P0.50_HC-FPC-05-09-6RLTAG\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"HC-FPC-05-09-6RLTAG\\\",\\\"Manufacturer\\\":\\\"HCTL(华灿天禄)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5213748\\\"}]\", \"updated_at\": \"2026-04-12 21:06:12\", \"created_at\": \"2026-04-12 20:44:59\"}, \"documents\": [{\"uuid\": \"6c9beecb8a789c0f\", \"schematic_uuid\": \"ea9ad623b49e203c\", \"display_title\": \"P1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/efe3192686b0488bb5fbce8369e5e98e.webp\"}]}, \"pcb_info\": {\"uuid\": \"7eedcc4eb2da0186\", \"schematic_uuid\": \"\", \"display_title\": \"PCB2\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/39b7e7a0be9e45e1945d768f8c3c606a.webp\", \"boms\": {\"uuid\": \"7eedcc4eb2da01867eedcc4eb2da0186\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"0.1u\\\",\\\"Designator\\\":\\\"C1\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"10u\\\",\\\"Designator\\\":\\\"C92,C93\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"HC-FPC-05-09-6RLTAG\\\",\\\"Designator\\\":\\\"FPC1\\\",\\\"Footprint\\\":\\\"FPC-SMD_6P-P0.50_HC-FPC-05-09-6RLTAG\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"HC-FPC-05-09-6RLTAG\\\",\\\"Manufacturer\\\":\\\"HCTL(华灿天禄)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5213748\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10R\\\",\\\"Designator\\\":\\\"R8\\\",\\\"Footprint\\\":\\\"R0603-S_1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"FPC 0.5-30P HYH2.0\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"FPC-SMD_30P-P0.50_FPC-0.5-30P-HYH2.0\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"FPC 0.5-30P HYH2.0\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6364668\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"ME6211C33M5G-N\\\",\\\"Designator\\\":\\\"U21\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ME6211C33M5G-N\\\",\\\"Manufacturer\\\":\\\"MICRONE(南京微盟)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C82942\\\"}]\", \"updated_at\": \"2026-04-12 21:03:11\", \"created_at\": \"2026-04-12 21:03:11\"}}}, {\"uuid\": \"c36991677c6afc81\", \"name\": \"主板\", \"sch\": \"d1c4a4e210456421\", \"pcb\": \"9f8a5d44097ebc4b\", \"schematic\": {\"uuid\": \"d1c4a4e210456421\", \"display_name\": \"Schematic1\", \"boms\": {\"uuid\": \"d1c4a4e210456421d1c4a4e210456421\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"SW3566H\\\",\\\"Designator\\\":\\\"U2,U6,U9,U12\\\",\\\"Footprint\\\":\\\"QFN-32_L4.0-W4.0-P0.40-BL-EP2.8\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"SW3566H\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5444674\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"2.2nF\\\",\\\"Designator\\\":\\\"C3,C27,C42,C57\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"100pF\\\",\\\"Designator\\\":\\\"C4,C28,C43,C58\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10u\\\",\\\"Designator\\\":\\\"C6,C30,C45,C60,C92,C93\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"1u\\\",\\\"Designator\\\":\\\"C8,C32,C47,C62\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"0.1u\\\",\\\"Designator\\\":\\\"C7,C31,C46,C61\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"20K\\\",\\\"Designator\\\":\\\"R2,R15,R23,R31\\\",\\\"Footprint\\\":\\\"R0603-S\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"10K\\\",\\\"Designator\\\":\\\"R5,R18,R26,R34\\\",\\\"Footprint\\\":\\\"R0603-S\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"0R\\\",\\\"Designator\\\":\\\"R7,R4,R20,R17,R28,R25,R36,R33\\\",\\\"Footprint\\\":\\\"R0603-S\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"510R\\\",\\\"Designator\\\":\\\"R3,R16,R24,R32\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"JMSL0406AG\\\",\\\"Designator\\\":\\\"Q3,Q1,Q7,Q5,Q11,Q9,Q15,Q13\\\",\\\"Footprint\\\":\\\"DFN-8_L5.1-W5.7-P1.27-LS6.1-BL\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"JMSL0406AG\\\",\\\"Manufacturer\\\":\\\"Infineon(英飞凌)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C85091\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"0.003R\\\",\\\"Designator\\\":\\\"R6,R13,R19,R21,R27,R29,R35,R37\\\",\\\"Footprint\\\":\\\"R1206\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"VS4620GEMC\\\",\\\"Designator\\\":\\\"Q2,Q4,Q6,Q8,Q10,Q12,Q14,Q16\\\",\\\"Footprint\\\":\\\"DFN-8_L3.2-W3.1-P0.65-LS3.4-BL\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"VS4620GEMC\\\",\\\"Manufacturer\\\":\\\"Vergiga(威兆)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C3036317\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"10U\\\",\\\"Designator\\\":\\\"C13,C24,C37,C39,C52,C54,C67,C69\\\",\\\"Footprint\\\":\\\"C1206_3\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"22U\\\",\\\"Designator\\\":\\\"C2,C11,C12,C26,C35,C36,C41,C50,C51,C56,C65,C66,C98,C97\\\",\\\"Footprint\\\":\\\"C1210_1\\\",\\\"Quantity\\\":14,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"0.1u\\\",\\\"Designator\\\":\\\"C14,C15,C16,C17,C19,C72,C88,C90,C91,C18,C22,C99,C100\\\",\\\"Footprint\\\":\\\"C0603-S_1\\\",\\\"Quantity\\\":13,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"10K\\\",\\\"Designator\\\":\\\"R10,R46,R57,R8,R58,R60,R62\\\",\\\"Footprint\\\":\\\"R0603-S_1\\\",\\\"Quantity\\\":7,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"8MHz\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"OSC-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TAXM8M4RDBCCT2T\\\",\\\"Manufacturer\\\":\\\"TAE(雅晶鑫)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C400090\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"22PF\\\",\\\"Designator\\\":\\\"C20,C21\\\",\\\"Footprint\\\":\\\"C0603-S\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"WAFER-SH1.0-5PWB\\\",\\\"Designator\\\":\\\"U5\\\",\\\"Footprint\\\":\\\"CONN-SMD_5P-P1.00_XUNPU_WAFER-SH1.0-5PWB\\\",\\\"Quantity\\\""
+}

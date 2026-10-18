@@ -1,0 +1,56 @@
+{
+ "project": {
+  "uuid": "00da9af74a4646049c53ff101e0e6b59",
+  "path": "zhoulv2012/powerhub-power-telemetry-hub",
+  "origin": "pro",
+  "license": "CC-BY-4.0"
+ },
+ "docs": [
+  {
+   "uuid": "aff1e410a77d9784",
+   "title": "功率部分"
+  },
+  {
+   "uuid": "e200e1e3e3c058b3",
+   "title": "控制部分"
+  }
+ ],
+ "tried": [
+  {
+   "path": "00da9af74a4646049c53ff101e0e6b59",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 2,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "00da9af74a4646049c53ff101e0e6b59",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 2,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "00da9af74a4646049c53ff101e0e6b59",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"43de232739ed7130\", \"name\": \"V3\", \"sch\": \"6403696be505b82b\", \"pcb\": \"224f69c2f2fdf7f3\", \"schematic\": {\"uuid\": \"6403696be505b82b\", \"display_name\": \"V3\", \"boms\": {\"uuid\": \"6403696be505b82b6403696be505b82b\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"5.1K\\\",\\\"Designator\\\":\\\"R4,R5\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"2.4GHz\\\",\\\"Designator\\\":\\\"U10\\\",\\\"Footprint\\\":\\\"BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ESP32-C3-WROOM-02-N4\\\",\\\"Manufacturer\\\":\\\"ESPRESSIF(乐鑫)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2934560\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R15,R16,R11_1,R12_1,R18,R19,R20,R21\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"0603WAF1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25804\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C17,C22,C23\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"0.1uF\\\",\\\"Designator\\\":\\\"C16\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"K7803M-1000R3\\\",\\\"Designator\\\":\\\"U8\\\",\\\"Footprint\\\":\\\"PWRM-TH_K78XXM-1000R3\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"K7803M-1000R3\\\",\\\"Manufacturer\\\":\\\"YLPTEC(易川)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22749779\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C1\\\",\\\"Footprint\\\":\\\"CAP-TH_BD6.3-P2.50-D1.0-FD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SPZ1HM100E07O00RAXXX\\\",\\\"Manufacturer\\\":\\\"AISHI(艾华集团)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C160183\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C2\\\",\\\"Footprint\\\":\\\"CAP-TH_BD5.0-P2.50-D1.0-FD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SPT1HM220D11ORVZC\\\",\\\"Manufacturer\\\":\\\"Yunxing(云星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2896711\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"0Ω\\\",\\\"Designator\\\":\\\"R17,R49,R43,R44,R45\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":5,\\\"Manufacturer Part\\\":\\\"0603WAF0000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C21189\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"嘉立创二维码5x5\\\",\\\"Designator\\\":\\\"U18\\\",\\\"Footprint\\\":\\\"JLC-QRCODE-5x5\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"SKRPACE010\\\",\\\"Designator\\\":\\\"SW3_1,SW4_1\\\",\\\"Footprint\\\":\\\"KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SKRPACE010\\\",\\\"Manufacturer\\\":\\\"ALPSALPINE(阿尔卑斯阿尔派)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C139797\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"加长type-c-16P\\\",\\\"Designator\\\":\\\"U16\\\",\\\"Footprint\\\":\\\"type-c-16P\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"1uF\\\",\\\"Designator\\\":\\\"C21\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CGA0603X5R105K500JT\\\",\\\"Manufacturer\\\":\\\"HRE(芯声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6119852\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"47kΩ\\\",\\\"Designator\\\":\\\"R46,R47,R48,R50\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"0603WAF4702T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25819\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"0.1uF\\\",\\\"Designator\\\":\\\"C24\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"ME6217C33M5G\\\",\\\"Designator\\\":\\\"U15\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ME6217C33M5G\\\",\\\"Manufacturer\\\":\\\"MICRONE(南京微盟)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C427602\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"PZ254V-11-02P\\\",\\\"Designator\\\":\\\"H2\\\",\\\"Footprint\\\":\\\"HDR-TH_2P-P2.54-V-M\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"PZ254V-11-02P\\\",\\\"Manufacturer\\\":\\\"XFCN(兴飞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C492401\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"470uF\\\",\\\"Designator\\\":\\\"U17\\\",\\\"Footprint\\\":\\\"CAP-TH_BD10.0-P5.00-D0.6-FD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"JBLH2471M050E180RLM 470UF 50V\\\",\\\"Manufacturer\\\":\\\"DMBJ(振宝佳)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19270690\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"1mΩ\\\",\\\"Designator\\\":\\\"R51\\\",\\\"Footprint\\\":\\\"R1206\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"RE1206F1R001\\\",\\\"Manufacturer\\\":\\\"JIERR(捷而瑞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C46961738\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"SMBJ30CA\\\",\\\"Designator\\\":\\\"D9,D1,D2,D3,D4,D5,D6,D7,D8\\\",\\\"Footprint\\\":\\\"SMB_L4.6-W3.6-LS5.4-BI\\\",\\\"Quantity\\\":9,\\\"Manufacturer Part\\\":\\\"SMBJ30CA\\\",\\\"Manufacturer\\\":\\\"R+O(宏嘉诚)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19077585\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"0.1mΩ\\\",\\\"Designator\\\":\\\"R64,R65\\\",\\\"Footprint\\\":\\\"R3920\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"ASR-M-5-0.5F\\\",\\\"Manufacturer\\\":\\\"yezhan(业展)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"4.7nF\\\",\\\"Designator\\\":\\\"C34,C35,C36,C37\\\",\\\"Footprint\\\":\\\"C0603mini\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CL10B472KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C1621\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"33Ω\\\",\\\"Designator\\\":\\\"R66,R67\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF330JT5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C23140\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"M3螺丝\\\",\\\"Designator\\\":\\\"SCREW1,SCREW2,SCREW3\\\",\\\"Footprint\\\":\\\"M3螺丝\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"SMTSO3050CTJ\\\",\\\"Designator\\\":\\\"U25\\\",\\\"Footprint\\\":\\\"SMD_SMTSO3060CTJ\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SMTSO3050CTJ\\\",\\\"Manufacturer\\\":\\\"Sinhoo(雄和远景)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2915636\\\"},{\\\"ID\\\":26,\\\"Name\\\":\\\"LM5069MM-2/NOPB\\\",\\\"Designator\\\":\\\"U19,U1,U4,U12\\\",\\\"Footprint\\\":\\\"VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"LM5069MM-2/NOPB\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C111822\\\"},{\\\"ID\\\":27,\\\"Name\\\":\\\"XRS400N06HTL\\\",\\\"Designator\\\":\\\"Q5,Q6,Q1,Q2,Q3,Q4,Q7,Q8\\\",\\\"Footprint\\\":\\\"TOLL-8_L10.4-W9.9-P1.20-LS11.7-BL\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"XRS400N06HTL\\\",\\\"Manufacturer\\\":\\\"XNRUSEMI(新锐)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C42456683\\\"},{\\\"ID\\\":28,\\\"Name\\\":\\\"10Ω\\\",\\\"Designator\\\":\\\"R27,R28,R1,R2,R11,R12,R35,R36\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"FRC0603J100 TS\\\",\\\"Manufacturer\\\":\\\"FOJAN(富捷)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2907091\\\"},{\\\"ID\\\":29,\\\"Name\\\":\\\"3.5mΩ\\\",\\\"Designator\\\":\\\"R29,R3,R13,R37\\\",\\\"Footprint\\\":\\\"R2512\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6075477\\\"},{\\\"ID\\\":30,\\\"Name\\\":\\\"160kΩ\\\",\\\"Designator\\\":\\\"R30,R6,R14,R38\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"FRC0603F1603TS\\\",\\\"Manufacturer\\\":\\\"FOJAN(富捷)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2930068\\\"},{\\\"ID\\\":31,\\\"Name\\\":\\\"15kΩ\\\",\\\"Designator\\\":\\\"R31,R7,R23,R39\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"0603WAF1502T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22809\\\"},{\\\"ID\\\":32,\\\"Name\\\":\\\"470nF\\\",\\\"Designator\\\":\\\"C25,C5,C10,C15\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CC0603KRX7R9BB474\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C513577\\\"},{\\\"ID\\\":33,\\\"Name\\\":\\\"56kΩ\\\",\\\"Designator\\\":\\\"R32,R8,R24,R40\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CRCW060356K0FKEA\\\",\\\"Manufacturer\\\":\\\"VISHAY(威世)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C844578\\\"},{\\\"ID\\\":34,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C26,C6,C11,C18\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CL10B102KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\""
+}

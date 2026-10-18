@@ -1,0 +1,88 @@
+{
+ "project": {
+  "uuid": "af8cf1eb1a644f49a092c20696f974a0",
+  "path": "tianqing324/swmcontrol_v1-0_1",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "30968987fbc1647d",
+   "title": "01 Power"
+  },
+  {
+   "uuid": "9e364700c984f124",
+   "title": "04 TFT"
+  },
+  {
+   "uuid": "07dc7dde94c1bf76",
+   "title": "06 Out"
+  },
+  {
+   "uuid": "2ef9ed7773e0c42f",
+   "title": "07 Ballance"
+  },
+  {
+   "uuid": "8fa31840ba825b92",
+   "title": "03 Charge"
+  },
+  {
+   "uuid": "bbbca101b360e299",
+   "title": "05 INPUT"
+  },
+  {
+   "uuid": "e98944c2045546cf",
+   "title": "02 MCU"
+  },
+  {
+   "uuid": "3fdc6001a068d82e",
+   "title": "08 BlueTooth"
+  },
+  {
+   "uuid": "0f61fb9816a3796f",
+   "title": "01 TFT"
+  },
+  {
+   "uuid": "9e822aa4ab704f14",
+   "title": "Load_V1.0"
+  }
+ ],
+ "tried": [
+  {
+   "path": "af8cf1eb1a644f49a092c20696f974a0",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 10,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "af8cf1eb1a644f49a092c20696f974a0",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 10,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "af8cf1eb1a644f49a092c20696f974a0",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"08d0b82cf7d131df\", \"name\": \"Ctrl_V1.0\", \"sch\": \"240b9c508235f5e1\", \"pcb\": \"ec28e86b0b2f156a02424daadff19057\", \"schematic\": {\"uuid\": \"240b9c508235f5e1\", \"display_name\": \"Ctrl_V1.0\", \"boms\": {\"uuid\": \"240b9c508235f5e1240b9c508235f5e1\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"BX-BX-GH1.25-6PLT\\\",\\\"Designator\\\":\\\"JP4,JP5\\\",\\\"Footprint\\\":\\\"CONN-SMD_6P-P1.25_BX-BX-GH1.25-6PLT\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"BX-BX-GH1.25-6PLT\\\",\\\"Manufacturer\\\":\\\"Bossie(博锡)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C18077713\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"摄像头\\\",\\\"Designator\\\":\\\"XH1,XH12\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"遥控器接收机\\\",\\\"Designator\\\":\\\"XH3\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"交换机\\\",\\\"Designator\\\":\\\"XH2\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"飞控\\\",\\\"Designator\\\":\\\"XH4\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"XH5\\\",\\\"Designator\\\":\\\"XH5\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"避障\\\",\\\"Designator\\\":\\\"XH7\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"HDR-1X4\\\",\\\"Designator\\\":\\\"JP11,JP12,JP8,JP9,JP6,JP20,JP1\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":7,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"Header 18X2\\\",\\\"Designator\\\":\\\"JP3\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"HDR-1X3\\\",\\\"Designator\\\":\\\"JP13\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"路由器\\\",\\\"Designator\\\":\\\"XH11\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"100nf\\\",\\\"Designator\\\":\\\"C1\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"10uf\\\",\\\"Designator\\\":\\\"C2\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"XH4\\\",\\\"Designator\\\":\\\"XH10\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"TJ-L5FCMXHMCSLCRGB-A5\\\",\\\"Designator\\\":\\\"LED1\\\",\\\"Footprint\\\":\\\"LED-TH_4P-BD5.8-P1.30\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TJ-L5FCMXHMCSLCRGB-A5\\\",\\\"Manufacturer\\\":\\\"TOGIALED(统佳)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2837021\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"1K\\\",\\\"Designator\\\":\\\"R3,R2,R1\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"HDR-1X2\\\",\\\"Designator\\\":\\\"JP7,JP14,JP16,JP18,JP10,JP15,JP17,JP19\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"HDR-1X2\\\",\\\"Designator\\\":\\\"JP21\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"HDR-1X4\\\",\\\"Designator\\\":\\\"JP22\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"XH4\\\",\\\"Designator\\\":\\\"XH13,XH14,XH16,XH6\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"XH4_1\\\",\\\"Designator\\\":\\\"XH15\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"灯泡\\\",\\\"Designator\\\":\\\"XH8\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"Header 2X7\\\",\\\"Designator\\\":\\\"JP2\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"HDR-1X11\\\",\\\"Designator\\\":\\\"JP23\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"Header 2X11\\\",\\\"Designator\\\":\\\"JP24\\\",\\\"Footprint\\\":\\\"\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"}]\", \"updated_at\": \"2026-04-28 12:12:40\", \"created_at\": \"2025-11-17 10:05:04\"}, \"documents\": [{\"uuid\": \"30968987fbc1647d\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"01 Power\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/5e1af2d590e24dc3879e276bffc81386.webp\"}, {\"uuid\": \"9e364700c984f124\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"04 TFT\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/e4c035a25a05417abdf0a94ab1b24ab8.webp\"}, {\"uuid\": \"07dc7dde94c1bf76\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"06 Out\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/d16ab7a0b9514dfa94d3f6af9f4fb40f.webp\"}, {\"uuid\": \"2ef9ed7773e0c42f\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"07 Ballance\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/65bc3cd7749448439cfeac65d650984f.webp\"}, {\"uuid\": \"8fa31840ba825b92\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"03 Charge\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/1e66ab45a0c246afafe123d8f51b571a.webp\"}, {\"uuid\": \"bbbca101b360e299\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"05 INPUT\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/74f4a5bc20804cd0a94b1c0a20d1c949.webp\"}, {\"uuid\": \"e98944c2045546cf\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"02 MCU\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/1ccb33373ced4168962c04ec83efed6b.webp\"}, {\"uuid\": \"3fdc6001a068d82e\", \"schematic_uuid\": \"240b9c508235f5e1\", \"display_title\": \"08 BlueTooth\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/db0c80421499467da9b9de7c0416d955.webp\"}]}, \"pcb_info\": {\"uuid\": \"ec28e86b0b2f156a02424daadff19057\", \"schematic_uuid\": \"\", \"display_title\": \"Ctrl_v1.0\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/81df2fd283d44f14919a303817288920.webp\", \"boms\": {\"uuid\": \"ec28e86b0b2f156a02424daadff19057\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"MMBT3904,215-JSM\\\",\\\"Designator\\\":\\\"Q403,Q601,Q1\\\",\\\"Footprint\\\":\\\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"MMBT3904,215-JSM\\\",\\\"Manufacturer\\\":\\\"JSMSEMI(杰盛微)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C53113874\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"LMV321ATDTR(XBLW)\\\",\\\"Designator\\\":\\\"U205,U206\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"LMV321ATDTR(XBLW)\\\",\\\"Manufacturer\\\":\\\"XBLW(芯伯乐)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C42415797\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"INA199A1DCKR\\\",\\\"Designator\\\":\\\"U204\\\",\\\"Footprint\\\":\\\"SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"INA199A1DCKR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C59135\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"UCC27517DBVR-TP\\\",\\\"Designator\\\":\\\"U401\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"UCC27517DBVR-TP\\\",\\\"Manufacturer\\\":\\\"TECH PUBLIC(台舟)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C51939678\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"SL331S5\\\",\\\"Designator\\\":\\\"U20"
+}

@@ -1,0 +1,60 @@
+{
+ "project": {
+  "uuid": "205f5150fbed409397b60e0db232d30f",
+  "path": "xiaci_yiding/windows-fingerprint-unlock",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "cee660198148f0ac",
+   "title": "P1"
+  },
+  {
+   "uuid": "7b5740a4d17fc367",
+   "title": "P1"
+  },
+  {
+   "uuid": "395624d56f7b399e",
+   "title": "P1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "205f5150fbed409397b60e0db232d30f",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 3,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "205f5150fbed409397b60e0db232d30f",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 3,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "205f5150fbed409397b60e0db232d30f",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"21024b3de5fe212d\", \"name\": \"Windows指纹解锁1.3\", \"sch\": \"86d26d7a532dbe76\", \"pcb\": \"b71afed994cc398b\", \"schematic\": {\"uuid\": \"86d26d7a532dbe76\", \"display_name\": \"Schematic1_3\", \"boms\": {\"uuid\": \"86d26d7a532dbe7686d26d7a532dbe76\", \"project_uuid\": \"205f5150fbed409397b60e0db232d30f\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"TYPE-C 16PIN 2MD(073)\\\",\\\"Designator\\\":\\\"USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPE-C-6PIN-2MD-073\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TYPE-C 16PIN 2MD(073)\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2765186\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"5.1K\\\",\\\"Designator\\\":\\\"R1,R2\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"12MHz\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"CRYSTAL-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"X322512MSB4SI\\\",\\\"Manufacturer\\\":\\\"YXC(扬兴晶振)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C9002\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C3,C7,C13,C2\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C4,C8,C12,C1\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"AFC01-S08FCA-00\\\",\\\"Designator\\\":\\\"FPC1\\\",\\\"Footprint\\\":\\\"FPC-SMD_P0.50-8P_FGS-XJ-H2.0\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"AFC01-S08FCA-00\\\",\\\"Manufacturer\\\":\\\"JS(钜硕电子)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C262657\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"BSMD0805L-200\\\",\\\"Designator\\\":\\\"F1\\\",\\\"Footprint\\\":\\\"F0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BSMD0805L-200\\\",\\\"Manufacturer\\\":\\\"BHFUSE(佰宏)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2757931\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"SMAJ5.0CA\\\",\\\"Designator\\\":\\\"D2,D8\\\",\\\"Footprint\\\":\\\"SMA_L4.3-W2.6-LS5.0-BI\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SMAJ5.0CA\\\",\\\"Manufacturer\\\":\\\"宏嘉诚\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19077524\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"U-A-24DS-W-1\\\",\\\"Designator\\\":\\\"USB2,USB3,USB4\\\",\\\"Footprint\\\":\\\"USB-A-SMD_U-A-24DS-W-1.\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"U-A-24DS-W-1\\\",\\\"Manufacturer\\\":\\\"韩国韩荣\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C530628\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"XC6219B332MR\\\",\\\"Designator\\\":\\\"U3\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XC6219B332MR\\\",\\\"Manufacturer\\\":\\\"UMW(友台半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C347386\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C9,C10,C11\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"BSMD0805-050-6V\\\",\\\"Designator\\\":\\\"F2,F3,F4\\\",\\\"Footprint\\\":\\\"F0805\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"BSMD0805-050-6V\\\",\\\"Manufacturer\\\":\\\"BHFUSE(佰宏)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C883108\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"CH213K\\\",\\\"Designator\\\":\\\"U4\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CH213K\\\",\\\"Manufacturer\\\":\\\"WCH(南京沁恒)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5456874\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"CH412K\\\",\\\"Designator\\\":\\\"D4,D5,D6,D7\\\",\\\"Footprint\\\":\\\"SOT-363_L2.0-W1.3-P0.65-LS2.1-BR\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CH412K\\\",\\\"Manufacturer\\\":\\\"WCH(南京沁恒)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C89184\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"CH334R\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CH334R\\\",\\\"Manufacturer\\\":\\\"WCH(南京沁恒)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C4154405\\\"}]\", \"updated_at\": \"2026-09-17 09:40:46\", \"created_at\": \"2026-09-17 09:12:47\"}, \"documents\": [{\"uuid\": \"cee660198148f0ac\", \"schematic_uuid\": \"86d26d7a532dbe76\", \"display_title\": \"P1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/cb74c15d44e044b09ad6f02c830aa9e6.webp\"}]}, \"pcb_info\": {\"uuid\": \"b71afed994cc398b\", \"schematic_uuid\": \"\", \"display_title\": \"PCB_1.3\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/6f3e11172cf9416eb12b234f3a9864ef.webp\", \"boms\": {\"uuid\": \"b71afed994cc398bb71afed994cc398b\", \"project_uuid\": \"205f5150fbed409397b60e0db232d30f\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"BSMD0805-050-6V\\\",\\\"Designator\\\":\\\"F2,F3,F4\\\",\\\"Footprint\\\":\\\"F0805\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"BSMD0805-050-6V\\\",\\\"Manufacturer\\\":\\\"BHFUSE(佰宏)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C883108\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C12,C1,C4,C8\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C13,C2,C3,C7\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"CH213K\\\",\\\"Designator\\\":\\\"U4\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CH213K\\\",\\\"Manufacturer\\\":\\\"WCH(南京沁恒)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5456874\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C9,C10,C11\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"SMAJ5.0CA\\\",\\\"Designator\\\":\\\"D2,D8\\\",\\\"Footprint\\\":\\\"SMA_L4.3-W2.6-LS5.0-BI\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SMAJ5.0CA\\\",\\\"Manufacturer\\\":\\\"宏嘉诚\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19077524\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"BSMD0805L-200\\\",\\\"Designator\\\":\\\"F1\\\",\\\"Footprint\\\":\\\"F0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BSMD0805L-200\\\",\\\"Manufacturer\\\":\\\"BHFUSE(佰宏)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2757931\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"AFC01-S08FCA-00\\\",\\\"Designator\\\":\\\"FPC1\\\",\\\"Footprint\\\":\\\"FPC-SMD_P0.50-8P_FGS-XJ-H2.0\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"AFC01-S08FCA-00\\\",\\\"Manufacturer\\\":\\\"JS(钜硕电子)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C262657\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"5.1K\\\",\\\"Designator\\\":\\\"R1,R2\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"XC6219B332MR\\\",\\\"Designator\\\":\\\"U3\\\",\\\"Footprint\\\":\\\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XC6219B332MR\\\",\\\"Manufacturer\\\":\\\"UMW(友台半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C347386\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"TYPE-C 16PIN 2MD(073)\\\",\\\"Designator\\\":\\\"USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPE-C-6PIN-2MD-073\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TYPE-C 16PIN 2MD(073)\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2765186\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"U-A-24DS-W-1\\\",\\\"Designator\\\":\\\"USB2,USB3,USB4\\\",\\\"Footprint\\\":\\\"USB-A-SMD_U-A-24DS-W-1.\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"U-A-24DS-W-1\\\",\\\"Manufacturer\\\":\\\"韩国韩荣\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C530628\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"12MHz\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"CRYSTAL-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"X322512MSB4SI\\\",\\\"Manufacturer\\\":\\\"YXC(扬兴晶振)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C9002\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"CH412K\\\",\\\"Designator\\\":\\\"D4,D5,D6,D7\\\",\\\"Footprint\\\":\\\"SOT-363_L2.0-W1.3-P0.65-LS2.1-BR\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CH412K\\\",\\\"Manufacturer\\\":\\\"WCH(南京沁恒)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C89184\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"CH334R\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"QSOP-16_L4.9-W3.9-P0.64-LS6.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CH334R\\\",\\\"Manufacturer\\\":\\\"WCH(南京沁恒)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C4154405\\\"}]\", \"updated_at\": \"2026-09-17 09:42:49\", \"created_at\": \"2026-09-17 09:14:41\"}}}, {\"uuid\": \"efaf4e7a8d866bb4\", \"name\": \"Windows指纹解锁1.1\", \"sch\": \"273ed362ff161801\", \"pcb\": \"de85031d26f65429\", \"schematic\": {\"uuid\": \"273ed362ff161801\", \"display_name\": \"Schematic1_1"
+}

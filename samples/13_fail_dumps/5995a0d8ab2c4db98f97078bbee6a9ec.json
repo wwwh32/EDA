@@ -1,0 +1,76 @@
+{
+ "project": {
+  "uuid": "5995a0d8ab2c4db98f97078bbee6a9ec",
+  "path": "nishibushisabi1/mpsfoc",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "9fb3f0a864a55633",
+   "title": "Power"
+  },
+  {
+   "uuid": "355454d7cc16ed93",
+   "title": "Control"
+  },
+  {
+   "uuid": "04e92172b20506e2",
+   "title": "AuxPower"
+  },
+  {
+   "uuid": "46fa890ed79d3f28",
+   "title": "Control"
+  },
+  {
+   "uuid": "7fbd4484cc2eaae8",
+   "title": "Power"
+  },
+  {
+   "uuid": "a7cbf9cc43d1ad57",
+   "title": "AuxPower"
+  },
+  {
+   "uuid": "99808d37d91221b6",
+   "title": "P1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "5995a0d8ab2c4db98f97078bbee6a9ec",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 7,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "5995a0d8ab2c4db98f97078bbee6a9ec",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 7,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "5995a0d8ab2c4db98f97078bbee6a9ec",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"c67a84137cc200b1\", \"name\": \"STM32G431\", \"sch\": \"2c5991b25f180b3f\", \"pcb\": \"4fdecf9fe41f2815\", \"schematic\": {\"uuid\": \"2c5991b25f180b3f\", \"display_name\": \"MPS_FOC_V2S\", \"documents\": [{\"uuid\": \"9fb3f0a864a55633\", \"schematic_uuid\": \"2c5991b25f180b3f\", \"display_title\": \"Power\", \"thumb\": \"\"}, {\"uuid\": \"355454d7cc16ed93\", \"schematic_uuid\": \"2c5991b25f180b3f\", \"display_title\": \"Control\", \"thumb\": \"\"}, {\"uuid\": \"04e92172b20506e2\", \"schematic_uuid\": \"2c5991b25f180b3f\", \"display_title\": \"AuxPower\", \"thumb\": \"\"}]}, \"pcb_info\": {\"uuid\": \"4fdecf9fe41f2815\", \"schematic_uuid\": \"\", \"display_title\": \"MPS_FOC_V2S\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/a9a66b126fd04407a9a3d38e8d970deb.webp\", \"boms\": {\"uuid\": \"4fdecf9fe41f28154fdecf9fe41f2815\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"10K\\\",\\\"Designator\\\":\\\"R55,R37,R25,R21,R54,R53,R52,R39,R30,R29,R28,R15,R11,R8\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":14,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"1nF\\\",\\\"Designator\\\":\\\"C15\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C53,C55,C69,C63,C61,C80,C60,C26\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C58,C68,C62,C52\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"STM32G474CEU6\\\",\\\"Designator\\\":\\\"U11\\\",\\\"Footprint\\\":\\\"UFQFPN-48_7X7X0P55MM\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"330\\\",\\\"Designator\\\":\\\"R49,R43,R36\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"1K\\\",\\\"Designator\\\":\\\"R33,R35,R34\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"3K3\\\",\\\"Designator\\\":\\\"R24\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"100\\\",\\\"Designator\\\":\\\"R23\\\",\\\"Footprint\\\":\\\"R 0402_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"75K\\\",\\\"Designator\\\":\\\"R22\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"10uH\\\",\\\"Designator\\\":\\\"L4,L2\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C89,C41,C39,C33,C29,C28,C10,C8,C7\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":9,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"SMD\\\",\\\"Designator\\\":\\\"C70\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"330pF\\\",\\\"Designator\\\":\\\"C67,C64,C59,C57,C56\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":5,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"1uF\\\",\\\"Designator\\\":\\\"C51\\\",\\\"Footprint\\\":\\\"C 0402_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"10pF\\\",\\\"Designator\\\":\\\"C50\\\",\\\"Footprint\\\":\\\"C 0402_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"10nF\\\",\\\"Designator\\\":\\\"C49\\\",\\\"Footprint\\\":\\\"C 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"1N4148W\\\",\\\"Designator\\\":\\\"D8,D6,D5,D4,D3,D2,D1\\\",\\\"Footprint\\\":\\\"SOD-323_L1.8-W1.3-LS2.5-RD\\\",\\\"Quantity\\\":7,\\\"Manufacturer Part\\\":\\\"1N4148W\\\",\\\"Manufacturer\\\":\\\"ST(先科)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C81598\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C86,C85,C84,C83,C82,C81,C24,C23,C22,C21,C20,C19,C18,C17,C16\\\",\\\"Footprint\\\":\\\"C 1210_L\\\",\\\"Quantity\\\":15,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"TJA1051\\\",\\\"Designator\\\":\\\"U12\\\",\\\"Footprint\\\":\\\"PSON65P300X100_HS-9M\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"GS8094\\\",\\\"Designator\\\":\\\"U10\\\",\\\"Footprint\\\":\\\"SOP65P640X120-14N\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"MPM3632SGPQ-Z\\\",\\\"Designator\\\":\\\"U9\\\",\\\"Footprint\\\":\\\"EC_LGA-10_MNP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"MA600GQE-0000-P\\\",\\\"Designator\\\":\\\"U8\\\",\\\"Footprint\\\":\\\"QFN-16_MA600_MNP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"MP20051DQ-LF-P\\\",\\\"Designator\\\":\\\"U7\\\",\\\"Footprint\\\":\\\"QFN-8_MP20051_MNP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"MP4583GQVE-Z\\\",\\\"Designator\\\":\\\"U6\\\",\\\"Footprint\\\":\\\"QFN-19_L5.0-W3.0_CD4583GQVE\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MP4583GQVE-Z\\\",\\\"Manufacturer\\\":\\\"MPS(芯源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C29073231\\\"},{\\\"ID\\\":26,\\\"Name\\\":\\\"= Voltage\\\",\\\"Designator\\\":\\\"U5\\\",\\\"Footprint\\\":\\\"SMC_L6.9-W5.9-LS8.0-BI\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":27,\\\"Name\\\":\\\"MP6539BGV-P\\\",\\\"Designator\\\":\\\"U4\\\",\\\"Footprint\\\":\\\"QFN-4x5_MP6539B_MNP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":28,\\\"Name\\\":\\\"CSD88599Q5DC\\\",\\\"Designator\\\":\\\"U3,U2,U1\\\",\\\"Footprint\\\":\\\"DMM0022A\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"Texas Instruments\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":29,\\\"Name\\\":\\\"RH-5000\\\",\\\"Designator\\\":\\\"TP1\\\",\\\"Footprint\\\":\\\"TEST-TH_BD2.54-P1.4_TOUCH\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"RH-5000\\\",\\\"Manufacturer\\\":\\\"荣和\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5277086\\\"},{\\\"ID\\\":30,\\\"Name\\\":\\\"82.5K\\\",\\\"Designator\\\":\\\"R51,R46,R45,R40,R31\\\",\\\"Footprint\\\":\\\"R 0402_L\\\",\\\"Quantity\\\":5,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":31,\\\"Name\\\":\\\"3K3\\\",\\\"Designator\\\":\\\"R50,R48,R44,R42,R38,R32\\\",\\\"Footprint\\\":\\\"R 0402_L\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":32,\\\"Name\\\":\\\"120\\\",\\\"Designator\\\":\\\"R47\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":33,\\\"Name\\\":\\\"100K\\\",\\\"Designator\\\":\\\"R41\\\",\\\"Footprint\\\":\\\"R 0402_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":34,\\\"Name\\\":\\\"10K\\\",\\\"Designator\\\":\\\"R27,R26\\\",\\\"Footprint\\\":\\\"R 0402_L\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":35,\\\"Name\\\":\\\"1K\\\",\\\"Designator\\\":\\\"R20\\\",\\\"Footprint\\\":\\\"R 0402_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":36,\\\"Name\\\":\\\"8.87K\\\",\\\"Designator\\\":\\\"R19\\\",\\\"Footprint\\\":\\\"R 0603_L\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supp"
+}

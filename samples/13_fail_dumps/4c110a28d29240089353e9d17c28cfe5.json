@@ -1,0 +1,64 @@
+{
+ "project": {
+  "uuid": "4c110a28d29240089353e9d17c28cfe5",
+  "path": "eda_ydaolrocl/200w-ultra-low-ripple-digital-bu",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "049481197b9388c8",
+   "title": "Sheet_1"
+  },
+  {
+   "uuid": "8ae1309b4d86d3fa",
+   "title": "Sheet_1"
+  },
+  {
+   "uuid": "3ab5befbf7f11695",
+   "title": "Sheet_1"
+  },
+  {
+   "uuid": "e3dda6f45664eae8",
+   "title": "Sheet_1"
+  }
+ ],
+ "tried": [
+  {
+   "path": "4c110a28d29240089353e9d17c28cfe5",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 4,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "4c110a28d29240089353e9d17c28cfe5",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 4,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "4c110a28d29240089353e9d17c28cfe5",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"46be6395cc10c5c4\", \"name\": \"耦合电感buck电源-控制\", \"sch\": \"727fd5d61a01dd73\", \"pcb\": \"bf1660f0eb33e86e\", \"schematic\": {\"uuid\": \"727fd5d61a01dd73\", \"display_name\": \"耦合电感buck电源-控制\", \"boms\": {\"uuid\": \"727fd5d61a01dd73727fd5d61a01dd73\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"PM200-2-06-S-4.3\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"HDR-SMD_12P-P2.00-V-F-R2-C6-LS6.5-1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"PM200-2-06-S-4.3\\\",\\\"Manufacturer\\\":\\\"HCTL(华灿天禄)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C3975170\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"100n\\\",\\\"Designator\\\":\\\"C13,C11,C78,C80\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"10k\\\",\\\"Designator\\\":\\\"R72,R73,R74,R75,R76,R77,R78,R11,R2,R10,R12\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":11,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"TS665TPZJ\\\",\\\"Designator\\\":\\\"SW1\\\",\\\"Footprint\\\":\\\"电源按键\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TS665TPZJ\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C557600\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"SIQ-02FVS3\\\",\\\"Designator\\\":\\\"K1\\\",\\\"Footprint\\\":\\\"SIQ-02FVS3\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"0.1u\\\",\\\"Designator\\\":\\\"C20,C19,C10,C9,C3,C4,C5,C6,C1,C12\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":10,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"5.6n\\\",\\\"Designator\\\":\\\"C18,C17\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"1k\\\",\\\"Designator\\\":\\\"R4,DNI1,R9,R6\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"12k\\\",\\\"Designator\\\":\\\"R5,R7\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"10n\\\",\\\"Designator\\\":\\\"C16\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"77311-462K04LF\\\",\\\"Designator\\\":\\\"H8\\\",\\\"Footprint\\\":\\\"HDR-TH_4P-P2.54-V-M-1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"77311-462K04LF\\\",\\\"Manufacturer\\\":\\\"Amphenol ICC\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C180218\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"STM32G474RBT6\\\",\\\"Designator\\\":\\\"U9\\\",\\\"Footprint\\\":\\\"LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"STM32G474RBT6\\\",\\\"Manufacturer\\\":\\\"ST(意法半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C529413\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"AO3404A_C5224205\\\",\\\"Designator\\\":\\\"U2,U7\\\",\\\"Footprint\\\":\\\"SOT-23-3_L3.0-W1.6-P1.90-LS2.8-BR\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"AO3404A\\\",\\\"Manufacturer\\\":\\\"ElecSuper(静芯微）\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5224205\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"ST7789-2.0寸\\\",\\\"Designator\\\":\\\"U6\\\",\\\"Footprint\\\":\\\"ST7789-2.0寸\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"10R\\\",\\\"Designator\\\":\\\"R1\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"MLT-5020蜂鸣器\\\",\\\"Designator\\\":\\\"BUZZER2\\\",\\\"Footprint\\\":\\\"BUZ-SMD_3P-L5.2-W5.2-P3.50-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MLT-5020\\\",\\\"Manufacturer\\\":\\\"HNDZ\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C94598\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"10R\\\",\\\"Designator\\\":\\\"R63,R64\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"0Ω\\\",\\\"Designator\\\":\\\"R3\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"1.2n\\\",\\\"Designator\\\":\\\"C7\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"100R\\\",\\\"Designator\\\":\\\"R8\\\",\\\"Footprint\\\":\\\"R1206\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"BSS138\\\",\\\"Designator\\\":\\\"Q1\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BSS138TA-VB\\\",\\\"Manufacturer\\\":\\\"VBsemi(微碧半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5179525\\\"}]\", \"updated_at\": \"2026-04-24 17:51:42\", \"created_at\": \"2026-03-15 19:20:16\"}, \"documents\": [{\"uuid\": \"049481197b9388c8\", \"schematic_uuid\": \"727fd5d61a01dd73\", \"display_title\": \"Sheet_1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/545ec786c34f45ac94f7396c1cba91a8.webp\"}]}, \"pcb_info\": {\"uuid\": \"bf1660f0eb33e86e\", \"schematic_uuid\": \"\", \"display_title\": \"PCB_耦合电感buck电源-控制\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/3b1944f47c904a2ab728cd71a72230e5.webp\", \"boms\": {\"uuid\": \"bf1660f0eb33e86ebf1660f0eb33e86e\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"10k\\\",\\\"Designator\\\":\\\"R10,R12,R72,R73,R74,R75,R76,R77,R78,R11,R2,R13\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":12,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"TS665TPZJ\\\",\\\"Designator\\\":\\\"SW1\\\",\\\"Footprint\\\":\\\"电源按键\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TS665TPZJ\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C557600\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"PM200-2-06-S-4.3\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"HDR-SMD_12P-P2.00-V-F-R2-C6-LS6.5-1\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"PM200-2-06-S-4.3\\\",\\\"Manufacturer\\\":\\\"HCTL(华灿天禄)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C3975170\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"100n\\\",\\\"Designator\\\":\\\"C11,C13,C78,C80\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"100R\\\",\\\"Designator\\\":\\\"R8\\\",\\\"Footprint\\\":\\\"R1206\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"0.1u\\\",\\\"Designator\\\":\\\"C12,C1,C20,C19,C10,C9,C6,C5,C4,C3\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":10,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"AO3404A_C5224205\\\",\\\"Designator\\\":\\\"U2,U7\\\",\\\"Footprint\\\":\\\"SOT-23-3_L3.0-W1.6-P1.90-LS2.8-BR\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"AO3404A\\\",\\\"Manufacturer\\\":\\\"ElecSuper(静芯微）\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5224205\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"10R\\\",\\\"Designator\\\":\\\"R1\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"STM32G474RBT6\\\",\\\"Designator\\\":\\\"U9\\\",\\\"Footprint\\\":\\\"LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"STM32G474RBT6\\\",\\\"Manufacturer\\\":\\\"ST(意法半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C529413\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"12k\\\",\\\"Designator\\\":\\\"R7,R5\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"1k\\\",\\\"Designator\\\":\\\"R4,DNI1,R6,R9\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"10R\\\",\\\"Designator\\\":\\\"R64,R63\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"0Ω\\\",\\\"Designator\\\":\\\"R3\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"MLT-5020蜂鸣器\\\",\\\"Designator\\\":\\\"BUZZER2\\\",\\\"Footprint\\\":\\\"BUZ-"
+}

@@ -1,0 +1,64 @@
+{
+ "project": {
+  "uuid": "cda2e1d4504548fb9682b7bf09ce83e7",
+  "path": "eda_kwazdnpkc/hpm5321_pcan",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "be3b08745cc23be7",
+   "title": "CHANGELOG"
+  },
+  {
+   "uuid": "cbecd75625737bbd",
+   "title": "CAN/POWER"
+  },
+  {
+   "uuid": "a6f04234455ae265",
+   "title": "CORE"
+  },
+  {
+   "uuid": "5f1791b4370ae892",
+   "title": "USB"
+  }
+ ],
+ "tried": [
+  {
+   "path": "cda2e1d4504548fb9682b7bf09ce83e7",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 4,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "cda2e1d4504548fb9682b7bf09ce83e7",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 4,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "cda2e1d4504548fb9682b7bf09ce83e7",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"bf506f6957b87437\", \"name\": \"Board1\", \"sch\": \"f49a31d23eea39dc\", \"pcb\": \"ab5d92e9fec0c178\", \"schematic\": {\"uuid\": \"f49a31d23eea39dc\", \"display_name\": \"Schematic1\", \"boms\": {\"uuid\": \"f49a31d23eea39dcf49a31d23eea39dc\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"HPM5321IEG1\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"QFN-48_L6.0-W6.0-P0.40-TL-EP4.2\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"HPM5321IEG1\\\",\\\"Manufacturer\\\":\\\"HPMICRO(先楫半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49451867\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"C0402\\\",\\\"Designator\\\":\\\"C4,C5,C3,C7,C6,C8,C9,C12,C13,C11,C14,C15,C17,C19,C16,C18,C10,C20,C21,C1,C2,C22,C23,C26,C29,C24,C25,C27,C30,C28,C31\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":31,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"XL2EL89COI-111YLC-24M\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"CRYSTAL-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL2EL89COI-111YLC-24M\\\",\\\"Manufacturer\\\":\\\"YXC(扬兴晶振)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5444545\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"4.7uH\\\",\\\"Designator\\\":\\\"L1\\\",\\\"Footprint\\\":\\\"IND-SMD_L2.5-W2.0\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SWPA252012S4R7MT\\\",\\\"Manufacturer\\\":\\\"Sunlord(顺络)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C87640\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"10k\\\",\\\"Designator\\\":\\\"R1,R2,R3,R4,R5,R6,R7\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":7,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"A-SP1942B1GHC-A01-2T\\\",\\\"Designator\\\":\\\"LED1,LED2\\\",\\\"Footprint\\\":\\\"LED-ARRAY-SMD_4P-L1.6-W1.5-BL-A\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"A-SP1942B1GHC-A01-2T\\\",\\\"Manufacturer\\\":\\\"Amicc(欧密格光电)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19171227\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"Test-Point\\\",\\\"Designator\\\":\\\"TP1,TP2,TP3,TP4,TP5,TP6\\\",\\\"Footprint\\\":\\\"Test-Point-0.5mm\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"PESD1CAN\\\",\\\"Designator\\\":\\\"D2,D3\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-2\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"PESD1CAN\\\",\\\"Manufacturer\\\":\\\"UMW(友台半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2687121\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"120Ω\\\",\\\"Designator\\\":\\\"R9,R8\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F1200T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17437\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"SIT1051ATK/3\\\",\\\"Designator\\\":\\\"U4,U3\\\",\\\"Footprint\\\":\\\"DFN-8_L3.0-W3.0-P0.65-BL-EP-1\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SIT1051ATK/3\\\",\\\"Manufacturer\\\":\\\"SIT(芯力特)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5382552\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"TLV76733DRVR\\\",\\\"Designator\\\":\\\"U7\\\",\\\"Footprint\\\":\\\"WSON-6_L2.0-W2.0-P0.65-TL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TLV76733DRVR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2848334\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"ISO6521REUR\\\",\\\"Designator\\\":\\\"U6,U5\\\",\\\"Footprint\\\":\\\"DFN-8_L3.0-W2.0-P0.50-BL\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"TI\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22428095\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"PZ254V-11-02P\\\",\\\"Designator\\\":\\\"H1,H2,H3,H4\\\",\\\"Footprint\\\":\\\"HDR-TH_2P-P2.54-V-M\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"PZ254V-11-02P\\\",\\\"Manufacturer\\\":\\\"XFCN(兴飞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C492401\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"MIE1W0505BGLVH-3R-Z\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"LGA-12_L4.0-W5.0_MIE1W0505BGLVH\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MIE1W0505BGLVH-3R-Z\\\",\\\"Manufacturer\\\":\\\"MPS(芯源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22419841\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"ACM2012-900-2P-T002\\\",\\\"Designator\\\":\\\"L2,L3\\\",\\\"Footprint\\\":\\\"IND-SMD_4P-L2.0-W1.2-TL\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"ACM2012-900-2P-T002\\\",\\\"Manufacturer\\\":\\\"TDK\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19972\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"5.1k\\\",\\\"Designator\\\":\\\"R10,R11\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"TYPEC-304-BCP16\\\",\\\"Designator\\\":\\\"USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPEC-304-BCP16\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TYPEC-304-BCP16\\\",\\\"Manufacturer\\\":\\\"XUNPU(讯普)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C720629\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"USBLC6-2P6\\\",\\\"Designator\\\":\\\"D4\\\",\\\"Footprint\\\":\\\"SOT-563_L1.6-W1.2-P0.50-LS1.6-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"USBLC6-2P6\\\",\\\"Manufacturer\\\":\\\"R+O(宏嘉诚)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49451919\\\"}]\", \"updated_at\": \"2026-04-26 11:59:55\", \"created_at\": \"2026-01-17 21:15:44\"}, \"documents\": [{\"uuid\": \"be3b08745cc23be7\", \"schematic_uuid\": \"f49a31d23eea39dc\", \"display_title\": \"CHANGELOG\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/ba12e417bbbd4342bea74bb908862bce.webp\"}, {\"uuid\": \"cbecd75625737bbd\", \"schematic_uuid\": \"f49a31d23eea39dc\", \"display_title\": \"CAN/POWER\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/8045ca27ba454971b7af5ad29c5cc577.webp\"}, {\"uuid\": \"a6f04234455ae265\", \"schematic_uuid\": \"f49a31d23eea39dc\", \"display_title\": \"CORE\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/aa51ca749e81481c90dae0c8235a4734.webp\"}, {\"uuid\": \"5f1791b4370ae892\", \"schematic_uuid\": \"f49a31d23eea39dc\", \"display_title\": \"USB\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/b10e90d858154891be065a4cf15356f3.webp\"}]}, \"pcb_info\": {\"uuid\": \"ab5d92e9fec0c178\", \"schematic_uuid\": \"\", \"display_title\": \"PCB1\", \"thumb\": \"https://image-pro.lceda.cn/projects/thumbs/c6a6c01f8078466db8fe610b08d2e008.webp\", \"boms\": {\"uuid\": \"ab5d92e9fec0c178ab5d92e9fec0c178\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"PESD1CAN\\\",\\\"Designator\\\":\\\"D1,D2\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-2\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"PESD1CAN\\\",\\\"Manufacturer\\\":\\\"UMW(友台半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2687121\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"4.7uH\\\",\\\"Designator\\\":\\\"L1\\\",\\\"Footprint\\\":\\\"IND-SMD_L2.5-W2.0\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SWPA252012S4R7MT\\\",\\\"Manufacturer\\\":\\\"Sunlord(顺络)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C87640\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"120Ω\\\",\\\"Designator\\\":\\\"R8,R9\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F1200T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17437\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"HPM5321IEG1\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"QFN-48_L6.0-W6.0-P0.40-TL-EP4.2\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"HPM5321IEG1\\\",\\\"Manufacturer\\\":\\\"HPMICRO(先楫半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49451867\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"TYPEC-304-BCP16\\\",\\\"Designator\\\":\\\"USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPEC-304-BCP16\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TYPEC-304-BCP16\\\",\\\"Manufacturer\\\":\\\"XUNPU(讯普)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C720629\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"XL2EL89COI-111YLC-24M\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"CRYSTAL-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL2EL89COI-111YLC-24M\\\",\\\"Manufacturer\\\":\\\"YXC(扬兴晶振)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5444545\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"C0402\\\",\\\"Designator\\\":\\\"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":23,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"USBLC6-2P6\\\",\\\"Designator\\\":\\\"D3\\\",\\\"Footprint\\\":\\\"SOT-563_L1.6-W1.2-P0.50-LS1.6-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"USBLC6-2P6\\\",\\\"Manufacturer\\\":\\\"R+O(宏嘉诚)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49451919\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"A-SP1942B1GHC-A01-2T\\\",\\\"Designator\\\":\\\"LED1,LED2\\\",\\\"Footprint\\\":\\\"LED-ARRAY-SMD_4P-L1.6-W1.5-BL-A\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"A-SP1942B1GHC-A01-2T\\\",\\\"Manufacturer\\\":\\\"Amicc(欧密格光电)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19171227\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"TLV76733DRVR\\\",\\\"De"
+}

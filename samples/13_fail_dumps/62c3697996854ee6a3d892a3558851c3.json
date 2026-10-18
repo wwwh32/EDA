@@ -1,0 +1,96 @@
+{
+ "project": {
+  "uuid": "62c3697996854ee6a3d892a3558851c3",
+  "path": "stress_007/mps-ji-qi-ren-guan-jie-dian-ji",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "cc7ad3cc824245078f8e1712b0adca0a",
+   "title": "MCU"
+  },
+  {
+   "uuid": "d2db8b9c19b0442d96ec054e295ae4ac",
+   "title": "interface"
+  },
+  {
+   "uuid": "8dd72bf3a10b4ff083dfff7087ed4654",
+   "title": "stepdown"
+  },
+  {
+   "uuid": "8fdef1e27e4249e6b6c00e4b816ddad7",
+   "title": "inverter"
+  },
+  {
+   "uuid": "8c50410f0e68436a996d448c15aa156a",
+   "title": "interface"
+  },
+  {
+   "uuid": "8411d7b3781c4ec59c506ac96e321e0e",
+   "title": "stepdown"
+  },
+  {
+   "uuid": "cfe54f9f3584415e84f4cceb727c8f7e",
+   "title": "inverter"
+  },
+  {
+   "uuid": "cb35c69dd8414739b7a47e00b1fbf12b",
+   "title": "MCU"
+  },
+  {
+   "uuid": "3d98b45f70df410589d8be327cf72667",
+   "title": "stepdown"
+  },
+  {
+   "uuid": "913be6bb1ad14b9e965ca6b5a5241115",
+   "title": "interface"
+  },
+  {
+   "uuid": "77b90a841a8848e88483e32f297ecafc",
+   "title": "inverter"
+  },
+  {
+   "uuid": "48df0955c0f74e11b7d96395f2de37d3",
+   "title": "MCU"
+  }
+ ],
+ "tried": [
+  {
+   "path": "62c3697996854ee6a3d892a3558851c3",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 12,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "62c3697996854ee6a3d892a3558851c3",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 12,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "62c3697996854ee6a3d892a3558851c3",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"f9495bc9b832b078\", \"name\": \"3GIMC_V2.0x\", \"sch\": \"c49d4731470e4750bdb6206913b6bff9\", \"pcb\": \"75f72bcb824a4108a5ce08a5c7763a8c\", \"schematic\": {\"uuid\": \"c49d4731470e4750bdb6206913b6bff9\", \"display_name\": \"Schematic1\", \"boms\": {\"uuid\": \"c49d4731470e4750bdb6206913b6bff9\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"MA600GQE-0000-Z\\\",\\\"Designator\\\":\\\"U8\\\",\\\"Footprint\\\":\\\"WQFN-16_L3.0-W3.0-P0.50-BL-EP1.65\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MA600GQE-0000-Z\\\",\\\"Manufacturer\\\":\\\"MPS(芯源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C18221548\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C35,C36,C51,C52,C53,C56,C94,C37,C8,C4,C5,C23,C24,C25,C26,C28,C32,C60,C77,C78\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":20,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"TJA1051TK/3/1J\\\",\\\"Designator\\\":\\\"U24\\\",\\\"Footprint\\\":\\\"HVSON-8_L3.0-W3.0-P0.65-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TJA1051TK/3/1J\\\",\\\"Manufacturer\\\":\\\"NXP(恩智浦)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2875699\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"1uF\\\",\\\"Designator\\\":\\\"C50,C20,C27,C31,C71,C72,C73,C74,C100\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":9,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"10K\\\",\\\"Designator\\\":\\\"R39,R69,R57,R58,R59,R60\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"SIT3088ETK\\\",\\\"Designator\\\":\\\"U25\\\",\\\"Footprint\\\":\\\"DFN-8_L3.0-W3.0-P0.65-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SIT3088ETK\\\",\\\"Manufacturer\\\":\\\"SIT(芯力特)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C601076\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"XT30PW(2+2)-M.G.B\\\",\\\"Designator\\\":\\\"U27\\\",\\\"Footprint\\\":\\\"CONN-TH_4P-XT30PW-M\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XT30PW(2+2)-M.G.B\\\",\\\"Manufacturer\\\":\\\"AMASS(艾迈斯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19268030\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"47uF\\\",\\\"Designator\\\":\\\"C55\\\",\\\"Footprint\\\":\\\"CAP-TH_BD8.0-P3.50-D0.6-FD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"PA100V47M8X11\\\",\\\"Manufacturer\\\":\\\"JIERR(捷而瑞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C49233039\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"LMV321IDCKR(UMW)\\\",\\\"Designator\\\":\\\"U38,U42\\\",\\\"Footprint\\\":\\\"SC-70-5_L2.1-W1.3-P0.65-LS2.2-BR\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"LMV321IDCKR(UMW)\\\",\\\"Manufacturer\\\":\\\"UMW(友台半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C3029047\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"100K\\\",\\\"Designator\\\":\\\"R40,R41\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"100pF\\\",\\\"Designator\\\":\\\"C57\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"10k\\\",\\\"Designator\\\":\\\"R42,R55\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"1k\\\",\\\"Designator\\\":\\\"R43,R48,R50,R51,R52\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":5,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"62pF\\\",\\\"Designator\\\":\\\"C58,C62,C68,C69,C70,C97,C98,C99\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C64,C65,C66,C67\\\",\\\"Footprint\\\":\\\"C1210\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"HHV1210R7475K101NSVK\\\",\\\"Manufacturer\\\":\\\"Chinocera(华瓷)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C33546021\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"ZX-1.27BM-1PSMD\\\",\\\"Designator\\\":\\\"U43\\\",\\\"Footprint\\\":\\\"SW-SMD_L5.4-W2.8-LS8.2\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ZX-1.27BM-1PSMD\\\",\\\"Manufacturer\\\":\\\"Megastar(兆星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7527751\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"DZ127R-11-04-25\\\",\\\"Designator\\\":\\\"H1,H2,H3\\\",\\\"Footprint\\\":\\\"HDR-TH_4P-P1.27-V-M\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"DZ127R-11-04-25\\\",\\\"Manufacturer\\\":\\\"DEALON(德艺隆)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2935944\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"1271WV-2P\\\",\\\"Designator\\\":\\\"U48\\\",\\\"Footprint\\\":\\\"HDR-TH_2P-P1.27-V-M\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"1271WV-2P\\\",\\\"Manufacturer\\\":\\\"HanElectricity(瀚源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7470078\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"100k_nc\\\",\\\"Designator\\\":\\\"R68\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"W25Q16JVUXIQ\\\",\\\"Designator\\\":\\\"U49\\\",\\\"Footprint\\\":\\\"USON-8_L3.0-W2.0-P0.50-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"W25Q16JVUXIQ\\\",\\\"Manufacturer\\\":\\\"Winbond(华邦)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2843335\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C2,C10\\\",\\\"Footprint\\\":\\\"C1206\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"GRM31CC72A475KE11L\\\",\\\"Manufacturer\\\":\\\"muRata(村田)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C237304\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C3\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CL10B104KC8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C15725\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"100K\\\",\\\"Designator\\\":\\\"R1\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"MP4583GQVE-Z\\\",\\\"Designator\\\":\\\"U9\\\",\\\"Footprint\\\":\\\"QFN-19_L5.0-W3.0_CD4583GQVE\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MP4583GQVE-Z\\\",\\\"Manufacturer\\\":\\\"MPS(芯源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C29073231\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"BZT52C6V8S\\\",\\\"Designator\\\":\\\"D1\\\",\\\"Footprint\\\":\\\"SOD-323_L1.7-W1.3-LS2.6-RD\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BZT52C6V8S\\\",\\\"Manufacturer\\\":\\\"R+O(宏嘉诚)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19077443\\\"},{\\\"ID\\\":26,\\\"Name\\\":\\\"6.8k\\\",\\\"Designator\\\":\\\"R4\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":27,\\\"Name\\\":\\\"LED_0603-G\\\",\\\"Designator\\\":\\\"LED1\\\",\\\"Footprint\\\":\\\"LED_0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":28,\\\"Name\\\":\\\"1M\\\",\\\"Designator\\\":\\\"R2,R54\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":29,\\\"Name\\\":\\\"3.3P\\\",\\\"Designator\\\":\\\"C9\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":30,\\\"Name\\\":\\\"191k\\\",\\\"Designator\\\":\\\"R3\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":31,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C7,C6\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL21A226MAQNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C45783\\\"},{\\\"ID\\\":32,\\\"Name\\\":\\\"MP20051DQ-LF-Z\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"TDFN-8_L3.0-W3.0-P0.65-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MP20051DQ-LF-Z\\\",\\\"Manufacturer\\\":\\\"MPS(芯源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C134275\\\"},{\\\"ID\\\":33,\\\"Name\\\":\\\"10uH\\\",\\\"Designator\\\":\\\"U23\\\",\\\"Footprint\\\":\\\"IND-SMD_L4.0-W4.0_YSMC0420V\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"YSMC0420V-100M\\\",\\\"Manufacturer\\\":\\\"YJYCOIN(益嘉源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7433094\\\"},{\\\"ID\\\":34,\\\"Name\\\":\\\"2.2uF\\\",\\\"Designator\\\":\\\"C95\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":35,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C96\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":36,\\\"Name\\\":\\\"7.5k\\\",\\\""
+}

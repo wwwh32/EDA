@@ -1,0 +1,60 @@
+{
+ "project": {
+  "uuid": "0ff7ab45a3274fa9a2fba42755bcb6e3",
+  "path": "eda_rgionugl/mps-power-48v-zhuan-12-24v-350w_copy",
+  "origin": "pro",
+  "license": "GPL 3.0"
+ },
+ "docs": [
+  {
+   "uuid": "b57e5c4f1c8f753a",
+   "title": "OUT12V"
+  },
+  {
+   "uuid": "469900c709d1eaf3",
+   "title": "OUT24V"
+  },
+  {
+   "uuid": "68655f28e4d327e4",
+   "title": "OUT5V"
+  }
+ ],
+ "tried": [
+  {
+   "path": "0ff7ab45a3274fa9a2fba42755bcb6e3",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 3,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "0ff7ab45a3274fa9a2fba42755bcb6e3",
+   "body_keys": [
+    "uuids"
+   ],
+   "n": 3,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  },
+  {
+   "path": "0ff7ab45a3274fa9a2fba42755bcb6e3",
+   "body_keys": [
+    "docType",
+    "uuids"
+   ],
+   "n": 1,
+   "http": 200,
+   "code": 422,
+   "msg": "没有权限",
+   "text": "{\"success\":false,\"code\":422,\"message\":\"\\u6ca1\\u6709\\u6743\\u9650\"}"
+  }
+ ],
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"uuid\": \"fa1f5a277bf8fe57\", \"name\": \"Board1\", \"sch\": \"be784cbc17cc08f1\", \"pcb\": \"24b01efc996fd205\", \"schematic\": {\"uuid\": \"be784cbc17cc08f1\", \"display_name\": \"Schematic1\", \"boms\": {\"uuid\": \"be784cbc17cc08f1be784cbc17cc08f1\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"MP9931\\\",\\\"Designator\\\":\\\"U1,U2\\\",\\\"Footprint\\\":\\\"QFN23(MP993X)\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"300kΩ\\\",\\\"Designator\\\":\\\"R1,R21\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF3003T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C23024\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"22kΩ\\\",\\\"Designator\\\":\\\"R4,R22\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R15,R23\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25804\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"0Ω\\\",\\\"Designator\\\":\\\"R6,R14,R2,R8,R3,R24,R25,R29,R34\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":9,\\\"Manufacturer Part\\\":\\\"0603WAF0000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C21189\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"NS\\\",\\\"Designator\\\":\\\"R7,R11,R13,R26,R27,R28\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"0603WAF0000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"1K\\\",\\\"Designator\\\":\\\"R10,R12\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF0000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"2.2uF\\\",\\\"Designator\\\":\\\"C21,C49\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10A225KO8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C23630\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C35,C51\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10A105KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C38,C37,C16,C17,C54,C55,C27,C32\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"GCM21BR72A104KA37L\\\",\\\"Manufacturer\\\":\\\"muRata(村田)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C85866\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"220kΩ\\\",\\\"Designator\\\":\\\"R16,R36\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF2203T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22961\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"NS\\\",\\\"Designator\\\":\\\"C23,C56\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10C330JB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"16kΩ\\\",\\\"Designator\\\":\\\"R17\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF1602T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C4210\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"22nF\\\",\\\"Designator\\\":\\\"C22,C57,C83,C103\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CL10B223KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C21122\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"220pF\\\",\\\"Designator\\\":\\\"C6,C13\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10B223KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"JMSH1006AG-13\\\",\\\"Designator\\\":\\\"Q5,Q6,Q1,Q9,Q10,Q2\\\",\\\"Footprint\\\":\\\"TDSON-8_L5.9-W5.2-P1.27-BL\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"JMSH1006AG-13\\\",\\\"Manufacturer\\\":\\\"JJW(捷捷微)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7527402\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C2,C3,C4,C5,C114,C115,C156,C157,C60,C61,C62,C63,C116,C117,C159,C160\\\",\\\"Footprint\\\":\\\"C1210\\\",\\\"Quantity\\\":16,\\\"Manufacturer Part\\\":\\\"GRM32EC72A106KE05L\\\",\\\"Manufacturer\\\":\\\"muRata(村田)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C576517\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C42,C43,C46,C47,C48,C118,C18,C19,C20,C24,C25,C26\\\",\\\"Footprint\\\":\\\"C1210\\\",\\\"Quantity\\\":12,\\\"Manufacturer Part\\\":\\\"CGA1210X5R226K350RT\\\",\\\"Manufacturer\\\":\\\"HRE(芯声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6120016\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"22uH\\\",\\\"Designator\\\":\\\"U12\\\",\\\"Footprint\\\":\\\"IND-SMD_L28.0-W19.0-P10.50-LS27.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MTP2915-100M\\\",\\\"Manufacturer\\\":\\\"COILMX(迈翔科技)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"0Ω\\\",\\\"Designator\\\":\\\"R5\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0402WGF0000TCE\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17168\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"1uF\\\",\\\"Designator\\\":\\\"C12\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CL05A105KA5NQNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C52923\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"470nF\\\",\\\"Designator\\\":\\\"C11,C14\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10A105KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"220uF\\\",\\\"Designator\\\":\\\"C155,C7,C148,C149\\\",\\\"Footprint\\\":\\\"CAP-TH_BD6.3-P2.50-D0.6-FD-1\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"PA35V220M6x12\\\",\\\"Manufacturer\\\":\\\"JIERR(捷而瑞)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C46550432\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C1,C15\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL21A475KBQNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C98192\\\"},{\\\"ID\\\":25,\\\"Name\\\":\\\"10Ω\\\",\\\"Designator\\\":\\\"R20,R18\\\",\\\"Footprint\\\":\\\"R0805_NEW\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F100JT5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17415\\\"},{\\\"ID\\\":26,\\\"Name\\\":\\\"120kΩ\\\",\\\"Designator\\\":\\\"R9\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0402WGF1203TCE\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25750\\\"},{\\\"ID\\\":27,\\\"Name\\\":\\\"1mΩ\\\",\\\"Designator\\\":\\\"R19,R38\\\",\\\"Footprint\\\":\\\"R2725\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"HoLR2725D-4W-1mR-1%\\\",\\\"Manufacturer\\\":\\\"Milliohm(毫欧)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C500745\\\"},{\\\"ID\\\":28,\\\"Name\\\":\\\"220uF\\\",\\\"Designator\\\":\\\"C8,C152,C9,C151\\\",\\\"Footprint\\\":\\\"CAP-TH_BD10.0-P5.00-D0.6-FD_2\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"SH227M063G1250\\\",\\\"Manufacturer\\\":\\\"SHENGYANG(升阳)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C44606493\\\"},{\\\"ID\\\":29,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C10\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CL21A475KAQNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C1779\\\"},{\\\"ID\\\":30,\\\"Name\\\":\\\"DSK210\\\",\\\"Designator\\\":\\\"D1,D2\\\",\\\"Footprint\\\":\\\"SOD-123_L2.7-W1.8-LS3.7-RD\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"DSK210\\\",\\\"Manufacturer\\\":\\\"FUXINSEMI(富芯森美)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2844171\\\"},{\\\"ID\\\":31,\\\"Name\\\":\\\"10Ω\\\",\\\"Designator\\\":\\\"R30,R31\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0603WAF0000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"\\\"},{\\\"ID\\\":32,\\\"Name\\\":\\\"51kΩ\\\",\\\"Designator\\\":\\\"R35\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF5102T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C23196\\\"},{\\\"ID\\\":33,\\\"Name\\\":\\\"1uF\\\",\\\"Designator\\\":\\\"C52\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"CL10A105KB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C15849\\\"},{\\\"ID\\\":34,\\\"Name\\\":\\\"7.5kΩ\\\",\\\"Designator\\\":\\\"R37\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF7501T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL("
+}
