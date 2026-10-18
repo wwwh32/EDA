@@ -73,3 +73,10 @@
 - p02_MT2492_buck_pro：专业版候选已导出 source_pro.epro2/source_pro.zip、sheet1.png、sheet1_hires.png、sheet1.svg、export_dialog.png；与case09不匹配。已确认工程含1页原理图、约10个元件、无PCB文档。meta.json已补齐；page.png仍待页面截图。
 - 浏览器当前页面在360安全浏览器中，后续继续采集普通样例；下载均为公开工程入站文件，不上传本地数据。
 - p02 页面截图：已将 03_截图/case09_MT2492_candidate_page_top.png 固化为 p02_MT2492_buck_pro/page.png；截图显示工程标题“基于MT2492的迷你Buck降压模块”、专业版标识、GPL 3.0、作者 Carele。
+
+## GitHub 上传
+- 已克隆 https://github.com/wwwh32/EDA 到 F:\EDA比赛六\EDA_samples。
+- 已创建并切换 data-samples 分支，提交 a50c35e（嘉立创源文件样例：公开题源工程和样例工程）。
+- 已推送 origin/data-samples：https://github.com/wwwh32/EDA/tree/data-samples
+- 提交前检查未发现超过95MB的单文件。
+- 当前仓库内容为已采集的p01、p02及全部截图；任务B尚未达到10个工程，任务A尚未确认严格匹配题源，因此日志和分支均如实保留未完成状态。
