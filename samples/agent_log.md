@@ -88,3 +88,10 @@
 - 2026-10-18：p03_usb_hub 已用360保存工程详情页截图为 page.png（120316 bytes）。原理图附件仍缺 SVG、高清PNG、导出对话框截图；当前未下载PCB/BOM/Gerber。任务A仍未确认匹配。
 
 - 2026-10-18：p04_stm32_minimal 候选 https://oshwhub.com/litaibai0/STM32-zui-xiao-xi-tong，专业版，Public Domain，作者 litaibai0，1页原理图，IC=STM32F103C8T6；已保存 export_dialog.png 与 2x PNG。尚缺 page.png、源文件、默认PNG、SVG。
+
+## 2026-10-18 续采核对
+- 按任务书逐项复核：当前普通工程仅 p01–p04，共4个；标准版2个、专业版2个，未达到10个/6标准版/3专业版。
+- p03_usb_hub：使用360安全浏览器重新进入原理图 Sheet_1，确认1页、IC=SL2.1A；再次通过 文件>文件源码>下载 下载标准源码。默认PNG和工程页截图已存在；SVG、高清PNG、export_dialog.png仍缺。
+- p04_stm32_minimal：360进入专业版编辑器，工程树显示P1，但画布持续空白，未能可靠导出默认PNG、SVG或source_pro.epro2；已存在2x PNG与export_dialog.png，仍缺page.png、源文件、默认PNG、SVG。
+- 任务A：仍无严格匹配的公开题源工程；case02、case03、case09已按布局/位号/连线排除。
+- 本轮未下载PCB、BOM、Gerber，未修改开源工程。
