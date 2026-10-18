@@ -1,0 +1,13 @@
+{
+  "project_title": "【已验证】USB拓展坞 USB集线器 USBHub",
+  "project_url": "https://oshwhub.com/apana/usbhub",
+  "author": "apana",
+  "license": "GPL 3.0",
+  "editor": "标准版",
+  "editor_url": "https://lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": ["SL2.1A"],
+  "matches_case": null,
+  "export_menu_path": "文件>文件源码>下载；文件>导出>PNG",
+  "notes": "公开工程；原理图1页；当前已保存标准源码和默认PNG。尚待补齐工程页面截图、SVG、高清PNG、导出对话框截图。未下载PCB/BOM/Gerber。"
+}
