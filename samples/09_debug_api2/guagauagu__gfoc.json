@@ -1,0 +1,103 @@
+{
+ "key": "guagauagu/gfoc",
+ "project": "{\"success\": true, \"code\": 0, \"result\": {\"uuid\": \"c20a56183fbd49ffbb9028fc3c41d411\", \"path\": \"guagauagu/gfoc\", \"name\": \"史无前例的 FOC 自动回卷 焊锡架\", \"content\": \"## 外部链接：\\n[B站视频--史无前例的 FOC 自动回卷 焊锡架](https://www.bilibili.com/video/BV1LsWazfExC/?share_source=copy_web&vd_source=0e125473284ab7fef617c1600a8b7b2d\\n)\\n[MakerWorld--3D打印模型文件](https://makerworld.com.cn/zh/@user_824398880/upload)\\n\\n## 项目简介\\n\\n这是一个用FOC来控制的焊锡丝架子，把焊锡拉出来后，他可以自己卷回去的\\n\\n## 项目功能\\n1. 拉出来，能自己收回去\\n2. 能自动关机，可以通过串口修改自动关机的时间\\n3. 相线电流限制，可以通过串口修改电流值\\n4. 回卷速度限制，可以通过串口修改回卷时候的转速\\n5. ~~检测单次拉出每5秒，放料1/4圈，单次拉出最多放料6次，放料一圈半~~\\n   自动放料的 “间隔时间，放料弧度，放料次数” 参数可通过串口修改设定（GSR-1.2固件）\\n6. ~~按键回料1/2圈~~\\n   按键回卷的弧度，可以通过串口修改设定（GSR-1.2固件）\\n7. 便携放置，不受电源约束，超低功耗，无聊时候可以解压\\n8. 电池剩余电量  电池充电状态，LED提示\\n9. 新增S指令，可手动测试关机，用与检测IP5306是否正常（GSR-1.3-BLE固件）\\n10. 增加BLE功能，可用手机BLE调试助手，激活设备和修改参数，可与电脑上位机同步打印（GSR-1.3-BLE固件）\\n11. 待跟新.....\\n\\n## 项目参数\\n\\n5V2A充电，普通充电器都可以充电\\n待机功耗0.5W\\n开机前1分钟（开启BLE）时功耗0.8W\\n回卷时候或者拉出来电机堵转的时候功耗约1.5W\\n\\n## 硬件说明\\n\\n18650电池供电到电池充放电芯片\\n充放电芯片升压后得到5V\\n5V分别给到电机驱动芯片、3.3V-LDO、AVCC-LDO\\n3.3V给ESP32C3和AS5600供电\\nAVCC给INA240A2电流传感器和1.65V电压基准芯片供电\\nAGND,GND,用0欧电阻单点连接到PGND\\nUSBC口带数据功能和快充\\n另有串口端子，可连接CH340后在电脑端通过串口修改部分参数\\n新的EPS32C3因为内部没有程序，第一次上电串口会抽风，\\n用flash download tool擦除一次，串口就不跳了\\n\\n## 调整说明\\n2025-10-19 1:00 ~ V1.0版本底部串口丝印反了，已修改\\n2025-11-03 5:00 ~ 更新了固件\\\"GSR-1.2\\\",说明在压缩包内\\n2025-11-25 15.54 ~ 更新了固件\\\"GSR-1.3-BLE\\\",说明在压缩包内\\n\\n## BLE说明\\n我用的是苹果App Stroe 中“BLE调试助手”，开发者：健民 秦，目前4.8分，54个评论，年龄4+，版本1.3.2\\n因为希望打印的信息是中文的，所以BLE调试助手需要支持UTF-8，并且在写入的页面能看到回传的信息，\\n\\n\\n## 安装说明\\n除PCB外还需要准备\\n3D打印件\\n1个,,,,,,轴承（12-18-4）\\n8个,,,,,,M3x8沉头螺丝\\n4个,,,,,,M3x10半圆头螺丝\\n11个,,,,,M2x6螺丝\\n2个,,,,,,M2x4螺丝\\n1个,,,,,,M4x30手拧螺丝或者内六角螺丝\\n12个,,,,,M3x3x4热熔螺母\\n4个,,,,,,M2x3x3热熔螺母\\n1个,,,,,,M4x5x5.5热熔螺母\\n4个,,,,,,3x3mm磁铁\\n1个,,,,,,5x3mm径向磁铁或者5x5x5mm方形磁铁（方形磁铁适配的打印件已上传MW）\\n1个,,,,,,2204云台电机330kv\\n2节,,,,,,18650电池\\n电池的话有点焊机的兄弟们可以点6mm镀镍钢带然后焊在PCB上\\n或者用5号电池弹片（13.5x11.5mm单）\\nPCB中间有两个焊盘，用于验证，前级和后级都没问题之后给它一坨锡短接（也可以外接开关）\\n电池接好之后，可以先在焊盘处 测量是否有输出5V，\\n以便于确认充放电+电池这部分是否正常工作，\\n驱动和MCU焊好之后也可以先用可调电源在焊盘位置输入5V，用来验证，\\n* 注意，输入电压不能大...<truncated>",
+ "origin": "pro",
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"sch\": \"eb84e903ecf84b5eacda76112cd4985d\", \"name\": \"guAupSnRewind1.0\", \"pcb\": \"298067c2e38d47ab86f3338f514be0e4\", \"schematic\": {\"uuid\": \"eb84e903ecf84b5eacda76112cd4985d\", \"display_name\": \"guAupSnRewind1.0\", \"updateTime\": \"\", \"boms\": {\"uuid\": \"eb84e903ecf84b5eacda76112cd4985d\", \"project_uuid\": \"e925ca3a5c36467190607dad237389ee\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"ESP32-C3FH4\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"QFN-32_L5.0-W5.0-P0.50-TL-EP3.7\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ESP32-C3FH4\\\",\\\"Manufacturer\\\":\\\"ESPRESSIF(乐鑫)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2858491\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"MP6536DU-LF-Z\\\",\\\"Designator\\\":\\\"U2\\\",\\\"Footprint\\\":\\\"QFN-40_L5.0-W5.0-P0.40-TL-EP3.4\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"MP6536DU-LF-Z\\\",\\\"Manufacturer\\\":\\\"MPS(芯源)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C3655732\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"AS5600-ASOT\\\",\\\"Designator\\\":\\\"U5\\\",\\\"Footprint\\\":\\\"SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"AS5600-ASOT\\\",\\\"Manufacturer\\\":\\\"ams(艾迈斯半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C499458\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"40MHz\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"CRYSTAL-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL2EL89CPI-111YLC-40M\\\",\\\"Manufacturer\\\":\\\"YXC(扬兴晶振)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C5444549\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"15pF\\\",\\\"Designator\\\":\\\"C10,C9\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10C150JB8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C1644\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"ME432AXG\\\",\\\"Designator\\\":\\\"U9\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR-CW\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"ME432AXG\\\",\\\"Manufacturer\\\":\\\"MICRONE(南京微盟)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C487903\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"220Ω\\\",\\\"Designator\\\":\\\"R17\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF2200T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22962\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R14,R10,R11,R26,R19,R7,R5,R1,R2,R9,R6,R32\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":12,\\\"Manufacturer Part\\\":\\\"0603WAF1002T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C25804\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"100Ω\\\",\\\"Designator\\\":\\\"R13\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF1000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22775\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"yellow\\\",\\\"Designator\\\":\\\"LED1\\\",\\\"Footprint\\\":\\\"LED0603-RD_BLUE\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608UBC-04\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965807\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"red\\\",\\\"Designator\\\":\\\"LED2,LED6\\\",\\\"Footprint\\\":\\\"LED0603-RD_GREEN\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"XL-1608UGC-04\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965804\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"yellow\\\",\\\"Designator\\\":\\\"LED3\\\",\\\"Footprint\\\":\\\"LED0603-RD_RED\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608SURC-06\\\",\\\"Manufacturer\\\":\\\"XINGLIGHT(成兴光)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C965799\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"S8050\\\",\\\"Designator\\\":\\\"Q1\\\",\\\"Footprint\\\":\\\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"S8050\\\",\\\"Manufacturer\\\":\\\"MDD(辰达半导体)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C364312\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C17,C16,C18,C22,C20,C27,C28,C26,C32,C33,C31,C23,C24,C11,C4,C3,C15,C7,C43,C6,C5\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":21,\\\"Manufacturer Part\\\":\\\"CGA0603X7R104K500JT\\\",\\\"Manufacturer\\\":\\\"HRE(芯声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C6119867\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C21,C19,C1\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"CL10A106MO8NQNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C92487\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"0Ω\\\",\\\"Designator\\\":\\\"R24,R31\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"0805W8F0000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17477\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"IP5306\\\",\\\"Designator\\\":\\\"U3\\\",\\\"Footprint\\\":\\\"ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"IP5306\\\",\\\"Manufacturer\\\":\\\"INJOINIC(英集芯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C181692\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"1uH\\\",\\\"Designator\\\":\\\"L1\\\",\\\"Footprint\\\":\\\"IND-SMD_L7.0-W6.6\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SL0630-1R0M\\\",\\\"Manufacturer\\\":\\\"台湾陆海\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22463818\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"500mΩ\\\",\\\"Designator\\\":\\\"R27\\\",\\\"Footprint\\\":\\\"R0603\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0603WAF500LT5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C45312\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"IP3005A\\\",\\\"Designator\\\":\\\"U4\\\",\\\"Footprint\\\":\\\"ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"IP3005A\\\",\\\"Manufacturer\\\":\\\"INJOINIC(英集芯)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C181685\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C39,C40,C35,C36,C37,C38,C29,C25,C34,C30,C13\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":11,\\\"Manufacturer Part\\\":\\\"CL10A226MP8NUNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C86295\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"100Ω\\\",\\\"Designator\\\":\\\"R28\\\",\\\"Footprint\\\":\\\"R0805\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"0805W8F1000T5E\\\",\\\"Manufacturer\\\":\\\"UNI-ROYAL(厚声)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C17408\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"4.7uF\\\",\\\"Designator\\\":\\\"C42,C41\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL10A475KP8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C1705\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"blue\\\",\\\"Designator\\\":\\\"LED4\\\",\\\"Footprint\\\":\\\"LED0603-RD_RED\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XL-1608SURC-06\\\",\\\"Manufactur...<truncated>",
+ "doc_ids": [
+  [
+   "6d82418b2d6741c6ad199a25c774146f",
+   1
+  ]
+ ],
+ "v4_project": "{\"success\": true, \"code\": 0, \"result\": {\"uuid\": \"c20a56183fbd49ffbb9028fc3c41d411\", \"path\": \"guagauagu/gfoc\", \"name\": \"史无前例的 FOC 自动回卷 焊锡架\", \"content\": \"## 外部链接：\\n[B站视频--史无前例的 FOC 自动回卷 焊锡架](https://www.bilibili.com/video/BV1LsWazfExC/?share_source=copy_web&amp;vd_source=0e125473284ab7fef617c1600a8b7b2d\\n)\\n[MakerWorld--3D打印模型文件](https://makerworld.com.cn/zh/@user_824398880/upload)\\n\\n## 项目简介\\n\\n这是一个用FOC来控制的焊锡丝架子，把焊锡拉出来后，他可以自己卷回去的\\n\\n## 项目功能\\n1. 拉出来，能自己收回去\\n2. 能自动关机，可以通过串口修改自动关机的时间\\n3. 相线电流限制，可以通过串口修改电流值\\n4. 回卷速度限制，可以通过串口修改回卷时候的转速\\n5. ~~检测单次拉出每5秒，放料1/4圈，单次拉出最多放料6次，放料一圈半~~\\n   自动放料的 “间隔时间，放料弧度，放料次数” 参数可通过串口修改设定（GSR-1.2固件）\\n6. ~~按键回料1/2圈~~\\n   按键回卷的弧度，可以通过串口修改设定（GSR-1.2固件）\\n7. 便携放置，不受电源约束，超低功耗，无聊时候可以解压\\n8. 电池剩余电量  电池充电状态，LED提示\\n9. 新增S指令，可手动测试关机，用与检测IP5306是否正常（GSR-1.3-BLE固件）\\n10. 增加BLE功能，可用手机BLE调试助手，激活设备和修改参数，可与电脑上位机同步打印（GSR-1.3-BLE固件）\\n11. 待跟新.....\\n\\n## 项目参数\\n\\n5V2A充电，普通充电器都可以充电\\n待机功耗0.5W\\n开机前1分钟（开启BLE）时功耗0.8W\\n回卷时候或者拉出来电机堵转的时候功耗约1.5W\\n\\n## 硬件说明\\n\\n18650电池供电到电池充放电芯片\\n充放电芯片升压后得到5V\\n5V分别给到电机驱动芯片、3.3V-LDO、AVCC-LDO\\n3.3V给ESP32C3和AS5600供电\\nAVCC给INA240A2电流传感器和1.65V电压基准芯片供电\\nAGND,GND,用0欧电阻单点连接到PGND\\nUSBC口带数据功能和快充\\n另有串口端子，可连接CH340后在电脑端通过串口修改部分参数\\n新的EPS32C3因为内部没有程序，第一次上电串口会抽风，\\n用flash download tool擦除一次，串口就不跳了\\n\\n## 调整说明\\n2025-10-19 1:00 ~ V1.0版本底部串口丝印反了，已修改\\n2025-11-03 5:00 ~ 更新了固件\\\"GSR-1.2\\\",说明在压缩包内\\n2025-11-25 15.54 ~ 更新了固件\\\"GSR-1.3-BLE\\\",说明在压缩包内\\n\\n## BLE说明\\n我用的是苹果App Stroe 中“BLE调试助手”，开发者：健民 秦，目前4.8分，54个评论，年龄4+，版本1.3.2\\n因为希望打印的信息是中文的，所以BLE调试助手需要支持UTF-8，并且在写入的页面能看到回传的信息，\\n\\n\\n## 安装说明\\n除PCB外还需要准备\\n3D打印件\\n1个,,,,,,轴承（12-18-4）\\n8个,,,,,,M3x8沉头螺丝\\n4个,,,,,,M3x10半圆头螺丝\\n11个,,,,,M2x6螺丝\\n2个,,,,,,M2x4螺丝\\n1个,,,,,,M4x30手拧螺丝或者内六角螺丝\\n12个,,,,,M3x3x4热熔螺母\\n4个,,,,,,M2x3x3热熔螺母\\n1个,,,,,,M4x5x5.5热熔螺母\\n4个,,,,,,3x3mm磁铁\\n1个,,,,,,5x3mm径向磁铁或者5x5x5mm方形磁铁（方形磁铁适配的打印件已上传MW）\\n1个,,,,,,2204云台电机330kv\\n2节,,,,,,18650电池\\n电池的话有点焊机的兄弟们可以点6mm镀镍钢带然后焊在PCB上\\n或者用5号电池弹片（13.5x11.5mm单）\\nPCB中间有两个焊盘，用于验证，前级和后级都没问题之后给它一坨锡短接（也可以外接开关）\\n电池接好之后，可以先在焊盘处 测量是否有输出5V，\\n以便于确认充放电+电池这部分是否正常工作，\\n驱动和MCU焊好之后也可以先用可调电源在焊盘位置输入5V，用来验证，\\n* 注意，输入电压不能大于5.5V，因为LP5907MFX电压上限5.5V\\n\\n另外准备电机线3P，编码器线4P，\\nUSB转TTL串口烧入器和2.0mm3P的插针（用于关机，电流，速度的设置以及激活固件）\\n\\n具体细节看附件：BOM说明\\n（仅看说明即可，因为这个BOM是第一稿的时候导出的，开源的这板是微调后的，具体位号，数量，位置还是大家自己导出查看，如不用WIFI功能，MCU的LDO用XC6219B332MR就行，便宜）\\n\\n## 回血说明\\n固件采用激活码的形式，年底之前每人免费领取1个，\\n年后开始激活码要收费2块钱，惩罚你复刻的决心不够坚定！\\n固件如果有更新会传到群文件，QQ群：468962112\\n\\n\\n\\n## 实拍图\\n![IMG_0319.JPG](https://image.lceda.cn/oshwhub/pullImage/03e34bb65f7e4cf582f8a8edac420d61.jpg)\\n\\n![IMG_0340.JPG](https://image.lceda.cn/oshwhub/pullImage/e166e0af14ab4942bffdedb997bcc7d1.jpg)\\n\\n![IMG_0344.JPG](https://image.lceda.cn/oshwhub/pullImage/8afe6182c70140d78ed8f8b35e9bf04c.jpg)\\n\\n![IMG_0345.JPG](https://image.lceda.cn/oshwhub/pullImage/2c688e576e8d47a6877ac125c1670f0b.jpg)\\n\\n![IMG_0359.JPG](https://image.lceda.cn/oshwhub/pullImage/c4a24ebe4eb34f12a8794cd12a682c04.jpg)\\n\\n![IMG_0342.JPG](https://image.lceda.cn/oshwhub/pullImage/cd5db6e0c8e54d9d8ed32f689fcb72ea.jpg)\\n\", \"grade\": 3, \"public\": true, \"license\": \"CC BY-NC-SA 4.0\", \"creator\": {\"uuid\": \"8082d6449e63...<truncated>",
+ "documents_lists_keys": [
+  [
+   "created_at",
+   "creator",
+   "dataStrId",
+   "description",
+   "display_title",
+   "docType",
+   "guest",
+   "iv",
+   "key",
+   "modifier",
+   "parent_uuid",
+   "project_uuid",
+   "schematic_uuid",
+   "sheet_id",
+   "thumb",
+   "ticket",
+   "title",
+   "updateTime",
+   "uuid",
+   "writable"
+  ]
+ ],
+ "documents_lists": "[{\"uuid\": \"6d82418b2d6741c6ad199a25c774146f\", \"created_at\": \"2025-09-19 17:11:35\", \"creator\": {\"uuid\": \"8082d6449e634b9caa1e2e0da7da61b8\", \"username\": \"guagauagu\", \"nickname\": \"guagauagu\"}, \"dataStrId\": \"https://modules.lceda.cn/datastr/7e/e8/33/68/8e794f8c8c7fd0f2244f8e25\", \"description\": \"\", \"display_title\": \"OO\", \"docType\": 1, \"iv\": \"0b7d4a22845f7c1861bae499\", \"key\": \"4ceb14889aaecd288cc0f9b1c72b60d3147a7d675f76ec01e20e66be88a9f711\", \"modifier\": {\"uuid\": \"8082d6449e634b9caa1e2e0da7da61b8\", \"username\": \"guagauagu\", \"nickname\": \"guagauagu\"}, \"parent_uuid\": null, \"project_uuid\": \"c20a56183fbd49ffbb9028fc3c41d411\", \"schematic_uuid\": \"eb84e903ecf84b5eacda76112cd4985d\", \"sheet_id\": 1, \"ticket\": 52, \"title\": \"oo\", \"updateTime\": 1760467291, \"thumb\": \"https://image-pro.lceda.cn/pullimages/4f2633a26ec844bc9e7962c4624bb55a.webp\", \"guest\": false, \"writable\": false}]",
+ "datastr_fetch": [
+  {
+   "url": "https://modules.lceda.cn/datastr/7e/e8/33/68/8e794f8c8c7fd0f2244f8e25",
+   "status": 200,
+   "headers": {
+    "Date": "Sun, 18 Oct 2026 18:41:15 GMT",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "27974",
+    "Connection": "keep-alive",
+    "Server": "openresty",
+    "CloudServiceDiscount": "CDN",
+    "x-obs-request-id": "000001A14DF246348484EF293CB3E78E",
+    "ETag": "\"0bbcfc274593ddeebed665c2256ddee5\"",
+    "Last-Modified": "Tue, 14 Oct 2025 18:41:31 GMT",
+    "x-obs-version-id": "G0011199E4070BDCFFFFA164034FD550",
+    "x-obs-tagging-count": "0",
+    "x-obs-content-sha256": "2b30c76d41d86dc52c80bee562a24dbce14e90ccd297ece1c6247e3ea7d702f4",
+    "x-obs-id-2": "36AAAQAAEAABAAAQAAEAABAAAQAAEAABAAAaI=AAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "X-CCDN-Expires": "5144210",
+    "via": "CHN-LNchaoyang-CT1-CACHE2[93],CHN-LNchaoyang-CT1-CACHE3[88,TCP_MISS,91],CHN-TJ-GLOBAL6-CACHE120[10],CHN-TJ-GLOBAL6-CACHE37[0,TCP_HIT,8]",
+    "x-hcs-proxy-type": "1",
+    "X-CCDN-CacheTTL": "31536000",
+    "X-CCDN-REQ-ID-46B1": "3f6d568345b71564595ba7c010924fe8",
+    "Age": "1",
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Disposition": "inline",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Cache-Control": "max-age=2592000"
+   },
+   "len": 27974,
+   "head_b64": "yj+mJG/SRu+dKrxDqusAgd+1tRMat1fVJ11+gidFzkPgqmhmrJFsl30l4UDlW5ZDHwHC9sdM4a0g16ida1a4u5FccpnHtgJ4VFWKWW9RxbsrqUxdQh6vQ3jH/7mKW7NTpkT1ZskN09PE2fJVtESIWoarn2Tocx8IBZZJqXt74LkrmnDlDGGAQO8bG1hChp1iV7zHs1pyUO9nNkuReeoaNnI0O6Z01+mQgRrXXZlu45bDOOT3U1NG2RBFI2X41CjSX/m0BuqQPAkuxWwGHxkIaOIDwaBmv8z9GP4JjGLiqLUU1KVJFDbYuasYQ2QHJV5/NaKYB+51EFYr0hV7TirMYcWPEu6VGEJZX6iXprQr8tjdjiLoSV5dca+DYNmifHTDyr/hxSZA4Z3Wdj1acblp6ctgmB74sR/8V1xAhLxW9coDPlF2gLeY/OCKtUkzC3LLXJGL6Xgnd+uVt5UXXNVhVU98G0sH+ARNE1vV4Lr9oVKRP/g5E3b9lPikaM+BTXgEb8SBnRblJWzUOsnVDJM00ZScA3P+VvBeUeU6D1h2rwvdTTHvOIO+iOds3HC7fi+H6p9VQxUhJECblc/HD6yT8fR2oQo7U2h8BOkBhZPfnlZRXIYqFrTGFulRTgzIMjwjYZNyHS0MLZTHa5zYI5GajeUVE1G+8Q/qtYHCe+aZEZkhU1lBLxVpTxYJj8x0Y22nf8j/lqIoAfOnF27fqTXD/l2aFsMKB7vI5F+62llEI/PqV30I8/XB7yaoHJPOgaHSPdB7Ch4LSibH4W7cH4Qi7Kz2kye2xkWx",
+   "iv": "0b7d4a22845f7c1861bae499",
+   "other_keys": {
+    "uuid": "6d82418b2d6741c6ad199a25c774146f",
+    "created_at": "2025-09-19 17:11:35",
+    "creator": {
+     "uuid": "8082d6449e634b9caa1e2e0da7da61b8",
+     "username": "guagauagu",
+     "nickname": "guagauagu"
+    },
+    "dataStrId": "https://modules.lceda.cn/datastr/7e/e8/33/68/8e794f8c8c7fd0f2244f8e25",
+    "description": "",
+    "display_title": "OO",
+    "docType": 1,
+    "iv": "0b7d4a22845f7c1861bae499",
+    "key": "4ceb14889aaecd288cc0f9b1c72b60d3147a7d675f76ec01e20e66be88a9f711",
+    "modifier": {
+     "uuid": "8082d6449e634b9caa1e2e0da7da61b8",
+     "username": "guagauagu",
+     "nickname": "guagauagu"
+    },
+    "parent_uuid": null,
+    "project_uuid": "c20a56183fbd49ffbb9028fc3c41d411",
+    "schematic_uuid": "eb84e903ecf84b5eacda76112cd4985d",
+    "sheet_id": 1,
+    "ticket": 52,
+    "title": "oo",
+    "updateTime": 1760467291,
+    "thumb": "https://image-pro.lceda.cn/pullimages/4f2633a26ec844bc9e7962c4624bb55a.webp",
+    "guest": false,
+    "writable": false
+   }
+  }
+ ]
+}

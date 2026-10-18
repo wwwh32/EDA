@@ -1,0 +1,63 @@
+case_0001 xue_jingfei/af-mdb STM32 2188 1192 61 comps
+case_0002 xue_jingfei/af-mdb POWER 1827 1168 60 comps
+case_0003 xue_jingfei/af-mdb ST-LINK 1251 1102 49 comps
+case_0004 xue_jingfei/af-mdb INVERTER 3106 2112 115 comps
+case_0005 xue_jingfei/af-mdb ETH&CAN&RS485 2276 2184 102 comps
+case_0006 xue_jingfei/af-mdb STM32 1452 1205 61 comps
+case_0007 xue_jingfei/af-mdb POWER 2340 1670 88 comps
+case_0008 xue_jingfei/af-mdb ST-LINK 1614 1138 54 comps
+case_0009 xue_jingfei/af-mdb ETH&CAN&RS485 3101 2191 135 comps
+case_0010 xue_jingfei/af-mdb P1 1019 730 18 comps
+case_0011 xue_jingfei/af-mdb STM32 2260 1258 48 comps
+case_0012 xue_jingfei/af-mdb POWER 1906 1223 69 comps
+case_0013 xue_jingfei/af-mdb INVERTER 3259 2321 176 comps
+case_0014 xue_jingfei/af-mdb ETH&CAN&RS485 2948 2045 128 comps
+case_0015 xue_jingfei/af-mdb P1 698 1062 25 comps
+case_0016 czjz/0-96-xiao-dian-shi P1 2208 1283 72 comps
+case_0017 rongandpei/yht_dual-port-module Wired power bank 2439 1418 83 comps
+case_0018 rongandpei/portable-battery-y170 P1 3184 2347 111 comps
+case_0019 wandaeda/pd-power-supply-spoofing-based-on-ch32v003-and-ch224k P1 2553 1744 32 comps
+case_0020 lsjl66/warm-winter-creation P1 3134 2129 143 comps
+case_0021 trumpx/ch32x0435typec2dpboard P1 2493 2100 105 comps
+case_0022 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Core 1767 1179 37 comps
+case_0023 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Power 1434 911 30 comps
+case_0024 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Connecter 1649 663 24 comps
+case_0025 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Main 2901 1449 90 comps
+case_0026 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba M0 2010 1071 45 comps
+case_0027 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba main 859 934 12 comps
+case_0028 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba P1 1219 839 16 comps
+case_0029 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba P1 2146 1398 48 comps
+case_0030 la-xian-xiao-dui-v1.0/t12_mini-rev2-1 01 MCU 4068 2677 268 comps
+case_0031 national_bad_flowers/xueyangyi1 Sheet_1 3206 1645 114 comps
+cases 31
+case_0001 86.7
+case_0002 85.52
+case_0003 81.07
+case_0004 77.7
+case_0005 69.17
+case_0006 84.55
+case_0007 88.83
+case_0008 83.22
+case_0009 74.07
+case_0010 82.49
+case_0011 84.97
+case_0012 95.41
+case_0013 80.55
+case_0014 73.29
+case_0015 87.08
+case_0016 82.96
+case_0017 78.44
+case_0018 90.63
+case_0019 81.58
+case_0020 84.82
+case_0021 49.94
+case_0022 92.79
+case_0023 81.7
+case_0024 97.93
+case_0025 86.23
+case_0026 73.8
+case_0027 90.97
+case_0028 85.78
+case_0029 91.06
+case_0030 19.8
+case_0031 72.29

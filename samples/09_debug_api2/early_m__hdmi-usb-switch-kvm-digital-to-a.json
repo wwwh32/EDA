@@ -1,0 +1,218 @@
+{
+ "key": "early_m/hdmi-usb-switch-kvm-digital-to-a",
+ "project": "{\"success\": true, \"code\": 0, \"result\": {\"uuid\": \"54a182e7dfba414fb09fecb3726dbad4\", \"name\": \"HDMI+USB切换器KVM+数模转换VGA输出\", \"content\": \"# 1、项目简介\\n一款能将HDMI转换为VGA输出并且集成HUB的二进一出切换器KVM，应用场景为两台主机公用一套键鼠显示器；本项目为纯硬件设计，无需代码，无需烧录程序\\n\\n# 2、项目功能\\n核心功能是作为KVM使用，让两台电脑可以共用一台键鼠显示器，附加功能则是数模转换及HUB，当然HUB其实也算是KVM的核心功能之一，毕竟如果没有HUB的话，那键鼠肯定是不能同时使用的了\\n\\n# 3、版本信息\\n此项目共两个版本，分别为V1版本和V2版本，两个版本在功能上无任何区别，区别点在于外观布局，V1版本把接口全部集中在一起，分布在4个方向，V2则采用上下层设计，采用fpc进行连接，把V1版本的侧面接口叠到了第上层，此设计可以避免插上线之后四仰八叉的影响美观与整洁度，在物料方面，V2版本仅比V1版本多了1颗LDO及2颗1uF电容，其余物料完全一致\\n\\n# 4、硬件说明\\n## 4.1、图框说明\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/a49e839e3e074e719f230dfcae2c7986.png)\\n## 4.2、切换芯片及切换逻辑\\n切换芯片采用TS3DV642A0RUAR作为HDMI路径切换开关，采用TPSGM7227YUWQ10G作为USB路径切换开关，由一个波动开关进行物理控制，高电平使切换为2通道，低电平使切换为1通道，且LED灯作为通道指示，这里的二极管是用来让两路USB共同提供一个基础电压，作为基础控制逻辑里的高电平信号以及LED的供电电源\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/698018889f104e1f8e68560f80ad2c19.png)\\n## 4.3、电源路径切换\\n分别使用2个PMOS背靠背串联作为纯模拟电路的设计方案将两个USB电源完全隔离，避免电流反向倒灌烧坏主机，使用简单逻辑电路与USB信号及显示信号同步切换，切换哪一路信号就同步切换哪一路的电源，由于我的设计物理开关一边是悬空的，所以输出信号相当于开漏输出，因此这里SEL是需要一个上拉电阻的，但是在LED阳极已经有1颗(与此电路是并联关系)了，因此这里不再需要\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/c9fbd5c916fc49c4a84374641bbe0c0a.png)\\n## 4.4、HUB方案\\nHUB采用SL2.1A作为主控芯片，这颗成熟又经济实惠的HUB芯片作为HUB给键鼠使用性能已经绰绰有余且在合适不过了\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/47a91c7df22b4d73b4ceacdb695aedfc.png)\\n## 4.5、HDMI转VGA方案\\n使用一颗CH7101B作为数模转换的主控\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/8bf7c66e38d24b83900bc4e2094ada84.png)\\n## 4.6、供电\\n使用2颗AP3428DNTR作为核心供电电源，V2版本由于3.3V电源在上层，因此下层的切换芯片单独使用了1颗LDO作为电源\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/0043886c9df34ba9888db0161197567b.png)\\n# 5、其它说明\\n5.1、本项目数模转换部分采用已有开源方案，项目来自[滤波の電容](https://oshwhub.com/xyzdiy/works)大佬的[HDMI转VGA方案验证](https://oshwhub.com/xyzdiy/hdmi-zhuan-vga-fang-an-yan-zheng)\\n5.2、为了压缩板子尺寸，本方案采用超薄型VGA连接器，前8后7，[购买链接](https://oshwhub.com/link?target=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fspm%3Da230r.1.14.12.496338d2nFL0MQ%26id%3D598318264101%26ns%3D1%2...<truncated>",
+ "origin": "pro",
+ "proImages": "{\"success\": true, \"code\": 0, \"result\": {\"boards\": [{\"name\": \"KVM_HDMI_To_VGA_V1\", \"pcb\": \"eae979ed034943f98e597e6c9ae6290c\", \"sch\": \"36601d10e42643d3bc5c45231a35738f\", \"schematic\": {\"uuid\": \"36601d10e42643d3bc5c45231a35738f\", \"display_name\": \"KVM_HDMI_To_VGA_V1\", \"updateTime\": \"\", \"boms\": {\"uuid\": \"36601d10e42643d3bc5c45231a35738f\", \"project_uuid\": \"75119da7fc3d49ecb47370420121936d\", \"boms\": \"[{\\\"ID\\\":1,\\\"Name\\\":\\\"LED_0603-B\\\",\\\"Designator\\\":\\\"LED1,LED2\\\",\\\"Footprint\\\":\\\"LED0603-RD_BLUE\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"\\\",\\\"Manufacturer\\\":\\\"\\\",\\\"Supplier\\\":\\\"\\\",\\\"Supplier Part\\\":\\\"C72041\\\"},{\\\"ID\\\":2,\\\"Name\\\":\\\"1kΩ\\\",\\\"Designator\\\":\\\"R1,R2,R12\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"RC0402FR-071KL\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C106235\\\"},{\\\"ID\\\":3,\\\"Name\\\":\\\"TYPE-C16PIN\\\",\\\"Designator\\\":\\\"USB2,USB1\\\",\\\"Footprint\\\":\\\"USB-C-SMD_TYPE-C16PIN\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"TYPE-C16PIN\\\",\\\"Manufacturer\\\":\\\"SHOU HAN(首韩)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C393939\\\"},{\\\"ID\\\":4,\\\"Name\\\":\\\"2N7002\\\",\\\"Designator\\\":\\\"Q6,Q4,Q1,Q5\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"2N7002\\\",\\\"Manufacturer\\\":\\\"宏迦橙\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C7420321\\\"},{\\\"ID\\\":5,\\\"Name\\\":\\\"10kΩ\\\",\\\"Designator\\\":\\\"R26,R4,R3,R9,R11,R10,R13,R24,R25\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":9,\\\"Manufacturer Part\\\":\\\"RC0402FR-0710KL\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C60490\\\"},{\\\"ID\\\":6,\\\"Name\\\":\\\"BAT54C,215\\\",\\\"Designator\\\":\\\"D1\\\",\\\"Footprint\\\":\\\"SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"BAT54C,215\\\",\\\"Manufacturer\\\":\\\"Nexperia(安世)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C37704\\\"},{\\\"ID\\\":7,\\\"Name\\\":\\\"5.1kΩ\\\",\\\"Designator\\\":\\\"R27,R28,R29,R30\\\",\\\"Footprint\\\":\\\"R0402\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"RC0402FR-075K1L\\\",\\\"Manufacturer\\\":\\\"YAGEO(国巨)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C105872\\\"},{\\\"ID\\\":8,\\\"Name\\\":\\\"BRCS200P03ZJ\\\",\\\"Designator\\\":\\\"Q8,Q3,Q2,Q7\\\",\\\"Footprint\\\":\\\"DFN-6_L2.0-W2.0-P0.65-BL-EP-1\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"BRCS200P03ZJ\\\",\\\"Manufacturer\\\":\\\"BLUE ROCKET(蓝箭)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C22448984\\\"},{\\\"ID\\\":9,\\\"Name\\\":\\\"HDMI-019S\\\",\\\"Designator\\\":\\\"HDMI1,HDMI2,HDMI3\\\",\\\"Footprint\\\":\\\"HDMI-SMD_HDMI-019S\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"HDMI-019S\\\",\\\"Manufacturer\\\":\\\"SOFNG(硕方)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C111617\\\"},{\\\"ID\\\":10,\\\"Name\\\":\\\"XKB8080-Z\\\",\\\"Designator\\\":\\\"SW2\\\",\\\"Footprint\\\":\\\"SW-TH_6P-L8.0-W8.0-P2.50\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"XKB8080-Z\\\",\\\"Manufacturer\\\":\\\"XKB Connectivity(中国星坤)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C318860\\\"},{\\\"ID\\\":11,\\\"Name\\\":\\\"JK-SMD0603-050-6\\\",\\\"Designator\\\":\\\"F2,F3,F4\\\",\\\"Footprint\\\":\\\"F0603\\\",\\\"Quantity\\\":3,\\\"Manufacturer Part\\\":\\\"JK-SMD0603-050-6\\\",\\\"Manufacturer\\\":\\\"JK(金科)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C2832203\\\"},{\\\"ID\\\":12,\\\"Name\\\":\\\"SMAJ5.0CA\\\",\\\"Designator\\\":\\\"D2,D3\\\",\\\"Footprint\\\":\\\"SMA_L4.4-W2.6-LS5.0-BI\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"SMAJ5.0CA\\\",\\\"Manufacturer\\\":\\\"Littelfuse(美国力特)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C83324\\\"},{\\\"ID\\\":13,\\\"Name\\\":\\\"LESD5D5.0CT1G\\\",\\\"Designator\\\":\\\"D8,D10,D4,D5,D6,D7,D9,D11,D12,D13,D14,D15\\\",\\\"Footprint\\\":\\\"SOD-523_L1.2-W0.8-LS1.6-BI\\\",\\\"Quantity\\\":12,\\\"Manufacturer Part\\\":\\\"LESD5D5.0CT1G\\\",\\\"Manufacturer\\\":\\\"Leshan Radio\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C383211\\\"},{\\\"ID\\\":14,\\\"Name\\\":\\\"AO3401A\\\",\\\"Designator\\\":\\\"Q9\\\",\\\"Footprint\\\":\\\"SOT-23_L2.9-W1.3-P1.90-LS2.4-BR\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"AO3401A\\\",\\\"Manufacturer\\\":\\\"AOS\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C15127\\\"},{\\\"ID\\\":15,\\\"Name\\\":\\\"TS3DV642A0RUAR\\\",\\\"Designator\\\":\\\"U4\\\",\\\"Footprint\\\":\\\"WFQFN-42_L9.0-W3.5-P0.50-BL-EP\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TS3DV642A0RUAR\\\",\\\"Manufacturer\\\":\\\"TI(德州仪器)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C157482\\\"},{\\\"ID\\\":16,\\\"Name\\\":\\\"100nF\\\",\\\"Designator\\\":\\\"C10,C1,C23,C24,C22,C28,C27,C25,C21\\\",\\\"Footprint\\\":\\\"C0402\\\",\\\"Quantity\\\":9,\\\"Manufacturer Part\\\":\\\"CL05B104KB54PNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C307331\\\"},{\\\"ID\\\":17,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C11,C18,C19,C20,C3,C2\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":6,\\\"Manufacturer Part\\\":\\\"CL10A106KP8NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C19702\\\"},{\\\"ID\\\":18,\\\"Name\\\":\\\"TPSGM7227YUWQ10G\\\",\\\"Designator\\\":\\\"U1\\\",\\\"Footprint\\\":\\\"UQFN-10_L1.8-W1.4-P0.40-TL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"TPSGM7227YUWQ10G\\\",\\\"Manufacturer\\\":\\\"TECH PUBLIC(台舟)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C42379165\\\"},{\\\"ID\\\":19,\\\"Name\\\":\\\"12MHz\\\",\\\"Designator\\\":\\\"X1\\\",\\\"Footprint\\\":\\\"OSC-SMD_4P-L3.2-W2.5-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"X322512MSB4SI\\\",\\\"Manufacturer\\\":\\\"YXC(扬兴晶振)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C9002\\\"},{\\\"ID\\\":20,\\\"Name\\\":\\\"20pF\\\",\\\"Designator\\\":\\\"C4,C7\\\",\\\"Footprint\\\":\\\"C0603\\\",\\\"Quantity\\\":2,\\\"Manufacturer Part\\\":\\\"CL05C200JB5NNNC\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C32950\\\"},{\\\"ID\\\":21,\\\"Name\\\":\\\"SL2.1A\\\",\\\"Designator\\\":\\\"U5\\\",\\\"Footprint\\\":\\\"SOP-16_L10.0-W3.9-P1.27-LS6.0-BL\\\",\\\"Quantity\\\":1,\\\"Manufacturer Part\\\":\\\"SL2.1A\\\",\\\"Manufacturer\\\":\\\"CoreChips(和芯润德)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C192893\\\"},{\\\"ID\\\":22,\\\"Name\\\":\\\"22uF\\\",\\\"Designator\\\":\\\"C29,C30,C32,C33,C35,C36,C38,C39\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":8,\\\"Manufacturer Part\\\":\\\"CL21A226MAQNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C45783\\\"},{\\\"ID\\\":23,\\\"Name\\\":\\\"10uF\\\",\\\"Designator\\\":\\\"C31,C34,C37,C40\\\",\\\"Footprint\\\":\\\"C0805\\\",\\\"Quantity\\\":4,\\\"Manufacturer Part\\\":\\\"CL21A106KAYNNNE\\\",\\\"Manufacturer\\\":\\\"SAMSUNG(三星)\\\",\\\"Supplier\\\":\\\"LCSC\\\",\\\"Supplier Part\\\":\\\"C15850\\\"},{\\\"ID\\\":24,\\\"Name\\\":\\\"USB-269-BRW\\\",\\\"Designator\\\":\\\"USB4,USB3\\\",\\...<truncated>",
+ "doc_ids": [
+  [
+   "399cc2fa417f429d91bd0c0919a63b8e",
+   1
+  ],
+  [
+   "a2d2671822a5496e87137b2ece4e051d",
+   1
+  ],
+  [
+   "7e261f34651f4e04992a80eb06f9d1c4",
+   1
+  ],
+  [
+   "ec4b2772b9eb49738730f393050494d3",
+   1
+  ],
+  [
+   "4123689f57c64c7fbfc16e45589c111f",
+   1
+  ],
+  [
+   "3b16853ff1ce491685a9f7afa6ace89f",
+   1
+  ],
+  [
+   "e106437c89ea4a5f9800f0f1409b66ae",
+   1
+  ],
+  [
+   "b2bb460c953b42a2a631238ec2b515ca",
+   1
+  ]
+ ],
+ "v4_project": "{\"success\": true, \"code\": 0, \"result\": {\"uuid\": \"54a182e7dfba414fb09fecb3726dbad4\", \"name\": \"HDMI+USB切换器KVM+数模转换VGA输出\", \"content\": \"# 1、项目简介\\n一款能将HDMI转换为VGA输出并且集成HUB的二进一出切换器KVM，应用场景为两台主机公用一套键鼠显示器；本项目为纯硬件设计，无需代码，无需烧录程序\\n\\n# 2、项目功能\\n核心功能是作为KVM使用，让两台电脑可以共用一台键鼠显示器，附加功能则是数模转换及HUB，当然HUB其实也算是KVM的核心功能之一，毕竟如果没有HUB的话，那键鼠肯定是不能同时使用的了\\n\\n# 3、版本信息\\n此项目共两个版本，分别为V1版本和V2版本，两个版本在功能上无任何区别，区别点在于外观布局，V1版本把接口全部集中在一起，分布在4个方向，V2则采用上下层设计，采用fpc进行连接，把V1版本的侧面接口叠到了第上层，此设计可以避免插上线之后四仰八叉的影响美观与整洁度，在物料方面，V2版本仅比V1版本多了1颗LDO及2颗1uF电容，其余物料完全一致\\n\\n# 4、硬件说明\\n## 4.1、图框说明\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/a49e839e3e074e719f230dfcae2c7986.png)\\n## 4.2、切换芯片及切换逻辑\\n切换芯片采用TS3DV642A0RUAR作为HDMI路径切换开关，采用TPSGM7227YUWQ10G作为USB路径切换开关，由一个波动开关进行物理控制，高电平使切换为2通道，低电平使切换为1通道，且LED灯作为通道指示，这里的二极管是用来让两路USB共同提供一个基础电压，作为基础控制逻辑里的高电平信号以及LED的供电电源\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/698018889f104e1f8e68560f80ad2c19.png)\\n## 4.3、电源路径切换\\n分别使用2个PMOS背靠背串联作为纯模拟电路的设计方案将两个USB电源完全隔离，避免电流反向倒灌烧坏主机，使用简单逻辑电路与USB信号及显示信号同步切换，切换哪一路信号就同步切换哪一路的电源，由于我的设计物理开关一边是悬空的，所以输出信号相当于开漏输出，因此这里SEL是需要一个上拉电阻的，但是在LED阳极已经有1颗(与此电路是并联关系)了，因此这里不再需要\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/c9fbd5c916fc49c4a84374641bbe0c0a.png)\\n## 4.4、HUB方案\\nHUB采用SL2.1A作为主控芯片，这颗成熟又经济实惠的HUB芯片作为HUB给键鼠使用性能已经绰绰有余且在合适不过了\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/47a91c7df22b4d73b4ceacdb695aedfc.png)\\n## 4.5、HDMI转VGA方案\\n使用一颗CH7101B作为数模转换的主控\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/8bf7c66e38d24b83900bc4e2094ada84.png)\\n## 4.6、供电\\n使用2颗AP3428DNTR作为核心供电电源，V2版本由于3.3V电源在上层，因此下层的切换芯片单独使用了1颗LDO作为电源\\n![image.png](https://image.lceda.cn/oshwhub/pullImage/0043886c9df34ba9888db0161197567b.png)\\n# 5、其它说明\\n5.1、本项目数模转换部分采用已有开源方案，项目来自[滤波の電容](https://oshwhub.com/xyzdiy/works)大佬的[HDMI转VGA方案验证](https://oshwhub.com/xyzdiy/hdmi-zhuan-vga-fang-an-yan-zheng)\\n5.2、为了压缩板子尺寸，本方案采用超薄型VGA连接器，前8后7，[购买链接](https://oshwhub.com/link?target=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fspm%3Da230r.1.14.12.496338d2nFL0MQ%26id%3D598318264101%26ns%3D1%26abbucket%3D16%23detail)\\n5.3、方案采用4层板设计，打样时请选择JLC-3313叠层，可白嫖\\n5.4、为避免接口冲突，V2版本连接上下层的铜柱长度建议不要低于10mm，我使用的12mm，插上线大概有剩余2mm的间距\\n5.5、V1版本右上角（如图位置）螺丝孔与底层的一个MOS管有点近，如需锁螺丝切记先检查是否冲突，或者重新修改布局再打板，切记切记\\n\\n![cba36700-d5fa-4679-b1f3-3b485e23833b.png](https://image.lceda.cn/oshwhub/pullImage/570c70819b744b6089d47fba5c20478f.png)\\n\", \"grade\": 2, \"origin\": \"pro\", \"is_draft\": false, \"thumb\": \"https://image.lceda.cn/oshwhub/pullImage/b00213ab83ed4f95b1df00df7d20f06a.jpg\", \"public\": true, \"publish\": true, \"owner\": {\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"username\": \"early_m\", \"nickname\": \"Early_M\", \"avatar\": \"//image.lceda.cn/avatars/2026/3/CytEf1bjXx1QlGJdTS4pVFwvsKJeiOB7RIPFvTxP.webp\", \"team\": false}, \"creator\": {\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"username\": \"early_m\", \"nickname\": \"Early_M\", \"avatar\": \"//image.lceda.cn/avatars/2026/3/CytEf1bjXx1QlGJdTS4pVFwvsKJeiOB7RIPFvTxP.webp\"}, \"members\": [{\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"nickname\": \"Early_M\", \"username\": \"early_m\", \"avat...<truncated>",
+ "documents_lists_keys": [
+  [
+   "created_at",
+   "creator",
+   "dataStrId",
+   "description",
+   "display_title",
+   "docType",
+   "guest",
+   "iv",
+   "key",
+   "modifier",
+   "parent_uuid",
+   "project_uuid",
+   "schematic_uuid",
+   "sheet_id",
+   "thumb",
+   "ticket",
+   "title",
+   "updateTime",
+   "uuid",
+   "writable"
+  ],
+  [
+   "created_at",
+   "creator",
+   "dataStrId",
+   "description",
+   "display_title",
+   "docType",
+   "guest",
+   "iv",
+   "key",
+   "modifier",
+   "parent_uuid",
+   "project_uuid",
+   "schematic_uuid",
+   "sheet_id",
+   "thumb",
+   "ticket",
+   "title",
+   "updateTime",
+   "uuid",
+   "writable"
+  ]
+ ],
+ "documents_lists": "[{\"uuid\": \"399cc2fa417f429d91bd0c0919a63b8e\", \"created_at\": \"2025-10-20 14:20:42\", \"creator\": {\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"username\": \"early_m\", \"nickname\": \"early_m\"}, \"dataStrId\": \"https://modules.lceda.cn/datastr/46/9b/b6/5b/f31245458c6f3441d4791337\", \"description\": \"\", \"display_title\": \"输入\", \"docType\": 1, \"iv\": \"4160a3e2b0de013eea26a53c\", \"key\": \"459efb317b228618edfc00b701afcb0f57c68f70cc2bf4023d12f11a413abe1a\", \"modifier\": {\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"username\": \"early_m\", \"nickname\": \"early_m\"}, \"parent_uuid\": null, \"project_uuid\": \"54a182e7dfba414fb09fecb3726dbad4\", \"schematic_uuid\": \"36601d10e42643d3bc5c45231a35738f\", \"sheet_id\": 1, \"ticket\": 4, \"title\": \"输入\", \"updateTime\": 1760943633, \"thumb\": \"https://image-pro.lceda.cn/pullimages/9a0e75e41e144cecb5f3d333a9341500.webp\", \"guest\": false, \"writable\": false}, {\"uuid\": \"a2d2671822a5496e87137b2ece4e051d\", \"created_at\": \"2025-10-20 14:20:42\", \"creator\": {\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"username\": \"early_m\", \"nickname\": \"early_m\"}, \"dataStrId\": \"https://modules.lceda.cn/datastr/28/90/d8/47/f1af4edfb69322a79cf2dfb3\", \"description\": \"\", \"display_title\": \"切换\", \"docType\": 1, \"iv\": \"c5bda0a0f768321a38ed12f9\", \"key\": \"da55e036026fc70fa48a93d08107fda3800e47b373479f52a46dd4946245ed83\", \"modifier\": {\"uuid\": \"66c83b439eaf4537bdc414a617e6038d\", \"username\": \"early_m\", \"nickname\": \"early_m\"}, \"parent_uuid\": null, \"project_uuid\": \"54a182e7dfba414fb09fecb3726dbad4\", \"schematic_uuid\": \"36601d10e42643d3bc5c45231a35738f\", \"sheet_id\": 2, \"ticket\": 6, \"title\": \"切换\", \"updateTime\": 1763481293, \"thumb\": \"https://image-pro.lceda.cn/pullimages/dc0587a273414c1095c2cfa7158f05a7.webp\", \"guest\": false, \"writable\": false}]",
+ "datastr_fetch": [
+  {
+   "url": "https://modules.lceda.cn/datastr/46/9b/b6/5b/f31245458c6f3441d4791337",
+   "status": 200,
+   "headers": {
+    "Date": "Sun, 18 Oct 2026 18:41:03 GMT",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "11792",
+    "Connection": "keep-alive",
+    "Server": "openresty",
+    "CloudServiceDiscount": "CDN",
+    "x-obs-request-id": "000001A150513D86A1665596C2796C01",
+    "x-obs-replication-status": "COMPLETED",
+    "ETag": "\"227af91cf07e5abe160ed16198b568c9\"",
+    "Last-Modified": "Mon, 20 Oct 2025 06:39:15 GMT",
+    "x-obs-version-id": "G001119A0057F52BFFFFB14602FA93A3",
+    "x-obs-tagging-count": "0",
+    "x-obs-content-sha256": "d1b8ce61c9b9e9cfbf45a977fa98df622a29f0b5bc0341f92402408af68fc4b4",
+    "x-obs-id-2": "36AAAQAAEAABAAAQAAEAABAAAQAAEAABAAAaI=AAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "X-CCDN-Origin-Time": "181",
+    "via": "CHN-LNchaoyang-CT1-CACHE2[332],CHN-LNchaoyang-CT1-CACHE2[279,TCP_MISS,330],CHN-TJ-GLOBAL6-CACHE31[198],CHN-TJ-GLOBAL6-CACHE116[194,TCP_MISS,196],CHN-TJ-GLOBAL6-CACHE116[181,TCP_MISS,193]",
+    "x-hcs-proxy-type": "0",
+    "X-CCDN-CacheTTL": "31536000",
+    "X-CCDN-REQ-ID-46B1": "18b555140515e5843c04a3b24b383a10",
+    "Age": "1",
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Disposition": "inline",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Cache-Control": "max-age=2592000"
+   },
+   "len": 11792,
+   "head_b64": "fB/mY+tdr/iyBmdM3xBO1rRylp5Ty0rzhW20LRzpHw9hzcRwlvvKo6rbTW4LsmXw2Bh/NdjmQjBioMzNXLP/3DlSVp8IsCEXcr47tFNr4ZYD1sOxBJH7hXYSIkWuCYzJGueUB1uxSmPhOIzOBgY8XqGDaGBxujCmNnHyZfCkikUygBn/LhD0BpY2QfISohDCWUAUBj1COZLWWXn8TAJD2iVnYhGTy5KxdaK3CXI65CeO80WAxXB3W2s9iG9MUnDeGZQT7NCDsph4X3evQPcIWFMsgTKUQm/QKu/Hiwzlw+tO6F5AjzkhcncBA96OjeECgWpNNO0UQYtqukhTYYLgrCd2zt4rm7/yVyR68sHAD9iZCBCWtDBTraxUXv18R65SYfxY99r/Iy/1o/J+GlXTXuNMgeHrUT+kvytXAi1JYJOIgqeP7JHvpiRuje3E2KQ3CU/Eh1LTqeRP6swwF/FCCFGqG2hJemJMChxDHnJF3cYm5zZ96dTZWyrHoEOjz0QmjhrMkDZL3YuTOgi6f35FbVkSEkVjRfsio5dansQckLiPrOMZbiTsJMb2Qngm2Zcmth63feeSr21CgupcMwlzK85yryk30xvgOsbEcePmstcFHK1eP7oI8aNAnB88ZdNskwWW97CRQ4w2OZe2+JBusJoHxiuY/eUs0CBW7h83sP9bw3ayuXRq1rc4PQXgFgSsk94mvVJhdwy/jPbX6Lp0hXFMO4EMKTJyJsz3ewkbjNtkafgmWI8aEx1KoInkubNDWZIWhSTgpoR9h2RtQVhhTqSs+ENZIM+o",
+   "iv": "4160a3e2b0de013eea26a53c",
+   "other_keys": {
+    "uuid": "399cc2fa417f429d91bd0c0919a63b8e",
+    "created_at": "2025-10-20 14:20:42",
+    "creator": {
+     "uuid": "66c83b439eaf4537bdc414a617e6038d",
+     "username": "early_m",
+     "nickname": "early_m"
+    },
+    "dataStrId": "https://modules.lceda.cn/datastr/46/9b/b6/5b/f31245458c6f3441d4791337",
+    "description": "",
+    "display_title": "输入",
+    "docType": 1,
+    "iv": "4160a3e2b0de013eea26a53c",
+    "key": "459efb317b228618edfc00b701afcb0f57c68f70cc2bf4023d12f11a413abe1a",
+    "modifier": {
+     "uuid": "66c83b439eaf4537bdc414a617e6038d",
+     "username": "early_m",
+     "nickname": "early_m"
+    },
+    "parent_uuid": null,
+    "project_uuid": "54a182e7dfba414fb09fecb3726dbad4",
+    "schematic_uuid": "36601d10e42643d3bc5c45231a35738f",
+    "sheet_id": 1,
+    "ticket": 4,
+    "title": "输入",
+    "updateTime": 1760943633,
+    "thumb": "https://image-pro.lceda.cn/pullimages/9a0e75e41e144cecb5f3d333a9341500.webp",
+    "guest": false,
+    "writable": false
+   }
+  },
+  {
+   "url": "https://modules.lceda.cn/datastr/28/90/d8/47/f1af4edfb69322a79cf2dfb3",
+   "status": 200,
+   "headers": {
+    "Date": "Sun, 18 Oct 2026 18:41:04 GMT",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "13840",
+    "Connection": "keep-alive",
+    "Server": "openresty",
+    "CloudServiceDiscount": "CDN",
+    "x-obs-request-id": "000001A150513EE1814B55942D10E362",
+    "x-obs-replication-status": "COMPLETED",
+    "ETag": "\"451bcc9b7269a711cbcfbfa8f44aa327\"",
+    "Last-Modified": "Mon, 20 Oct 2025 07:05:37 GMT",
+    "x-obs-version-id": "G001119A0070182BFFFF8185036674AF",
+    "x-obs-tagging-count": "0",
+    "x-obs-content-sha256": "262fd11f9e0fcc9a4b8663eb3f259c74d03e63de0404ab935a2390177ad55049",
+    "x-obs-id-2": "36AAAQAAEAABAAAQAAEAABAAAQAAEAABAAAaI=AAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "X-CCDN-Origin-Time": "190",
+    "via": "CHN-LNchaoyang-CT1-CACHE2[372],CHN-LNchaoyang-CT1-CACHE5[327,TCP_MISS,371],CHN-TJ-GLOBAL6-CACHE113[209],CHN-TJ-GLOBAL6-CACHE123[202,TCP_MISS,207],CHN-TJ-GLOBAL6-CACHE123[190,TCP_MISS,202]",
+    "x-hcs-proxy-type": "0",
+    "X-CCDN-CacheTTL": "31536000",
+    "X-CCDN-REQ-ID-46B1": "69c742f52750af271602cca925de5794",
+    "Age": "1",
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Disposition": "inline",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Cache-Control": "max-age=2592000"
+   },
+   "len": 13840,
+   "head_b64": "L6G8FhYFNu/V/qR+hIwZyUK3xORf1j36hQ3BnawCT9LGRb6N6sMl59dyvwgNplrXLPQu5Ew1SB38Ont+2P3/hNPAs85ETHsQClFC/V7GoK5TImQhAgOirBwVZDV4R2LnzPGFR1O87y3K1w6E0lpW0WCJfK61HG7127UP8pKZ4W/KTTkEh0IRfdJRO1t5cE7T8fUkz9OjM8uovxNwipcxIrHxevXkcmp1/7SpSgpPfLoVOsLqnhIE7n2lhvY5Mt1Kei1lj/yxLS3+68Bk9qW9jubreTDtUOsFdQGdnwvY0uXllRdfdVDPXf6OOeeVL3u2ftXJHzDUhC1rj+ezpl+JtGMYlARaqSqKRYRGQImVyZ+34B3X5H19IUpNN70t7waBVT/e8l1m3XaMdJh1Nj1jvdu2S+xNu040xIJ/iD8kScOWY7t50pK5HQYTtyCOC5dlB3TDMhlHrvH8Td7szB9ixEVbZTldkfyWRnckUxwP8eYFIZVOSpVbhxSSRsVCfImIVa4HzXFcoqS07NY0xvbWpRZRXP+wHN9FTKepfnMFRT5mreotnRYrFf/R8EJc1nTbsMBfShWjIIAUUw3fvz4rE1IGSx3v3sfE/8O1LRpZzw64/aqjVN6q+o8trP4JcQnajFaaOnxrAy/5Y9kiW89AZi7Zh+28HDl7iCSWL56+LWj/zz0JKgB1IMQUDttqSeW2kf+6iSweqDBoFnaMfsHv8upajNSMHMjW7UFs9/amwqHRNZTB6LyXeprUc4vPbAlOrmtmRcWs2FnEENirGK7IjhPett/beUlg",
+   "iv": "c5bda0a0f768321a38ed12f9",
+   "other_keys": {
+    "uuid": "a2d2671822a5496e87137b2ece4e051d",
+    "created_at": "2025-10-20 14:20:42",
+    "creator": {
+     "uuid": "66c83b439eaf4537bdc414a617e6038d",
+     "username": "early_m",
+     "nickname": "early_m"
+    },
+    "dataStrId": "https://modules.lceda.cn/datastr/28/90/d8/47/f1af4edfb69322a79cf2dfb3",
+    "description": "",
+    "display_title": "切换",
+    "docType": 1,
+    "iv": "c5bda0a0f768321a38ed12f9",
+    "key": "da55e036026fc70fa48a93d08107fda3800e47b373479f52a46dd4946245ed83",
+    "modifier": {
+     "uuid": "66c83b439eaf4537bdc414a617e6038d",
+     "username": "early_m",
+     "nickname": "early_m"
+    },
+    "parent_uuid": null,
+    "project_uuid": "54a182e7dfba414fb09fecb3726dbad4",
+    "schematic_uuid": "36601d10e42643d3bc5c45231a35738f",
+    "sheet_id": 2,
+    "ticket": 6,
+    "title": "切换",
+    "updateTime": 1763481293,
+    "thumb": "https://image-pro.lceda.cn/pullimages/dc0587a273414c1095c2cfa7158f05a7.webp",
+    "guest": false,
+    "writable": false
+   }
+  }
+ ]
+}
