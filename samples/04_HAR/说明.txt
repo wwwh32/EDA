@@ -3,15 +3,22 @@
 工程页：
 https://oshwhub.com/carele/ji-yu-MT2492de-mi-ni-Buckxiang-ya-mu-kuai
 
-编辑器页（实际打开的专业版编辑器地址，含会话参数的部分已不上传）：
+专业版编辑器：
 https://pro.lceda.cn/editor
+完整编辑器URL的会话及票据参数不公开。
 
-原始文件：p02_pro_editor.har、p02_project_pag.har 仅保存在本地，不上传。
+2026-10-18 队员按任务书人工重新录制两份 HAR。
+原始文件 p02_pro_editor.har、p02_project_page.har 仅保存在本地，不上传。
+旧文件 p02_project_pag.har 不用于本次上传。
+
 上传文件：p02_pro_editor_clean.har、p02_project_page_clean.har。
-清理方法：脚本递归清空 request/response cookies，并将字段名或参数名包含 cookie、token、authorization、password、secret、session、csrf、api-key、credential 的值替换为 REMOVED；同时清理 Bearer/JWT 形式和嵌入 JSON 文本。
-审计结果：敏感字段剩余 0；clean HAR 中 request/response cookies 均为空。
+编辑器记录包含工程接口 /api/v4/projects/d54b0d8e884945fb8d875979510b5211、分支及器件加载请求。
+详情页记录包含上述 Carele MT2492 工程详情页请求。
 
-说明：第二份原始文件名为 p02_project_pag.har，按内容识别为搜索页记录；它包含 MT2492 搜索结果，其中 Carele 工程路径为 carele/ji-yu-MT2492de-mi-ni-Buckxiang-ya-mu-kuai。由于原始记录是在搜索页而非详情页刷新后保存，已如实保留，不伪造为详情页 HAR。
+脱敏范围：清空 request/response cookies；替换敏感字段、请求头、查询参数中的 cookie、token、authorization、password、secret、session、csrf、api-key、credential、ticket 等值；处理嵌入 JSON 和 Bearer/JWT；移除服务器IP。
+为减少账号和浏览统计数据，去除账号、通知、团队、组织及统计接口记录；HTML、脚本、样式、图片、字体响应正文及不能按UTF-8解码的Base64正文省略，保留工程API响应内容。
+发布前核对了cookies及敏感命名字段的脱敏规则，不运行工程测试。
 
-编辑器 HAR 仅有 10 个请求，主要是账号、偏好和通知接口，未捕获工程加载请求，不能据此编写工程批量下载脚本。需要重录后才能满足网络记录用途。
-
+记录数量（原始 → 保留）与脱敏文件字节数：
+p02_pro_editor: 159 → 135；2959620 bytes
+p02_project_page: 174 → 152；2029469 bytes
