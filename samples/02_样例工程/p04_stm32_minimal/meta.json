@@ -1,0 +1,15 @@
+{
+  "project_title": "STM32 最小系统",
+  "project_url": "https://oshwhub.com/litaibai0/STM32-zui-xiao-xi-tong",
+  "author": "litaibai0",
+  "license": "Public Domain",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "STM32F103C8T6"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件>导出>PNG/SVG；文件>导出>立创商城源文件",
+  "notes": "公开工程；1页原理图；已确认专业版及STM32F103C8T6。已保存导出对话框截图和2x PNG；源文件及页面截图待补齐。未下载PCB/BOM/Gerber。"
+}

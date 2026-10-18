@@ -86,3 +86,5 @@
 
 
 - 2026-10-18：p03_usb_hub 已用360保存工程详情页截图为 page.png（120316 bytes）。原理图附件仍缺 SVG、高清PNG、导出对话框截图；当前未下载PCB/BOM/Gerber。任务A仍未确认匹配。
+
+- 2026-10-18：p04_stm32_minimal 候选 https://oshwhub.com/litaibai0/STM32-zui-xiao-xi-tong，专业版，Public Domain，作者 litaibai0，1页原理图，IC=STM32F103C8T6；已保存 export_dialog.png 与 2x PNG。尚缺 page.png、源文件、默认PNG、SVG。
