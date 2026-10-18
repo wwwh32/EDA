@@ -1,0 +1,27 @@
+﻿case_id,project,license,author,sheet,width,height,components,nets
+case_0001,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,STM32,2188,1192,61,125
+case_0002,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,POWER,1827,1168,60,37
+case_0003,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,ST-LINK,1251,1102,49,52
+case_0004,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,INVERTER,3106,2112,115,137
+case_0005,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,ETH&CAN&RS485,2276,2184,102,130
+case_0006,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,STM32,1452,1205,61,118
+case_0007,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,POWER,2340,1670,88,63
+case_0008,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,ST-LINK,1614,1138,54,60
+case_0009,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,ETH&CAN&RS485,3101,2191,135,149
+case_0010,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,P1,1019,730,18,28
+case_0011,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,STM32,2260,1258,48,104
+case_0012,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,POWER,1906,1223,69,45
+case_0013,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,INVERTER,3259,2321,176,200
+case_0014,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,ETH&CAN&RS485,2948,2045,128,148
+case_0015,https://oshwhub.com/xue_jingfei/af-mdb,Public Domain,阿飞,P1,698,1062,25,35
+case_0016,https://oshwhub.com/lsjl66/warm-winter-creation,GPL 3.0,lsjl66,P1,3134,2129,143,174
+case_0017,https://oshwhub.com/trumpx/ch32x0435typec2dpboard,CC BY-NC 3.0,SIGMENX,P1,2493,2100,105,149
+case_0018,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,Core,1767,1179,37,49
+case_0019,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,Power,1434,911,30,16
+case_0020,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,Connecter,1649,663,24,40
+case_0021,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,Main,2901,1449,90,101
+case_0022,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,M0,2010,1071,45,60
+case_0023,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,main,859,934,12,22
+case_0024,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,P1,1219,839,16,20
+case_0025,https://oshwhub.com/sytnocui/ping-heng-li-fang-ti-qiu-xing-ba,CC BY-NC 3.0,sytnocui,P1,2146,1398,48,52
+case_0026,https://oshwhub.com/la-xian-xiao-dui-v1.0/t12_mini-rev2-1,CC BY-NC-SA 4.0,拉线小队1.0,01 MCU,4068,2677,268,197

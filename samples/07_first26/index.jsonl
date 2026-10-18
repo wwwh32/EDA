@@ -1,0 +1,133 @@
+{"uuid": "dff8db20c1ec4e4c94a0117b038f4699", "path": "fei1554973967/sw3538", "license": "CC BY-NC 4.0", "status": "no schematic"}
+{"uuid": "205f5150fbed409397b60e0db232d30f", "path": "xiaci_yiding/windows-fingerprint-unlock", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "2685b31277e94ef9b2fced6df44d9cf4", "path": "mondraker/axp2101_2023-11-18_20-15-19", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "2ebcd483df5c452db8171cfb9d59d4ad", "path": "zerox650/shu-zi-sheng-ming-ka-usb3-0", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "44c23560bfb145f885bca4c886157c01", "path": "tonytang2/esp32-armbot", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "9738253053884a1583b39f06d1abb31a", "path": "stm32eda/project_vyfpikge", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "9851a5ddf17144c5b21c8b590b2174f9", "path": "cnflysky/h2d_lt6911c", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "babf0c1e41694a67ab03f790cfdb198e", "path": "huoying123456/51-dan-pian-ji-pwm-feng-shan", "license": "LGPL 2.1", "status": "empty sheets"}
+{"uuid": "89bf0a59f7aa4024a3739b3bfe715098", "path": "solo1778/simplefoc_-wu-shua-dian-ji-da-gong-lv-shuang-tong-dao-qu-dong-yi-yan-zheng-copy_2024-10-22_22-30-44", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "efe12cba6d8042f094e0a3a8b1aa9ee8", "path": "19e2k67/nfc-pn7160-du-ka-qi-rfid-3-3v", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "a3a929a4a6de4bd1860404e763a4e98c", "path": "roboticlib/vesc6-wu-shua-dian-ji-qu-dong-qi", "license": "CC-BY-SA-4.0", "status": "no schematic"}
+{"uuid": "bdce766e3c5e49aa9857174257b02631", "path": "zdldcyy/lun-zu-ping-heng-che-v2-0", "license": "MIT License", "status": "no schematic"}
+{"uuid": "ea7e3d01864145e28dc5645238849b59", "path": "geekmark/multi-function-power-bank", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "401aa32ddfe64a9080826e7a7fc48397", "path": "cyxsnbb666/typec-adjustable-power-supply-wi", "license": "CC BY-NC-SA 4.0", "status": "empty sheets"}
+{"uuid": "69edf989b5dc4cf38995ad4ef3b74a29", "path": "climbsnail/snailheater_public", "license": "Public Domain", "status": "empty sheets"}
+{"uuid": "c5748de4d63044de8071c13c9367ee72", "path": "tianqing324/dian-han-ji-kong-zhi-qi-v2-0", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "6f68256839384e7fa63f7990d5507ca3", "path": "o0v0o/embedded-linux-learning", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "ddcc963f6e234ee5b25bdf62d13c4a6b", "path": "bryan_he/usb_dc_ps", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "e2253d60220e4c65a474f61908099e0e", "path": "bryan_he/hand-rub-buck-boost-power-supply", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "af8cf1eb1a644f49a092c20696f974a0", "path": "tianqing324/swmcontrol_v1-0_1", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "b14e17d226e04812add8d5634daafbc3", "path": "sytnocui/ping-heng-li-fang-ti-qiu-xing-ba", "license": "CC BY-NC 3.0", "status": "ok", "sheets": 9, "missing_symbols": 0}
+{"uuid": "2248780085a4459d967086ead3d8183e", "path": "torah/xing-huo-ji-hua-ba-gua-jian-pan-by-sudo-wang-yq", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "9d7e3aa49dd44abba876804917ebf31b", "path": "eda_kwazdnpkc/ch634w6g_test", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "505c23777f884c03bf3506a876d632de", "path": "lsjl66/warm-winter-creation", "license": "GPL 3.0", "status": "ok", "sheets": 1, "missing_symbols": 0}
+{"uuid": "cda2e1d4504548fb9682b7bf09ce83e7", "path": "eda_kwazdnpkc/hpm5321_pcan", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "53da3a545a984a1f80e2fd9e9ac9511e", "path": "willitourt/charging-hub-ip5389", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "c05c3fa0025f4e1eb10ac7c0ca0bfb82", "path": "kongkongk/cnc-power-supply_v3", "license": "CC BY-NC 4.0", "status": "empty sheets"}
+{"uuid": "2018fa3e03e046eab1ebfeec8ff1cf62", "path": "battsx/tm055vdxp35-driver", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "8b6143a417274f8998ad01e666d49cac", "path": "lovelessing/high-power-adjustable-digital-po", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "be83dd04322f46dfac1c53d01f2037c1", "path": "bie_bw/charging", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "9e9703ebcaa44c2e991f40c77bce30fd", "path": "kotori123/cai-ping-dian-han-ji-_-dan-kong-zhi-ban", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "15e5f194e465455a9624582c34738e3b", "path": "tozzy_su/ip5326-chong-dian-bao-pcb", "license": "CC-BY-4.0", "status": "no schematic"}
+{"uuid": "5cb4eb19c9ce49369e2c7a2a67c5dc1d", "path": "ncc2023/stm32-cnc-power-supply", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "414755cca3b84cdeb6477a6f3642ad20", "path": "dabingzi666/zhi-neng-wei-deng", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "aa597cbd732840a69a76d1a3fdec7bbc", "path": "hanbing666/xing-guang-4n-kai-yuan-6-1-ban-ben", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "9efe320809f3446cb8d09dd1d088caee", "path": "fffff45451/pocket-inverter-minix10", "license": "CC BY-NC 4.0", "status": "empty sheets"}
+{"uuid": "00da9af74a4646049c53ff101e0e6b59", "path": "zhoulv2012/powerhub-power-telemetry-hub", "license": "CC-BY-4.0", "status": "no schematic"}
+{"uuid": "0072145978074a8bac85f5ade8863c75", "path": "xue_jingfei/af-mdb", "license": "Public Domain", "status": "ok", "sheets": 19, "missing_symbols": 0}
+{"uuid": "6faa7fa626394c2b9a0f8f8229ebe20e", "path": "q3am3uq/raspberry-pi-zerozerow-dock", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "8223b94d753d4ef49dab4952ab71b859", "path": "stm32eda/bian-xie-diao-su-dian-yuan", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "6b3cdcbe203e44ba876becd62ba88d9a", "path": "nishi_j/lm5145_demo_v1-1", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "dac491ad80324bc1a5416e0211d3af89", "path": "huoying123456/high-power-portable-ups-power-su", "license": "CC BY-ND 4.0", "status": "empty sheets"}
+{"uuid": "0ff7ab45a3274fa9a2fba42755bcb6e3", "path": "eda_rgionugl/mps-power-48v-zhuan-12-24v-350w_copy", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "62c3697996854ee6a3d892a3558851c3", "path": "stress_007/mps-ji-qi-ren-guan-jie-dian-ji", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "dc13349f2ed447db899f79429d4f7817", "path": "batterymain/mps-eda-dian-yuan-she-ji", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "c4275fd5edca4d11a8a2bed7b830f062", "path": "hty12138/sf32lb56_-gong-kong-ping", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "5995a0d8ab2c4db98f97078bbee6a9ec", "path": "nishibushisabi1/mpsfoc", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "f8a766d260d34107b43c850642f6c53c", "path": "ultra-wideband-chip-verification/project_atttkfxb", "license": "CERN Open Hardware License", "status": "no schematic"}
+{"uuid": "ee8c1d029d5c4053aceb325f7723896b", "path": "winton/mps-xiang-mu-kai-yuan", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "dd921ca30eac4699b5bc4542f6bb7cf6", "path": "wanyouli/300007d1v1", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "5d0d617ccb15429b9cca19d387f4ec78", "path": "koukou21/ji-qi-ren-guan-jie-dian-ji-qu-dong-ban", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "4c110a28d29240089353e9d17c28cfe5", "path": "eda_ydaolrocl/200w-ultra-low-ripple-digital-bu", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "4b78317be581405e84c44c0e327ae7bc", "path": "littlesun/esp32-based-crps-powerfetch", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "078cf8c706ce46909b9b22598b217b63", "path": "hty12138/ai8051u-multi-channel-three-phas", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "5ab27050499e4083a0448b7a5791c0a4", "path": "linyin592/based-on-ch318t-ch334p-high-spee", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "8d98e62edc544715914e46cc7c700e37", "path": "qingmeijiupiao/wu-xian-kai-guan-gong-lv-ji-v6", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "52c7c61c6f9245c7b58bd2b55911d5ae", "path": "li-chuang-kai-fa-ban/cw32-shu-zi-dian-ya-dian-liu-biao-kai-fa-ban-tao-jian", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "a0a93e77be39454481cc547f2f8436ee", "path": "li-chuang-kai-fa-ban/li-chuang-3-1-cun-mipi-ping-mu-kuo-zhan-ban", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "aea8cef5e890428daea1591f6037ef6d", "path": "li-chuang-kai-fa-ban/lckfb-ch340x-usb-to-ttl-type-c", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "33f1ec7dae88458ea05804f5e892baef", "path": "li-chuang-kai-fa-ban/lckfb-ch343p-usb-to-ttl-type-a", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "242fb6da6b7c4077b92173ec6645d856", "path": "li-chuang-kai-fa-ban/lckfb-ft232-usb-to-ttl-type-a", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "7f40ea8f86724f4a8306e7a4f78035ac", "path": "kidstory/4-2", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "55b2d183e2094a0b8f83ba3a777bce24", "path": "kill-star_sx/pcie", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "5902af639f5b4ee5a7d32f53afcbd231", "path": "yang_xw0011/px4_fmuv6x_mfc_v2-1", "license": "MIT License", "status": "no schematic"}
+{"uuid": "35e01b8fe9ca4ba8ab9f47231acfd2a7", "path": "njyq2008/hqrocoil-mini-all-chinese-made-r", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "c7c75a21f484423499db5cbc300c7747", "path": "jbs966/0-5-cun-ping-dian-liu-biao-ce-shi-v1", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "5958592fbd5743afbc5d02c4c7306f05", "path": "djddb/aliyunscreen", "license": "MIT License", "status": "no schematic"}
+{"uuid": "8cbfb9b8ae5a48ab8436452e023ac654", "path": "zjq0703/pps_mini_psu", "license": "LGPL 3.0", "status": "empty sheets"}
+{"uuid": "e50fcec3b49b4526baed0f1b368102f4", "path": "tsy2001/8-inch-hdmi-portable-screen-lt69", "license": "CC BY-NC-ND 3.0", "status": "no schematic"}
+{"uuid": "8c9359ade1ac4f0b9087c195287a10f5", "path": "m_zc/stm32_plc_20251215-kai-yuan", "license": "Public Domain", "status": "no schematic"}
+{"uuid": "6e5bc44608104a2793c2945d4cb06090", "path": "hhbv/rk3568b-router", "license": "CC BY-NC-SA 3.0", "status": "no schematic"}
+{"uuid": "cc856e57f02b4916b03e796c38f60e3b", "path": "magee/poe_pse_sc8708_tmi7604", "license": "OpenAtom OHL 1.0", "status": "no schematic"}
+{"uuid": "afcf07764ec3449182134d80a01ecbb9", "path": "open-source-works-collection/pai-pai-deng-zhen-dong-chu-fa-yan-chi-xiao-guo-guang-ying-te-xiao", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "0923b34e08604ab3a91e1638819cfb36", "path": "zeruns/sc8703_buck-boost", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "ff36444024e24f0aa6217991a2c18efa", "path": "tsy2001/hdmi-portable-screen-with-touch-", "license": "CC BY-NC-ND 3.0", "status": "no schematic"}
+{"uuid": "2e3b12a2109849e0abd20198676cbcd5", "path": "ajsx/quadcopter-based-on-lichuang-gd3", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "15be902aad384362862ee5c6c5fdb1bd", "path": "richard.tung/open_car_integrated_router_v3-1", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "43c475fd25024033b6007086c91ae860", "path": "ackict/gong-ye-qian-ru-shi-ethercat-hpm5e-kai-fa-ban-_copy", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "4dafed8caf3f4e04a1dc5b26dc5a6c06", "path": "la-xian-xiao-dui-v1.0/mi-ni-usb-chuan-kou-mo-kuai-tie-pian", "license": "CC BY-NC-SA 4.0", "status": "empty sheets"}
+{"uuid": "c418c54a794741e2aff7329335224bfe", "path": "la-xian-xiao-dui-v1.0/gao-su-usb2-0-ge-li-hub", "license": "CC BY-NC-SA 4.0", "status": "empty sheets"}
+{"uuid": "bfc62008e4bf4b6bae759b5c408ec54d", "path": "47415y/bipolar-super-capacitor-spot-wel", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "d1f507394f1149ebaa187f89e6137edd", "path": "zys_zys/ren-xing-ji-qi-ren-ji-shu-she-qu-kai-yuan-guan-jie-dian-ji-qu-dong-dian-lu-_ssi", "license": "TAPR Open Hardware License", "status": "no schematic"}
+{"uuid": "46b6e53afc294eee9bf53cdf3c91e35c", "path": "xrobot/dual-6-52", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "97a475f5a14746ec87b82b54d9452505", "path": "esp-college/esp-usb-expansion-board", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "b12c0f59ec6943d786864a4496b4c780", "path": "jasonyang17/sms-receive", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "641da45657024ad7b9896d0c65748c57", "path": "eda_izbjcoow/stc32-development-board", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "27aa61be50fc4dcabd5b8304b3e991ff", "path": "miss233/stm32g431_foc", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "0f819046ed1c4ed880b38d336eb55823", "path": "mr_light_up/pcie-x4-to-four-m-2-sockets", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "799a6a49ab304b61acd0d590bd0190b4", "path": "smile6699/flyback-switching-power-supply", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "375b2f1be7cd4dc38ecf79635b0c203b", "path": "zys_zys/guan-jie-dian-ji", "license": "TAPR Open Hardware License", "status": "no schematic"}
+{"uuid": "bfd496f9215d4951a6d18acd4d0dd8ec", "path": "azidopp/SimpleDCDC", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "c6dce4f10cd8415da2920857aab79bfe", "path": "mzz_hm/ai-yin-xiang", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "0bf8d631a87c4d73b660e7e8143d0678", "path": "mps-core-source-square/ji-yu-mp4201-de-ke-diao-dian-yuan-she-ji", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "820b3504340c45acb7d73844f5c50190", "path": "zxyld134/usb-hub-3usb3-0-1hdmi", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "697b5e4e4bdb4d8f80242304994186ad", "path": "mr_light_up/pcie-to-dual-m-2-nvme", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "55f16f5261ec46be9fb826a65b8dcd16", "path": "malagis/cyberbee-fc", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "6ebaaf28fbad4dc79b9b1b5ae647616f", "path": "eda_kwazdnpkc/at32f423_dual_can", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "2f32c26fffef477db47ab3066e5206b3", "path": "zhangci226/typec-mt3608-fan-controller", "license": "CC BY-NC-SA 4.0", "status": "empty sheets"}
+{"uuid": "26f217878b5c4b9489030b3f56f3cdac", "path": "bluebide/full-protocol-super-fast-chargin", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "786172ab1d3b436ab0a7f516cdcb4586", "path": "trumpx/ch32x0435typec2dpboard", "license": "CC BY-NC 3.0", "status": "ok", "sheets": 1, "missing_symbols": 0}
+{"uuid": "7755e6fdcf4d4cd7950f85c2c1f052bc", "path": "shepiguai_eda/niu-kou-dian-chi-lan-ya-wen-shi-du-ji-cr2032-ch592f-sht40-bmp280", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "ac6e80971e074395b8a80bd35a0d9c5e", "path": "ikalyes/atx-zhu-ban-gong-dian-mo-zu", "license": "CERN Open Hardware License", "status": "no schematic"}
+{"uuid": "4ba6499a87a24ce9989d8310eee2ac58", "path": "greenshade/verdure-assistant", "license": "MIT License", "status": "no schematic"}
+{"uuid": "eb926c0909c9488cb73d90fa3b88c2b6", "path": "yokes686/5-12v-zhi-liu-bian-ma-qi-dian-ji-qu-dong-ban", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "cd0e805732314ea18a1ed28fe7f31feb", "path": "max04/24v-battery-charging-management", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "e9a7173ec55e4824a6751b910fa800ef", "path": "airtech/powerminiv3", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "862aa12481eb4b29ad04ead497bea732", "path": "hotant/temperature-and-air-pressure-det", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "4dc496f232174d688684de39357a191c", "path": "callwang/wled-control-panel", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "db26320d694b48d39d354b4a931f51c0", "path": "a3300a1/ordinary-electric-fan-speed-regu", "license": "CC BY-NC-SA 3.0", "status": "empty sheets"}
+{"uuid": "65e483f290014310a228ea3bbcab2655", "path": "zzzzz2333/02a-120a-constant-voltage-consta", "license": "CC BY-NC-SA 3.0", "status": "no schematic"}
+{"uuid": "d18d3e2435b446fc85a5fbb3197d57a8", "path": "mc_xiong_ge/human-respiration-and-heartbeat-", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "203b72e3c2774f85845d7e34cd24ca9e", "path": "autumnsun/st17h66_ws2812-2020_36pcs", "license": "CC BY-NC-SA 3.0", "status": "empty sheets"}
+{"uuid": "065684a0294f464ea3de73b44836bfc0", "path": "unli/winter-hand-warmers", "license": "CC BY-NC 3.0", "status": "no schematic"}
+{"uuid": "9900020fe4c74a2f82147c924f58a7ad", "path": "ruoxie188/renesas-esp-multi-sensor-interco", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "726050177c7b41ad9f3354da98d4dff0", "path": "cas116/huang-shan-pai-you-xi-ji", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "3711932807e9462db78569459f796f81", "path": "shouchenyu/conan-with-the-full-self-develop", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "0fe7267556444940b56d4182e039012f", "path": "phantom001/limeminidriver", "license": "CC BY-SA 4.0", "status": "no schematic"}
+{"uuid": "ced64945d5884d60a06aa4ff84e930c0", "path": "la-xian-xiao-dui-v1.0/t12_mini-rev2-1", "license": "CC BY-NC-SA 4.0", "status": "ok", "sheets": 1, "missing_symbols": 0}
+{"uuid": "c7faebb8ae5a40198ec67476c4648758", "path": "hengxingbujian/stm32h750vbt6-based-camera", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "0ad800ee27d7439bbcad954bc5f3a506", "path": "flyn/flpowerpro", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "d1c3298a7eef4f8681f110ceaa11b7a1", "path": "travelcat/meow-heating-plate-controller", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "54a182e7dfba414fb09fecb3726dbad4", "path": "early_m/hdmi-usb-switch-kvm-digital-to-a", "license": "CC BY-NC-SA 3.0", "status": "empty sheets"}
+{"uuid": "e2b58e667e094ff392182f404cf0890f", "path": "tuyaopen/tuya-t5-pixels", "license": "MIT License", "status": "no schematic"}
+{"uuid": "c20a56183fbd49ffbb9028fc3c41d411", "path": "guagauagu/gfoc", "license": "CC BY-NC-SA 4.0", "status": "empty sheets"}
+{"uuid": "380449c730064bdbafcdad5645a4a6de", "path": "engineer_jiang/gl3231_sd-tf", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "a1a9902175554c7c93f2fceb5b9a3348", "path": "double_mumu/jia-quan-jian-ce-yi", "license": "CC BY-NC-ND 3.0", "status": "empty sheets"}
+{"uuid": "f683764be37c4af5a78e0d2258e2e055", "path": "magee/solar-uninterruptible-power-supp", "license": "OpenAtom OHL 1.0", "status": "empty sheets"}
+{"uuid": "c8054f29c4724f768c5ef6171953806c", "path": "lighting-electronic-education/shu-kong-dian-yuan", "license": "CC BY-NC-SA 4.0", "status": "empty sheets"}
+{"uuid": "512e9fbd6811416e81f1a60fe99fe24e", "path": "titanium666/da-gong-lv-chao-ji-kuai-su-zhuo-mian-chong-dian-zhan", "license": "CC BY-NC-SA 3.0", "status": "no schematic"}
+{"uuid": "b5137a3299764deebeab15ea370a7074", "path": "dongxinhua/ferris-wheel-on-the-cloud", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "b7fe51c4dc7341bf959d32cbee2bc99f", "path": "ai-thiner_openteam/li-chuang-sky-star-edition-xiao-", "license": "OpenAtom OHL 1.0", "status": "no schematic"}
+{"uuid": "bddd92ab85fc43428a17f5359463a383", "path": "eda_ydaolrocl/200w-digital-buck-boost-power-su", "license": "GPL 3.0", "status": "empty sheets"}
+{"uuid": "b91e12af293d4cceb37511615ba8308d", "path": "5473675a/28-yuan-make-5inch-touch-display", "license": "GPL 3.0", "status": "empty sheets"}
