@@ -1,0 +1,15 @@
+{
+  "project_title": "MT2492 降压模块（专业版候选）",
+  "project_url": "https://oshwhub.com/search?keyword=MT2492",
+  "author": null,
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": null,
+  "sheets": 1,
+  "ic_names": [
+    "MT2492"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 导出 > PNG；文件 > 导出 > SVG；文件 > 导出 > 工程源码（.epro2）",
+  "notes": "公开候选工程页面截图已保存为page.png（页面顶部证据）；约10个元件、1页原理图；与case09参考图的位号和反馈电阻布局不一致。专业版源文件以.epro2压缩包保存，同时保留source_pro.zip副本；无PCB文档。"
+}

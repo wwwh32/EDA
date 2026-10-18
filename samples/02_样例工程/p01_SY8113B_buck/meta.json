@@ -1,0 +1,15 @@
+{
+  "project_title": "降压模块-SY8113B",
+  "project_url": "https://oshwhub.com/eda_vejfynlp/dian-yuan-xue-xi-bi-ji-1-buck-dcdc",
+  "author": "aoerruisi131",
+  "license": "GPL 3.0",
+  "editor": "标准版",
+  "editor_url": null,
+  "sheets": 1,
+  "ic_names": [
+    "SY8113BADC"
+  ],
+  "matches_case": null,
+  "export_menu_path": "原理图激活 > 文件 > 文件源码 > 下载；文件 > 导出 > PNG（默认1x、另存2x）；文件 > 导出 > SVG",
+  "notes": "约14个元件，1页。与case03不匹配：电感6.8uH、RT1/LED1/SW1布局不同。编辑器自动加载PCB后已切换SCH，下载JSON无pcbs字段。page.png通过360菜单 保存(网页、图片、打印)>保存网页为图片(Ctrl+M)保存，2561x11145。默认PNG 800x302，2x PNG 1600x603，均默认彩色白底。完整编辑器URL未能可靠读取，填null；F12/Ctrl+Shift+I未打开开发工具，未保存可选HAR。"
+}
