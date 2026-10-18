@@ -95,3 +95,20 @@
 - p04_stm32_minimal：360进入专业版编辑器，工程树显示P1，但画布持续空白，未能可靠导出默认PNG、SVG或source_pro.epro2；已存在2x PNG与export_dialog.png，仍缺page.png、源文件、默认PNG、SVG。
 - 任务A：仍无严格匹配的公开题源工程；case02、case03、case09已按布局/位号/连线排除。
 - 本轮未下载PCB、BOM、Gerber，未修改开源工程。
+
+## 2026-10-18 最终核对（本轮浏览器中断）
+- 360安全浏览器已实际打开 p03 USBHub 标准版原理图，并再次打开 `文件 > 导出 > 导出 > PNG` 对话框；对话框显示 PNG、尺寸1x、线宽1x、本地/云端引擎、Sheet_1勾选。已尝试调用360截图工具框选对话框。
+- 在点击截图工具完成保存时，Computer Use 返回“user input was detected in this window”，按安全规则停止继续发送浏览器输入；因此本轮没有生成新的 `p03_usb_hub\export_dialog.png` 或 `sheet1_hires.png`。
+- p03 当前实际附件：meta.json、page.png、source_std.json、sheet1.png、sheet1.svg；缺 `export_dialog.png`、`sheet1_hires.png`。
+- p04 当前实际附件：meta.json、export_dialog.png、sheet1_hires.png；缺 page.png、source_pro.epro2、sheet1.png、sheet1.svg。专业版编辑器工程树可见 P1，但画布持续灰白，器件库/封装加载警告阻止可靠导出。
+- 当前任务B只有4个工程（标准版2、专业版2），未达到10个、至少6标准版、至少3专业版。
+- 当前任务A没有严格匹配工程：case02搜索无结果且参考图为四组器件；case03候选的布局/位号/连线不符；case09候选的位号和反馈电阻布局不符。按任务书严格标准不能把近似候选记为匹配。
+- 未下载 PCB、BOM、Gerber；未伪造缺失附件。浏览器自动化中断原因已保留，等待下一轮用户明确继续后再尝试。
+
+## 最终自查（2026-10-18）
+- [x] 00_参考题目 13 张 PNG
+- [ ] 任务 A 至少 2 个严格匹配公开题源工程（当前0）
+- [ ] 任务 B 10 个普通工程（当前4）
+- [ ] 任务 B 版本配额（当前标准版2/6，专业版2/3）
+- [ ] 每个工程具备全部必需附件（p01、p02完整；p03缺2项；p04缺4项）
+- [x] 已推送 data-samples 分支；最新提交见 Git 记录
