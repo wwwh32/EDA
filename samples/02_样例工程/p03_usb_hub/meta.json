@@ -11,5 +11,5 @@
   ],
   "matches_case": null,
   "export_menu_path": "文件>文件源码>下载；文件>导出>导出图片>PNG；文件>导出>导出图片>SVG",
-  "notes": "公开工程；标准版；原理图1页、IC=SL2.1A。已保存工程页截图、标准源码、默认PNG和SVG；导出PNG对话框截图、高清PNG尚未补齐。未下载PCB/BOM/Gerber。"
+  "notes": "公开工程；标准版；原理图1页、IC=SL2.1A。已保存工程页截图、标准源码、默认PNG、SVG和导出对话框截图；已在360中选择2x并触发高清PNG导出，但浏览器未产生可确认的下载文件，因此 sheet1_hires.png 尚未生成。未下载PCB/BOM/Gerber。"
 }
