@@ -124,3 +124,4 @@
 - 已将该截图无损转换为 `02_样例工程/p03_usb_hub/export_dialog.png`，并删除临时 JPG；文件格式与扩展名一致。
 - 360 中重新打开 p03 导出对话框，将尺寸改为2x并点击导出；但下载面板显示“没有下载中的任务”，目录没有新增文件，故不把普通 PNG 复制冒充 `sheet1_hires.png`。
 - p03 当前必需附件已齐：meta.json、page.png、source_std.json、sheet1.png、export_dialog.png；可选 SVG 已有；可选高清 PNG 因浏览器未落盘仍缺。
+- 随后确认360下载任务完成，下载文件 `Schematic_【已验证】USB拓展坞-USB集线器-USBHub_2026-10-18 (1).png`（311.8 KB）已复制并规范命名为 `p03_usb_hub/sheet1_hires.png`；p03 必需与可选附件现已齐全。
