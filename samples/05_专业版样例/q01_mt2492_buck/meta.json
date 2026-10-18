@@ -1,0 +1,17 @@
+{
+  "project_title": "基于MT2492的迷你Buck降压模块",
+  "project_url": "https://oshwhub.com/carele/ji-yu-MT2492de-mi-ni-Buckxiang-ya-mu-kuai",
+  "author": "Carele",
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "MT2492"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "第二轮q01复用第一轮已核验的原理图epro2、SVG及工程页截图；2026-10-18在360重新导出PNG，明确选择1x，无网格，单页P1；专业版对话框未提供独立线宽设置，使用默认线宽。源文件只含一页原理图及所用器件库，无PCB。",
+  "component_count": 11,
+  "component_count_method": "原理图SCH_PAGE中具有Designator的实体元件，排除电源符号与图框"
+}

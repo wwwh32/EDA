@@ -1,0 +1,17 @@
+{
+  "project_title": "INA219 电流计模块 30mm小板",
+  "project_url": "https://oshwhub.com/albert17/ina219",
+  "author": "Albert17",
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "INA219AIDR"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "360导出，PNG明确1x，无网格，单页P1；无独立线宽选项，使用默认线宽。元件数未统计。源码由用户协助下载。",
+  "component_count": null,
+  "component_count_method": "未统计"
+}

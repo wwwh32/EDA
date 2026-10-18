@@ -1,0 +1,17 @@
+{
+  "project_title": "TP4056充电模块",
+  "project_url": "https://oshwhub.com/alexia0/tp4056-chong-dian-dian-lu",
+  "author": "_Alexia_",
+  "license": "Public Domain",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "TP4056"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "2026-10-18在360导出；原理图P1单页，PNG明确选择1x、无网格，SVG同页；工程源码仅包含原理图页和器件库，未含PCB文档。",
+  "component_count": 16,
+  "component_count_method": "原理图SCH_PAGE中具有Designator的实体元件，排除电源符号与图框"
+}

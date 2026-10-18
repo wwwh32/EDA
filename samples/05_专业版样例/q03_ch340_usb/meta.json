@@ -1,0 +1,17 @@
+{
+  "project_title": "CH340 USB转串口模块",
+  "project_url": "https://oshwhub.com/yifan0131/ch340",
+  "author": "yifan0131",
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "CH340C"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "360导出，PNG明确1x，无网格，单页P1；无独立线宽选项，使用默认线宽。",
+  "component_count": 18,
+  "component_count_method": "原理图SCH_PAGE中具有Designator的实体元件，排除电源符号与图框"
+}

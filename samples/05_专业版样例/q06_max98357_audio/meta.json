@@ -1,0 +1,17 @@
+{
+  "project_title": "Max98357AETE立体声验证板",
+  "project_url": "https://oshwhub.com/shepiguai_eda/esp32_ble_audio",
+  "author": "shepiguai_eda",
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "MAX98357AETE"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "360导出，PNG明确1x，无网格，单页P1；无独立线宽选项，使用默认线宽。按用户要求未统计元件数。",
+  "component_count": null,
+  "component_count_method": "按用户要求未统计"
+}

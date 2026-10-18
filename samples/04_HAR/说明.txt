@@ -11,4 +11,7 @@ https://pro.lceda.cn/editor
 清理方法：脚本递归清空 request/response cookies，并将字段名或参数名包含 cookie、token、authorization、password、secret、session、csrf、api-key、credential 的值替换为 REMOVED；同时清理 Bearer/JWT 形式和嵌入 JSON 文本。
 审计结果：敏感字段剩余 0；clean HAR 中 request/response cookies 均为空。
 
-说明：第二份原始文件名为 p02_project_pag.har，按内容识别为搜索页记录；它包含 MT2492 搜索结果，其中 Carele 工程路径为 carele/ji-yu-MT2492de-mi-ni-Buckxiang-ya-mu。由于原始记录是在搜索页而非详情页刷新后保存，已如实保留，不伪造为详情页 HAR。
+说明：第二份原始文件名为 p02_project_pag.har，按内容识别为搜索页记录；它包含 MT2492 搜索结果，其中 Carele 工程路径为 carele/ji-yu-MT2492de-mi-ni-Buckxiang-ya-mu-kuai。由于原始记录是在搜索页而非详情页刷新后保存，已如实保留，不伪造为详情页 HAR。
+
+编辑器 HAR 仅有 10 个请求，主要是账号、偏好和通知接口，未捕获工程加载请求，不能据此编写工程批量下载脚本。需要重录后才能满足网络记录用途。
+

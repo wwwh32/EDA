@@ -1,0 +1,17 @@
+{
+  "project_title": "TB6612四路电机驱动",
+  "project_url": "https://oshwhub.com/hyq0102/tb6612-four-way-motor-drive",
+  "author": "hyq0102",
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "TB6612FNG"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "360编辑器界面确认原理图仅P1单页，含两颗TB6612FNG。PNG明确1x，无网格；无独立线宽选项，使用默认线宽。按用户要求不检查，未统计元件数。",
+  "component_count": null,
+  "component_count_method": "按用户要求未统计"
+}

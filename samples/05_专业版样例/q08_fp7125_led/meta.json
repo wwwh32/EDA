@@ -1,0 +1,17 @@
+{
+  "project_title": "FP7125降压LED驱动",
+  "project_url": "https://oshwhub.com/x2238379385/fp7125-jiang-ya-led-qu-dong",
+  "author": "x2238379385",
+  "license": "GPL 3.0",
+  "editor": "专业版",
+  "editor_url": "https://pro.lceda.cn/editor",
+  "sheets": 1,
+  "ic_names": [
+    "FP7125LR-G1"
+  ],
+  "matches_case": null,
+  "export_menu_path": "文件 > 文件源码 > 下载（.epro2）；导出 > PNG / SVG",
+  "notes": "360编辑器界面确认原理图仅P1单页，芯片FP7125LR-G1。PNG明确1x，无网格；无独立线宽选项，使用默认线宽。按用户要求不检查，未统计元件数。",
+  "component_count": null,
+  "component_count_method": "按用户要求未统计"
+}
