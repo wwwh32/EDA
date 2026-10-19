@@ -1,0 +1,2499 @@
+nohup: ignoring input
+training signatures 200
+case_0001 slack/chong-dian-bao-dian-lu P1 1793 630 30 comps
+case_0002 sakuraneko/tai-shan-pai-6-cun-ping-mu-zhuan-jie-ban P1 2193 880 23 comps
+case_0003 liuwenchao/chu-mo-dian-yuan P1 2240 1586 93 comps
+case_0004 liuwenchao/chu-mo-dian-yuan P1 2247 1823 113 comps
+case_0005 liuwenchao/chu-mo-dian-yuan P1 2216 1488 98 comps
+case_0006 ankea/shu-mei-pai-5-3-97-cun-mipi-ping-mu-zhuan-jie P1 2420 1312 46 comps
+case_0007 mangotaller/si-ceng-usba_hub P1 1587 1223 39 comps
+case_0008 mangotaller/si-ceng-usba_hub P1 1551 1264 34 comps
+case_0009 xue_jingfei/af-mdb STM32 2188 1192 61 comps
+case_0010 xue_jingfei/af-mdb POWER 1827 1168 60 comps
+case_0011 xue_jingfei/af-mdb ST-LINK 1251 1102 49 comps
+case_0012 xue_jingfei/af-mdb INVERTER 3106 2112 115 comps
+case_0013 xue_jingfei/af-mdb ETH&CAN&RS485 2276 2184 102 comps
+case_0014 xue_jingfei/af-mdb STM32 1452 1205 61 comps
+case_0015 xue_jingfei/af-mdb POWER 2340 1670 88 comps
+case_0016 xue_jingfei/af-mdb ST-LINK 1614 1138 54 comps
+case_0017 yumo3000/tomorrow-ark-touch-light-control P1 1686 1689 98 comps
+case_0018 stm32eda/chao-xiao-140w-shuang-xiang-chong-fang-dian-mo-kuai-ip2366 P1 2042 1881 140 comps
+case_0019 jie326513988/mi-ni-dian-zhen-ws2812 P1 2999 3080 85 comps
+case_0020 laochen/2s-ip2326-22-2x12-6x0-8mm-0402-sv1 SCH 2258 754 33 comps
+case_0021 shouldno/usb-ge-li-bao-hu-ji-xian-qi P1 2413 1513 66 comps
+case_0022 erichan2009/headlamp-charging-treasure P1 1451 937 38 comps
+case_0023 lemon_wifi/VL171 P1 2745 1665 104 comps
+case_0024 lemon_wifi/ch227f_u2 P1 2505 1669 93 comps
+case_0025 bryan_he/usb-ps-v30 PowerManager 2536 1698 165 comps
+case_0026 bryan_he/usb-ps-v30 MCU 2536 1788 122 comps
+case_0027 bryan_he/usb-ps-v30 PowerManager 2452 1774 167 comps
+case_0028 bryan_he/usb-ps-v30 MCU 2580 1740 144 comps
+case_0029 zanfi1010/li-chuang-di-kuo-xing-stm32f103c8t6-kai-fa-ban core 2289 1613 68 comps
+case_0030 opensourcedbydr/25-yuan-bian-pin-qi-_-qi-guai-ipm-ban CORE 2267 1687 30 comps
+case_0031 opensourcedbydr/25-yuan-bian-pin-qi-_-qi-guai-ipm-ban DRIVER 2374 1799 32 comps
+case_0032 opensourcedbydr/25-yuan-bian-pin-qi-_-qi-guai-ipm-ban P1 2140 1016 25 comps
+case_0033 jay-chen1/chen-ji-yu-rt8289-de-100w-shu-kong-buck-dian-yuan-mo-kuai-she-ji P1 1772 1535 42 comps
+case_0034 jay-chen1/chen-ji-yu-rt8289-de-100w-shu-kong-buck-dian-yuan-mo-kuai-she-ji P1 1481 767 20 comps
+case_0035 chen7654/chuan-kou-gong-ju 串口工具 2363 976 84 comps
+case_0036 agwer/llc_360w_6599 LLC 3005 1874 90 comps
+case_0037 agwer/llc_360w_6599 AUX 1890 1052 32 comps
+case_0038 450051a/wen-shi-du-ji-_v1-0_2025-11-05 P1 2497 1618 87 comps
+case_0039 aknice/hdmi-1-jin-10-chu-tong-ping-qi-fen-pei-qi 电源 1553 1832 63 comps
+case_0040 aknice/hdmi-1-jin-10-chu-tong-ping-qi-fen-pei-qi HDMI口 3527 3422 95 comps
+case_0041 zhao1999250/type-e-to-usb-3-0-19pin P1 1052 1101 31 comps
+case_0042 robin24/ji-yu-lm2596-de-shuang-lu-jiang-ya-dian-lu-dai-shu-chu-ke-diao P1 2297 1558 53 comps
+case_0043 xiaomik40/cnc-power-supply-based-on-renesas-ra4m2 P1 2349 1107 143 comps
+case_0044 xiaomik40/cnc-power-supply-based-on-renesas-ra4m2 P1 3645 2401 278 comps
+case_0045 xiaomik40/cnc-power-supply-based-on-renesas-ra4m2 P2 1756 736 26 comps
+case_0046 juanke/voltage-ammeter P1 2480 1423 80 comps
+case_0047 cyanmystey/pw2058-5-4-2-jiang-3-0 P1 1021 456 14 comps
+case_0048 fanghaoling/stm32h7-kai-fa-ban POWER 1200 1073 25 comps
+case_0049 fanghaoling/stm32h7-kai-fa-ban IO 1804 1056 28 comps
+case_0050 fanghaoling/stm32h7-kai-fa-ban SENSOR 1399 1183 29 comps
+case_0051 fanghaoling/stm32h7-kai-fa-ban P1 1521 962 22 comps
+case_0052 unli/winter-hand-warmers 收音机电路 1813 1023 54 comps
+case_0053 unli/winter-hand-warmers P1 3069 1782 187 comps
+case_0054 caicaizi2022/stm32f103-quan-yin-jiao-kai-fa-ban P1 2383 1347 82 comps
+case_0055 ai-thiner_openteam/vc_debugtools P1 2293 1711 85 comps
+case_0056 wshuo426/esp8266_hot P1 2229 1352 35 comps
+case_0057 marklanxiang/ji-yu-mcp96rl-re-dian-ou-ce-shi-ban POWER 2193 1711 84 comps
+case_0058 marklanxiang/ji-yu-mcp96rl-re-dian-ou-ce-shi-ban MCP96L00_T2 2535 1982 213 comps
+case_0059 marklanxiang/ji-yu-mcp96rl-re-dian-ou-ce-shi-ban MCP96L00_T1 2563 2008 213 comps
+case_0060 marklanxiang/ji-yu-mcp96rl-re-dian-ou-ce-shi-ban MCU 2536 1704 98 comps
+case_0061 marklanxiang/ji-yu-mcp96rl-re-dian-ou-ce-shi-ban MCU 2519 1707 98 comps
+case_0062 23studio/XL6019ke-diao-dian-ya-mu-kuai P1 1982 1261 33 comps
+case_0063 runzeiot/usb-meter P1 2410 2275 70 comps
+case_0064 jealousy321/attitude-sensor-mpu6500--qmc588 外围芯片 2178 1423 71 comps
+case_0065 jealousy321/attitude-sensor-mpu6500--qmc588 stm32f103c8t6 1121 1317 37 comps
+case_0066 zjx444555/pcb11 P1 1817 2176 51 comps
+case_0067 mrsail/chao-ji-dian-rong-dian-han-ji-dian-liu-7400a-gai-ban P1 2195 749 23 comps
+case_0068 mrsail/chao-ji-dian-rong-dian-han-ji-dian-liu-7400a-gai-ban P1 2459 1229 93 comps
+case_0069 oldben/dian-chi-chong-dian-qi P1 1614 842 46 comps
+case_0070 54x-t12solder/shou-kong-gong-dian-ban P1 1657 876 25 comps
+case_0071 aoao2/li-dian-chi-chong-dian-4-cao P1 3185 1755 128 comps
+case_0072 hexiaojunde/mppt-kong-zhi-qi-100v40a_vs1 供电及时钟 2465 1833 160 comps
+case_0073 hexiaojunde/mppt-kong-zhi-qi-100v40a_vs1 主控 2383 1643 191 comps
+case_0074 hexiaojunde/mppt-kong-zhi-qi-100v40a_vs1 buck及IO 2382 1528 108 comps
+render failed Dassssss/LReP47LYWYRvqTkYTsHchapyiUVmEYGD too many values to unpack (expected 4)
+case_0075 jycgc/80w-flyback-power-supply2 P1 3364 1578 108 comps
+case_0076 wansaner/desktop-fan-usb-power-boost-circ P1 1952 1114 41 comps
+case_0077 wansaner/desktop-fan-usb-power-boost-circ P1 2214 1941 65 comps
+case_0078 smile_jd/mems_a_g_m_9_open P1 2581 1696 112 comps
+case_0079 summerstar666/xia-tui-shi-ci-xuan-fu-yue-qiu-deng P1 3068 2331 174 comps
+case_0080 eda_ekwamuvtt/ch340g-chuan-kou-gong-ju P1 2318 1463 57 comps
+case_0081 magicvo/mo-dian-ke-she-1 P1 3031 1776 132 comps
+case_0082 wesd/ip53896_4s45w P1 2684 1448 61 comps
+case_0083 wesd/ip53896_4s45w P1 1774 1062 60 comps
+case_0084 zaaazz/5v-and-9v-output-of-flight-contr P1 2291 1346 75 comps
+case_0085 boynextdoorfa/48v-to-24v-15a-step-down-high-po P1 3382 2353 160 comps
+case_0086 flyn/flpowerpro P2 2349 1541 69 comps
+case_0087 flyn/flpowerpro P1 2355 1672 77 comps
+case_0088 flyn/flpowerpro Passive_equaliz 2484 1724 81 comps
+case_0089 flyn/flpowerpro load 2384 1736 65 comps
+case_0090 flyn/flpowerpro P1 2328 1458 65 comps
+case_0091 flyn/flpowerpro P1 3483 2187 168 comps
+case_0092 flyn/flpowerpro P2 2454 1768 110 comps
+case_0093 flyn/flpowerpro P3 2168 1151 55 comps
+case_0094 roboticlib/yi-yan-zheng-pd-xie-yi-ke-diao-shu-zi-dian-yuan 数控电源 2930 1704 122 comps
+case_0095 roboticlib/yi-yan-zheng-pd-xie-yi-ke-diao-shu-zi-dian-yuan 辅助电源 2344 1534 92 comps
+case_0096 roboticlib/yi-yan-zheng-pd-xie-yi-ke-diao-shu-zi-dian-yuan 单片机 3196 1943 82 comps
+case_0097 roboticlib/yi-yan-zheng-pd-xie-yi-ke-diao-shu-zi-dian-yuan 输入输出 1626 816 25 comps
+case_0098 roboticlib/yi-yan-zheng-pd-xie-yi-ke-diao-shu-zi-dian-yuan P1 3252 3065 163 comps
+case_0099 bg2fas/fom-li-dian-chi-gong-dian-ban-du-li-chong-fang-dian-guan-li 电池板_V1.3（可直接打板，原理图仅供参考） 1775 874 43 comps
+case_0100 czjz/0-96-xiao-dian-shi P1 2208 1283 72 comps
+case_0101 subanxia/charge-and-discharge-management-scheme-based-on-sw6301 P1 2569 1770 125 comps
+case_0102 muyan2020/dell-fu-wu-qi-dian-yuan-qu-dian-ban-esp32 P1 3414 1620 148 comps
+case_0103 mps-core-source-square/ji-yu-mp4201-de-ke-diao-dian-yuan-she-ji 功率部分 3405 2496 154 comps
+case_0104 mps-core-source-square/ji-yu-mp4201-de-ke-diao-dian-yuan-she-ji 辅助控制部分 2500 1657 88 comps
+case_0105 ling609191136/ti-training-camp-project-ling P1 2362 1699 61 comps
+case_0106 terrant/lenovo-power-expansion-board P1 2534 1665 117 comps
+case_0107 terrant/lenovo-power-expansion-board P1 2386 1555 93 comps
+case_0108 prclimb/digitalfpv_-shu-zi-gao-qing-tu-chuan-_377d POWER 3375 1993 85 comps
+case_0109 prclimb/digitalfpv_-shu-zi-gao-qing-tu-chuan-_377d 377d 3344 2293 91 comps
+case_0110 prclimb/digitalfpv_-shu-zi-gao-qing-tu-chuan-_377d P1 3384 1756 82 comps
+case_0111 prclimb/digitalfpv_-shu-zi-gao-qing-tu-chuan-_377d P1 3450 1940 74 comps
+render failed nustt_jiqirenxiehui/nan-tai-ke-xiao-yuan-ka-pro-ban-_-shuang-ceng-ban-xian-quan-you-hua-2_2_2025-11-07_22-08-56 too many values to unpack (expected 4)
+case_0112 903719a/bmsna P1 3355 2425 196 comps
+case_0113 qian_z/tps54540b-q1-24-12-5a P1 1958 829 45 comps
+case_0114 qian_z/tps54540b-q1-24-12-5a P1 1799 562 35 comps
+case_0115 x1001x/chong-dian-bao-3-0 P1 2026 627 25 comps
+case_0116 q12888873/a2 P1 2335 1673 126 comps
+case_0117 rais_2/perfect-embedded-desktop-usb P1 1637 671 20 comps
+case_0118 rais_2/perfect-embedded-desktop-usb P1 2397 1259 55 comps
+case_0119 rais_2/perfect-embedded-desktop-usb P1 3626 2360 156 comps
+case_0120 rais_2/perfect-embedded-desktop-usb P2 2455 1647 46 comps
+case_0121 rais_2/perfect-embedded-desktop-usb P1 1111 677 16 comps
+case_0122 rais_2/perfect-embedded-desktop-usb P1 1428 1596 53 comps
+case_0123 rais_2/perfect-embedded-desktop-usb P1 3451 919 30 comps
+case_0124 sdffg/electric-race-training-camp P1 1967 1055 38 comps
+case_0125 tangseng1987/motorbike_supercapacitor BalanceBoard 1107 2399 99 comps
+case_0126 tangseng1987/motorbike_supercapacitor Control Board 3290 2432 120 comps
+case_0127 fine_blow/diy-dc-regulated-power-supply P1 2378 1599 69 comps
+case_0128 suhuiye/oled 主电路 2463 1630 96 comps
+case_0129 bumblebee0812/yi-tuo-si-usb2-0-ge-li-hub P1 2393 1401 53 comps
+case_0130 hongscholar/usb-tuo-zhan-wu P1 2012 1211 55 comps
+case_0131 jed.liu/mindso_i2c_v5-0 Power 2224 1267 56 comps
+case_0132 jed.liu/mindso_i2c_v5-0 MCU 2389 1645 74 comps
+case_0133 jed.liu/mindso_i2c_v5-0 OLED 1236 845 18 comps
+case_0134 imhhw2023/cw32-voltage-ammeter P1 2345 1653 91 comps
+case_0135 phantom001/limeminidriver P1 2235 1596 60 comps
+case_0136 phantom001/limeminidriver P2 2112 1477 87 comps
+case_0137 jun_1234/alarm-based-on-stm32 P1 2470 1728 90 comps
+case_0138 qiaomueda/ji-yu-eg6562-de-250w-dan-ji-apfc P1 2139 1574 79 comps
+case_0139 qq2216691777/nsdiy-ji-yu-sl2-1a-de-usb-bai-zhao-wang-ka-hub USB-hub 2310 1576 77 comps
+case_0140 qq2216691777/nsdiy-ji-yu-sl2-1a-de-usb-bai-zhao-wang-ka-hub P2 2923 3890 216 comps
+case_0141 lc912778813/stc8h1k28-kai-fa-ban P1 1288 1059 36 comps
+case_0142 sm_brie/pcietoUSB-PD130W P1 3291 860 74 comps
+case_0143 2211john/ji-yu-ip5306-de-si-lu-zhuo-mian-chong-dian-zhan P1 2976 1768 118 comps
+case_0144 vmhz3852/esp32c3gif-player P1 2144 1007 38 comps
+case_0145 vmhz3852/esp32c3gif-player P1 909 847 16 comps
+case_0146 wang233_cn/boson-usb2_2025-01-21_10-04-28 Sheet_1 2141 1520 60 comps
+case_0147 o0v0o/mc34063-mo-kuai-yan-zheng P1 1841 1268 61 comps
+case_0148 yffan/board1 P1 3393 1832 55 comps
+case_0149 tang1999/luo-ji-fen-xi-yi 逻辑分析仪 2795 1986 73 comps
+case_0150 stm32eda/mk9218-dcdc-jiang-ya-mo-kuai P1 2294 935 74 comps
+case_0151 yc_chen/vfd-317nk-qu-dong-ban VFD驱动 2314 1254 45 comps
+case_0152 yc_chen/vfd-317nk-qu-dong-ban MCU Core 2242 1622 61 comps
+case_0153 sxy2020/si-lu-tui-gan-dian-ji-qu-dong-ban P1 2275 1133 94 comps
+case_0154 zyb0204/stm32-wan-neng-yao-kong-qi-1-01 P1 3110 2408 116 comps
+case_0155 tozzy_su/ip5326-chong-dian-bao-pcb P1 995 1049 32 comps
+case_0156 leichaolin/3kw-totem-pole-pfc-with-silicon- 主功率 2315 1428 80 comps
+case_0157 leichaolin/3kw-totem-pole-pfc-with-silicon- 主控 2089 1443 47 comps
+case_0158 leichaolin/3kw-totem-pole-pfc-with-silicon- 辅助供电 2378 1699 101 comps
+case_0159 leichaolin/3kw-totem-pole-pfc-with-silicon- 驱动器 2111 1330 97 comps
+case_0160 leichaolin/3kw-totem-pole-pfc-with-silicon- CW32主控 1816 1429 48 comps
+case_0161 leichaolin/3kw-totem-pole-pfc-with-silicon- 采样 2169 1539 51 comps
+case_0162 tomosawa/mynova-smartpower P1 2447 1474 94 comps
+case_0163 yangmingts/pd-kuai-chong-ban PD板 2270 1268 63 comps
+case_0164 zz8976/stm32f051_6step_bldc P1 1176 1001 36 comps
+case_0165 fsy124958/kong-zhi-bu-wu-xian-chong-1 Sheet_1 1803 1424 44 comps
+case_0166 xindingsheng/li-dian-guan-li-3-chuan-tx5818-gong-neng-ce-shi-ban P1 1887 831 43 comps
+case_0167 cheng1983/shui-bei-zhi-ling-ji-kong-zhi-ban-gui-dao-gui-yun-fang-gp9101-v2-you-hua-20251126 P1 2341 1606 110 comps
+case_0168 jingxuancheng/national-electric-race P1 2050 1066 42 comps
+case_0169 jingxuancheng/national-electric-race P1 2232 1083 17 comps
+case_0170 jingxuancheng/national-electric-race P1 2254 1319 73 comps
+case_0171 jingxuancheng/national-electric-race P1 1607 862 19 comps
+case_0172 jingxuancheng/national-electric-race P1 1054 1104 16 comps
+case_0173 jingxuancheng/national-electric-race P1 1442 765 24 comps
+case_0174 jingxuancheng/national-electric-race P1 2424 486 30 comps
+case_0175 jingxuancheng/national-electric-race P1 2313 936 35 comps
+case_0176 shadow27/tai-yang-neng-wu-ren-chuan P1 1277 524 14 comps
+case_0177 shadow27/tai-yang-neng-wu-ren-chuan P1 2408 1287 100 comps
+case_0178 shadow27/tai-yang-neng-wu-ren-chuan P1 1354 689 18 comps
+case_0179 aaahaley/lmr33630-jiang-ya-ban P1 1605 480 21 comps
+case_0180 dingcheng/51-ban-dao-ti-bing-xiang-wen-kong-ban P1 2303 1729 138 comps
+case_0181 rongandpei/yht_dual-port-module Wired power bank 2439 1418 83 comps
+case_0182 yao_yao_zi/complete-model P1 2238 1773 65 comps
+case_0183 kal_tist/new-project_2024-05-07_23-15-39 P1 1750 1075 52 comps
+case_0184 keha/environment-detection-clock-and-weighing P1 3778 1963 126 comps
+case_0185 lemon_wifi/CS5265 P1 2427 1758 123 comps
+case_0186 jyhln/zhi-liu-dian-ji-yao-gan-kong-zhi-qi P1 1840 1436 54 comps
+case_0187 gbn2333/stc32g12k128k-kai-fa-ban P1 3257 2203 120 comps
+case_0188 gbn2333/stc32g12k128k-kai-fa-ban P1 3169 2201 91 comps
+case_0189 wzhou/ch397a P1 2384 1519 58 comps
+case_0190 expert/duo-gong-neng-dian-yuan P1 1101 1182 45 comps
+case_0191 fangxx3863/wei-xing-zheng-fu-dian-yuan P1 2780 2160 89 comps
+case_0192 macropodum/ji-yu-sl2-1a-de-usb2-0-de-tuo-zhan-wu-4-jie-kou P1 1786 1020 66 comps
+case_0193 xiao_wine/widc-station P1 3280 1970 129 comps
+case_0194 xiao_wine/widc-station P1 1967 1995 110 comps
+case_0195 xiao_wine/widc-station P1 3234 2186 153 comps
+case_0196 xiao_wine/widc-station P1 2212 2001 101 comps
+case_0197 xiao_wine/widc-station P1 2097 947 40 comps
+case_0198 xiao_wine/widc-station 其他 1834 901 41 comps
+case_0199 xiao_wine/widc-station 框架底座 2644 935 78 comps
+case_0200 xiao_wine/widc-station 电流电压检测 2325 1553 101 comps
+case_0201 bluebide/4-strings-of-polymer-battery-pro P1 2223 1373 49 comps
+case_0202 oyan/e339d1c335434328bd4569701cfb1156 Sheet_1 1570 1663 10 comps
+case_0203 eda_kwazdnpkc/mt7628_router_colorful CORE 1853 2195 43 comps
+case_0204 eda_kwazdnpkc/mt7628_router_colorful ETH 1047 2165 35 comps
+case_0205 eda_kwazdnpkc/mt7628_router_colorful POWER 1046 1105 24 comps
+case_0206 flose/pocketservo P1 4037 2191 227 comps
+case_0207 flose/pocketservo P1 1585 935 36 comps
+case_0208 frostautumn/frbp-esm-111a-ky P1 2564 1376 67 comps
+case_0209 xinhard/stm32-ke-diao-dian-yuan-v2 P1 3168 2313 96 comps
+case_0210 xxkyy/2-6s-capacitive-global-energy-eq P1 2553 1997 182 comps
+case_0211 sc-lzc/multi-way-reducing-board V0.1 2388 1672 115 comps
+case_0212 sc-lzc/multi-way-reducing-board V0.2 2089 833 26 comps
+case_0213 tsl0922/nrf51822-mo-shui-ping-qu-dong-ban Sheet_1 2382 1702 115 comps
+case_0214 guchujun/vehicle-fast-charging-mpq4263 P1 3090 1974 116 comps
+case_0215 donnan/yi-zhong-25-dian-sai-dan-pian-ji-kuo-zhan-ban P1 3415 2386 182 comps
+case_0216 esp-college/esp-hdmi-bridge 02_MIPI-DSI_to_HDMI&LVDS 3861 2895 176 comps
+case_0217 u202213836/usb-xian-cai-ce-shi-yi sch 1981 1299 43 comps
+case_0218 eda_nclqrbkqc/eink_tag P1 3019 1804 88 comps
+case_0219 huangliguo/wu-shua-dian-ji-zai-guang-gao-xian-shi-zhong-di-ying-yong CPU 3451 1920 132 comps
+case_0220 huangliguo/wu-shua-dian-ji-zai-guang-gao-xian-shi-zhong-di-ying-yong MOTOR 2949 1752 154 comps
+case_0221 xljxlj/stm32_-xin-sheng-shou-ke-kai-fa-ban P1 3368 2190 110 comps
+case_0222 vincentlv/wan-yong-biao-9v-sheng-ya-ban P1 1788 1195 48 comps
+case_0223 kkaiwan/liang-chuan-jun-heng-ban P1 1266 754 24 comps
+case_0224 tiuyt586/ndp14157-9vadjled-constant-volta P1 1726 718 29 comps
+case_0225 zeruns/140w-65w-sheng-jiang-ya-shuang-lu-kuai-chong-mo-kuai-2c-1a-kou-ip6557-ip6538 IP6557(140W) 2511 1321 92 comps
+case_0226 zeruns/140w-65w-sheng-jiang-ya-shuang-lu-kuai-chong-mo-kuai-2c-1a-kou-ip6557-ip6538 IP6538(65W) 2113 959 56 comps
+case_0227 undefined-innovation/hpmduino_dev P1 3263 2296 255 comps
+case_0228 thelight/sf32lb52bu56-kai-fa-ban P1 3024 2113 120 comps
+case_0229 wire-easy-microelectronics/b1209d-2w-6713hv-78l1n B1209D-2W-6713HV-78L1N 1293 827 28 comps
+case_0230 jin3014/chao-ji-dian-rong-dian-han-ji 原理图 3454 2299 138 comps
+case_0231 battsx/tm055vdxp35-driver P1 3290 2361 169 comps
+case_0232 jingdezhen-ceramic-university-ir/electric-light P1 2681 1914 74 comps
+case_0233 zk272761180/ai-vision P1 2320 1544 55 comps
+case_0234 zk272761180/ai-vision P1 2403 1567 67 comps
+case_0235 autumnsun/st17h66_ws2812-2020_36pcs P1 2340 1601 85 comps
+case_0236 75219a/old-five-12-yuan-12832lcd-screen P1 1423 541 32 comps
+case_0237 dingcheng/RGBzhi-neng-guang-hui-bang-deng P1 2417 1780 185 comps
+case_0238 dingcheng/notebook-power-supply-parallel-d P1 2370 1409 146 comps
+case_0239 dingcheng/notebook-power-supply-parallel-d P1 1797 1221 85 comps
+case_0240 yoshino/voron-exp-jie-kou-qu-dong-kuo-zhan-ban P1 1803 1251 106 comps
+case_0241 rongandpei/portable-battery-y170 P1 3184 2347 111 comps
+case_0242 ch_liu/PD-Desktop-Adjustable-Power 功率部分 3233 2399 135 comps
+case_0243 ch_liu/PD-Desktop-Adjustable-Power 控制与交互部分 3105 2275 75 comps
+case_0244 ch_liu/PD-Desktop-Adjustable-Power 辅助电源 2292 1023 38 comps
+case_0245 py-learning-notes/esp8266-solar-temperature-humidity-pressure-monitoring-station P1 1965 683 18 comps
+case_0246 abby_qi/mini-re-feng-qiang P1 1096 631 38 comps
+case_0247 abby_qi/mini-re-feng-qiang Sheet_1 1698 894 58 comps
+case_0248 rmqun-xing-zhan-dui-ying-jian-zu/chao-ji-dian-rong-zu P1 1112 850 16 comps
+case_0249 rmqun-xing-zhan-dui-ying-jian-zu/chao-ji-dian-rong-zu P1 2532 1703 75 comps
+case_0250 hongscholar/kai-guan-dian-yuan-ji-yu-ndp1415rb-de-shuang-lu-buck-dian-lu P1 3156 1402 55 comps
+case_0251 abcrazy/led_5054_90c1b_10cm_2025-10-14_14-16-29 P1 1597 1102 106 comps
+case_0252 yoshino/voron-exp-to-tmc5160bob P1 2408 1142 105 comps
+case_0253 li-chuang-kai-fa-ban/lckfb-ft232-usb-to-ttl-type-a P1 2370 1439 73 comps
+case_0254 li-chuang-kai-fa-ban/lckfb-ft232-usb-to-ttl-type-a P2 1092 792 17 comps
+case_0255 kojak/cp2102-chuan-kou-esp32-zi-dong-xia-zai-mo-kuai-_2024-01-13_22-49-57 main 2429 1440 94 comps
+case_0256 cyzhaoshuai/large-table-lamp P1 2142 1592 22 comps
+case_0257 eda_xdnnfnff/duo-tai-xuan-zhuai-zhan-tai-v1 P1 2012 1731 76 comps
+case_0258 balance88/duo-gong-neng-cai-deng P1 2302 1275 68 comps
+case_0259 dingcheng/tda8920bj-gong-fang-ban TDA8920功放 1772 1224 109 comps
+case_0260 dingcheng/tda8920bj-gong-fang-ban 扩音器模式（暂不可用） 1503 843 41 comps
+case_0261 dingcheng/tda8920bj-gong-fang-ban USB模式 1706 1268 75 comps
+case_0262 dingcheng/tda8920bj-gong-fang-ban 音频输入模式 735 677 10 comps
+case_0263 dingcheng/tda8920bj-gong-fang-ban MP3模式（暂不可用） 1436 801 15 comps
+case_0264 dingcheng/tda8920bj-gong-fang-ban 电容音头麦克风小板 1791 745 29 comps
+case_0265 dingcheng/tda8920bj-gong-fang-ban 驻极体音头麦克风小板 1203 788 30 comps
+case_0266 onnsenn/voron-kirizu P1 2896 1462 104 comps
+case_0267 nps-2750x/multi-channel-desktop-charger P1 3056 2105 111 comps
+case_0268 PscGalen/CC-PSC-NC-SA-BUCKBOOST_BOARD P2 3193 1882 130 comps
+case_0269 PscGalen/CC-PSC-NC-SA-BUCKBOOST_BOARD P1 3518 2524 247 comps
+case_0270 54x-t12solder/re-feng-qiang-kong-zhi-qi-mo-kuai P1 2434 1666 82 comps
+case_0271 liuwenxin04/usb-jian-yi-dian-liu-biao-9250815a P1 2307 1572 93 comps
+case_0272 mybluesky/am32-test-v0-1_2023-08-08-v3 MCU 1474 1060 19 comps
+case_0273 mybluesky/am32-test-v0-1_2023-08-08-v3 Mos_Driver 1892 1454 47 comps
+case_0274 mybluesky/am32-test-v0-1_2023-08-08-v3 Power 2473 1568 70 comps
+case_0275 catium2006/dian-tai-dian-yuan P1 3105 1009 93 comps
+case_0276 mondraker/axp2101_2023-11-18_20-15-19 P1 1988 1598 113 comps
+case_0277 mondraker/axp2101_2023-11-18_20-15-19 P1 2255 1670 138 comps
+render failed yourallo/simplefoc_x too many values to unpack (expected 4)
+case_0278 ranqiu/jiao-xiao-ti-ji-de-slimevr P1 2962 2274 71 comps
+case_0279 ranqiu/jiao-xiao-ti-ji-de-slimevr P1 1948 756 13 comps
+case_0280 ai-thiner_openteam/aipi-cam-d200 MAIN 2190 1528 144 comps
+case_0281 ai-thiner_openteam/aipi-cam-d200 POWER 2047 1477 58 comps
+case_0282 ai-thiner_openteam/aipi-cam-d200 TF-CARD 606 896 25 comps
+case_0283 miss233/stm32g431_foc P1 3195 2271 148 comps
+case_0284 miss233/stm32g431_foc P1 1038 758 18 comps
+case_0285 tozzy_su/ip53061 P1 1401 782 32 comps
+case_0286 tozzy_su/ip53061 Type-c充放电5V一体模块ETA6093-4.2V-1.2A 1541 876 24 comps
+case_0287 catsimple/m18-lan-ya-mo-kuai-zi-dong-qie-huan-shu-chu-zhi-chi-usb-sheng-ka P1 1739 1025 32 comps
+case_0288 copterman/foc-driver-board-for-somatosenso P1 2418 1434 88 comps
+case_0289 copterman/foc-driver-board-for-somatosenso P2 2322 1563 86 comps
+case_0290 copterman/foc-driver-board-for-somatosenso P3 2291 1474 77 comps
+case_0291 copterman/foc-driver-board-for-somatosenso P2 1344 936 27 comps
+case_0292 kaixuan/tja1042can-communication-module P1 1411 615 23 comps
+case_0293 quanjiamin/empty-page-ppt P1 888 1278 24 comps
+case_0294 eda_kxijzpvac/resolver-position-feedback-of-br P2 2205 1696 99 comps
+case_0295 eda_kxijzpvac/resolver-position-feedback-of-br P1_1 2655 1611 67 comps
+case_0296 eda_kxijzpvac/resolver-position-feedback-of-br P3 2308 1303 63 comps
+case_0297 dingcheng/emg-mo-kuai-fang-an-ce-shi-ban P1 1671 930 42 comps
+case_0298 ymq233/aht20-bmp280-di-ban-shi-yong-mo-kuai STM32C8T6底板 2886 1825 60 comps
+case_0299 stm32eda/mp8759-jiang-ya-dcdc-mo-kuai P1 1270 689 47 comps
+case_0300 hydropuse/ch552_sc7a20tr_irotate P1 1538 985 9 comps
+case_0301 meika/portable-dc-source P1 2346 1570 111 comps
+case_0302 meika/portable-dc-source P2 2404 1764 135 comps
+case_0303 meika/portable-dc-source P1 3406 2482 203 comps
+case_0304 mtbsk8/ji-yu-blheli-gu-jian-de-si-he-yi-wu-shua-dian-ji-dian-diao-esc-30-5mm-ban-ben P1 2374 1525 211 comps
+case_0305 dingcheng/12kw-cluster-super-fast-charger 140W 1763 869 75 comps
+case_0306 dingcheng/12kw-cluster-super-fast-charger P1 1583 743 47 comps
+case_0307 dingcheng/12kw-cluster-super-fast-charger P1 2443 1294 137 comps
+case_0308 devkem/poepoweredne POE RECEIVER 2391 1226 78 comps
+case_0309 devkem/poepoweredne PowerConverter 1613 1291 78 comps
+case_0310 tjr2005/stm32-heng-liu-led-qu-dong 原理图1 2348 1662 139 comps
+case_0311 tjr2005/stm32-heng-liu-led-qu-dong 原理图1 642 588 15 comps
+case_0312 troyrt/stm32g030k8t6-he-xin-ban P1 2058 1608 59 comps
+case_0313 carele/carele_power_box_v1 P1 2362 1658 132 comps
+case_0314 carele/carele_power_box_v1 P2 2091 1242 87 comps
+case_0315 carele/carele_power_box_v1 P1 2366 1631 136 comps
+case_0316 featherxx/esp32-p2-5-matrix-clock Sheet_1 2322 1473 172 comps
+case_0317 ajsx/quadcopter-based-on-lichuang-gd3 P1 2321 1445 86 comps
+case_0318 ljan69/jw3651 JW3651 1082 1139 34 comps
+case_0319 zerox650/shu-zi-sheng-ming-ka-usb3-0 P1 1610 927 19 comps
+case_0320 zerox650/shu-zi-sheng-ming-ka-usb3-0 P1 3257 2130 164 comps
+case_0321 naishi/plug-in-version-of-xiao-zhi-ai P1 3301 1811 81 comps
+case_0322 pla155/jerry-tone-generator AC6904A8 2417 1281 34 comps
+case_0323 zhangci226/typec-mt3608-fan-controller P1 1980 1072 39 comps
+case_0324 yanqisui/ba111-tds-shui-zhi-chuan-gan-qi-mo-kuai P1 1668 367 14 comps
+case_0325 q1134057228/zhi-nan-zhuan Sheet_1 3124 2039 88 comps
+case_0326 zeruns/24v3a-Flyback-Power-Supply-uc384x P1 2477 1339 93 comps
+case_0327 alphacc/duo-ji-4-xian-feng-shan-qu-dong P1 1742 1036 50 comps
+case_0328 eda_kwazdnpkc/e5f8d27af6074286827da12118f4c933 P1 2458 1949 75 comps
+case_0329 arduinoai-hao-zhe/dry-battery-rechargeable-mobile-phone-shell P1 1036 543 8 comps
+case_0330 weiveiliang/miniprojector720p P1 3545 2142 166 comps
+case_0331 weiveiliang/miniprojector720p P1 3385 2376 132 comps
+case_0332 ai-thiner_openteam/bl618-usb-cam_v1-0 NODEMCU-32_V1_3 2428 1486 126 comps
+case_0333 expert/zi-zhi-han-jie-feng-shan P1 1992 1409 42 comps
+case_0334 monologuechi/sy8368qnc-da-gong-lv-ce-shi P1 1512 647 31 comps
+case_0335 youko_123/xiao-dong-xi P1 3250 1708 153 comps
+case_0336 zhangyadong300/d7509504d2f449749056d7750a9a0360 主控 copy 2592 2240 128 comps
+case_0337 zhangyadong300/d7509504d2f449749056d7750a9a0360 外设 copy 3442 2246 130 comps
+case_0338 silentsheep/hi_kitty_1-0 P1 2440 1754 84 comps
+case_0339 shazip/x-glq P1 2485 1615 82 comps
+case_0340 li-chuang-kai-fa-ban/lckfb-ch343p-usb-to-ttl-type-a P1 2495 1498 87 comps
+case_0341 maplerian/esp-battery-protection-board P1 1751 1784 205 comps
+case_0342 maplerian/esp-battery-protection-board P1 2307 1897 212 comps
+case_0343 open-source-works-collection/fan-gao-xing-kong-deng-yu-yin-ban-ben P1 2142 1213 32 comps
+case_0344 eda_xdnnfnff/iot-type-gps-multi-function-controller 4G 3135 2266 108 comps
+case_0345 eda_xdnnfnff/iot-type-gps-multi-function-controller GPS 2212 1582 86 comps
+case_0346 aknice/ecp5701 P1 936 873 27 comps
+case_0347 dadengzi/can-ci-bian-ma-qi-kai-yuan MCU&Power 2328 1565 38 comps
+case_0348 dadengzi/can-ci-bian-ma-qi-kai-yuan CAN 1302 916 11 comps
+case_0349 oiluio/fan-gao-xing-kong-zhuo-da P1 2218 1170 54 comps
+case_0350 voidloop/project-001315 P1 2335 1400 66 comps
+case_0351 voidloop/project-001315 P2 2880 2254 147 comps
+render failed killy.thi/quanzhi-f133-ad1sriscv-core-board-m2223 too many values to unpack (expected 4)
+case_0352 flyn/flpower P2 3149 2169 180 comps
+case_0353 flyn/flpower P1 3249 2225 131 comps
+case_0354 maituruze/bi-she-pcb 电源部分 2630 1779 126 comps
+case_0355 maituruze/bi-she-pcb P1 1545 981 35 comps
+case_0356 maituruze/bi-she-pcb 驱动电路部分 1791 1189 24 comps
+case_0357 wandaeda/pd-power-supply-spoofing-based-on-ch32v003-and-ch224k P1 2553 1744 32 comps
+case_0358 parus_major/xilinx-hs-fpga-xia-zai-qi P1 2031 1091 69 comps
+case_0359 max04/lm5155-power-module P1 2656 946 66 comps
+case_0360 kmdneryiue/tps5430 P1 1944 1011 65 comps
+case_0361 0liquor0/automatic-soybean-milk-machine-control-system-based-on-stm32 P1 2398 1714 127 comps
+case_0362 0liquor0/automatic-soybean-milk-machine-control-system-based-on-stm32 P2 2352 1114 74 comps
+case_0363 likeyou/rp2040_daplink P1 2323 1538 74 comps
+case_0364 tsy2001/mountain-view-dspbp1048-bluetoot P1 2085 2334 156 comps
+case_0365 zys_zys/guan-jie-dian-ji P1 4092 2803 174 comps
+case_0366 oconnor/24v-12v-mp2338module P1 2378 807 34 comps
+case_0367 engineer_jiang/gl3231_sd-tf Sheet_GL3231 2965 2132 114 comps
+case_0368 Orz_Org/Orz_STM Connectors 2790 2060 66 comps
+case_0369 Orz_Org/Orz_STM ADC 3400 1940 78 comps
+case_0370 Orz_Org/Orz_STM DAC 3219 2195 115 comps
+case_0371 Orz_Org/Orz_STM StepController 2225 1206 41 comps
+case_0372 Orz_Org/Orz_STM PiezoDriver 2840 1947 56 comps
+case_0373 Orz_Org/Orz_STM All 1837 661 17 comps
+case_0374 Orz_Org/Orz_STM All 1833 1384 17 comps
+case_0375 asmileboy/li-ti-sheng-zhuo-mian-gong-fang-ji-tda7850 Bluetooth 2020 1183 59 comps
+case_0376 asmileboy/li-ti-sheng-zhuo-mian-gong-fang-ji-tda7850 PA 2084 1100 64 comps
+case_0377 asmileboy/li-ti-sheng-zhuo-mian-gong-fang-ji-tda7850 Power 1606 1235 41 comps
+case_0378 eda_kwazdnpkc/f1c200s_lcd_backup CORE 2232 1961 74 comps
+case_0379 eda_kwazdnpkc/f1c200s_lcd_backup LCD 946 1596 22 comps
+case_0380 eda_kwazdnpkc/f1c200s_lcd_backup CONN 1812 1915 41 comps
+case_0381 eda_kwazdnpkc/f1c200s_lcd_backup PWR 914 1817 54 comps
+case_0382 si13579/gxc400_pt100-pt1000-ti-dai-max31865 GXC400 1218 720 16 comps
+case_0383 maxf/0-87-zhi-xin P1 1492 611 31 comps
+case_0384 esp-college/esp-bldc P1 3407 2191 153 comps
+case_0385 l1009184289/gui-hua-zhong P1 2394 1290 53 comps
+case_0386 niaoge111/zhi-liu-shuang-lu-ke-diao-fu-zhu-dian-yuan P1 2060 1273 72 comps
+case_0387 bigbobobo/xian-xing-dian-yuan P1 3158 1435 70 comps
+case_0388 54x-t12solder/liang-lu-ji-dian-qi-mo-kuai P1 1450 1399 37 comps
+case_0389 sxy2020/vehicle_4g_device P1 2573 2089 139 comps
+case_0390 sxy2020/vehicle_4g_device P1 1595 1259 68 comps
+case_0391 edajon/dc5v_motor_driver P1 2377 1659 48 comps
+case_0392 freakstudio/i2c-bu-jin-dian-ji-qu-dong-ban-_-zhuan-ye-ban 原理图 3000 1673 92 comps
+case_0393 liuybin/stm32g431cbu6_rust_dev_board_v1 P1 3252 2044 181 comps
+case_0394 carele/ESP32-S3-digital-power-supply Control 2290 1261 93 comps
+case_0395 carele/ESP32-S3-digital-power-supply Power 3361 1942 173 comps
+case_0396 carele/ESP32-S3-digital-power-supply Interaction 2149 1329 80 comps
+case_0397 zhoubingbo/automatic-buck-boost-power-suppl P1 2494 1420 96 comps
+case_0398 eda_mwnyvuyzs/painted-voice-badge P1 2155 1116 47 comps
+case_0399 mihho/esc3 STC8H1K28 2535 1722 72 comps
+case_0400 fortheunion/ji-yu-shuang-qiu-lin-ran-csps-fu-wu-qi-dian-yuan-dian-yuan-long-frps-06a-de-gai-jin-kuan Sheet_1 1743 1175 44 comps
+case_0401 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan P1 2424 1705 74 comps
+case_0402 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan P2 2096 597 33 comps
+case_0403 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan P3 2114 1293 74 comps
+case_0404 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan P4 2110 1119 47 comps
+case_0405 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan 主电路 2400 1555 103 comps
+case_0406 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan 辅助电源 2021 1153 64 comps
+case_0407 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan 信号调理 2139 943 57 comps
+case_0408 zeruns/ji-yu-stm32-de-buck-boost-xing-shu-zi-dian-yuan 控制电路 2280 1359 65 comps
+case_0409 lexmi/robot-ctrl-v1-0-des-lexmi MA 1105 660 18 comps
+case_0410 lexmi/robot-ctrl-v1-0-des-lexmi MOTOR 2475 1344 85 comps
+case_0411 lexmi/robot-ctrl-v1-0-des-lexmi PWR-1 2555 2159 141 comps
+case_0412 rongandpei/100w-shou-liu-dan-chong-dian-bao-_v2-0_yht IP5389 3086 1997 98 comps
+case_0413 rongandpei/100w-shou-liu-dan-chong-dian-bao-_v2-0_yht BM3451 2083 1221 58 comps
+case_0414 eda_fardjfheq/wan-yong-biao-b628-dian-lu P1 2338 1311 49 comps
+case_0415 pla155/jerry-downloader-v20 ISD-TOOL-2 1980 1107 32 comps
+case_0416 cuisheng/ti-training-camp-simple-pid-proj P1 2228 1530 101 comps
+case_0417 cuisheng/ti-training-camp-simple-pid-proj P1 2050 1470 52 comps
+case_0418 wei-lai-dian-zi-gong-zuo-shi/zui-xiao-xi-tong-stc32g12k128-hid-xia-zai P1 2499 1658 48 comps
+case_0419 huashuo0804/icm-42688-tuo-luo-yi-mo-kuai P1 1870 562 28 comps
+case_0420 futern/li-dian-chi-chong-dian-1 充电 1531 920 25 comps
+case_0421 futern/li-dian-chi-chong-dian-1 升压5v 1508 948 30 comps
+case_0422 futern/li-dian-chi-chong-dian-1 升压12v 1527 1023 30 comps
+case_0423 eda_wxjjlyzzb/ros-robot-car-project-based-on-lichuang-taishan-development-board POWER 2166 1460 57 comps
+case_0424 eda_wxjjlyzzb/ros-robot-car-project-based-on-lichuang-taishan-development-board EXP 2102 1210 28 comps
+case_0425 eda_wxjjlyzzb/ros-robot-car-project-based-on-lichuang-taishan-development-board PCIE 2263 1228 50 comps
+case_0426 eda_wxjjlyzzb/ros-robot-car-project-based-on-lichuang-taishan-development-board LCD 1855 1366 30 comps
+case_0427 eda_wxjjlyzzb/ros-robot-car-project-based-on-lichuang-taishan-development-board AUDIO/DEBUG 1559 1043 32 comps
+case_0428 buningjia/dcdc-mo-kuai P1 1363 1070 32 comps
+case_0429 hanwu6/intelligent-remote-control-troll 小车车体 2718 1812 138 comps
+case_0430 058a/isolated-usb-multifunction-hub-6 P1 1987 1740 34 comps
+case_0431 058a/isolated-usb-multifunction-hub-6 P2 2368 1553 71 comps
+case_0432 qingchin/ji-yu-AD620de-cheng-kong-yi-biao 信号测试板PCB 1446 969 28 comps
+case_0433 little_grasshopper/sepic-_solution_xl6019 原理图 1760 1193 45 comps
+case_0434 little_grasshopper/sepic-_solution_xl6019 原理图 1857 1053 43 comps
+case_0435 qiaomueda/ji-yu-eg6562-de-dan-ji-apfc-tong-yong-di-ban-rev01 P1 2509 1651 94 comps
+case_0436 brian_3/face-recognition-box P1 3116 1823 83 comps
+case_0437 marxing/ba-lu-you-shua-dian-ji-qu-dong-ban-drv8837-qu-dong P1 2492 1725 215 comps
+case_0438 eda_sbnvoqqej/wu-shua-dian-ji-kong-zhi-qi P1 2641 1795 137 comps
+case_0439 light_heat/design-of-electronic-organ-and-m P1 2292 1313 83 comps
+case_0440 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban 电源 2330 1068 69 comps
+case_0441 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban IO引出 2205 1614 241 comps
+case_0442 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban IO功能扩展 1811 1295 40 comps
+case_0443 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban PWM输出 2211 1638 139 comps
+case_0444 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban ADC 2317 1286 52 comps
+case_0445 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban UART 2127 1275 49 comps
+case_0446 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban SPI 2128 1102 66 comps
+case_0447 roboticlib/robocon-chang-bei-zhu-kong-kuo-zhan-ban IIC 2174 911 44 comps
+case_0448 eos911/simple-oscilloscope P1 2463 1685 112 comps
+case_0449 bonus/hollow-clock P1 1411 967 36 comps
+case_0450 zijijncode/esp32miniplayer-shi-pin-bo-fang-qi-v1-3-0 ESP32核心板 2362 1701 115 comps
+case_0451 zijijncode/esp32miniplayer-shi-pin-bo-fang-qi-v1-3-0 音频解码芯片和LCD 2262 586 34 comps
+case_0452 sm_brie/200w-dian-yuan-shuang-c-shuang-a P1 3039 2091 116 comps
+case_0453 zhangwle/development-expansion-board-base MG3507 2454 1688 109 comps
+case_0454 zhangwle/development-expansion-board-base 拓展模块 2283 948 32 comps
+case_0455 edalzj/yi-ge-l298n-mo-kuai P1 1566 935 33 comps
+case_0456 street_LC/yRBFzeKHdWMNRgh5Oew6C5CvbyC09Sy4 P1 1394 900 32 comps
+case_0457 cyxsnbb666/typec-adjustable-power-supply-wi MCU 2840 2001 120 comps
+case_0458 cyxsnbb666/typec-adjustable-power-supply-wi PWR 2539 3111 163 comps
+case_0459 2nd-pcb-competition/wang-yi-bao P1 3237 1999 82 comps
+case_0460 ranliang/multi-functional-intelligent-car 主控 2175 1575 36 comps
+case_0461 ranliang/multi-functional-intelligent-car 电源 2391 1560 55 comps
+case_0462 jhonny/fu-zai-yi P1 1365 940 6 comps
+case_0463 sifli/sf32lb56-mod MCU_ANA 3853 2629 106 comps
+case_0464 prof.zhang/orange-ink-screen-reader P1 3436 2358 117 comps
+case_0465 dabingzi666/zhi-neng-wei-deng P1 3124 1774 87 comps
+case_0466 course-examples/diy-xiang-mu-ji-yu-sl2-1a-de-usb-2-0-ji-xian-qi P1 1587 1124 39 comps
+case_0467 aixlolislolikong/da-gong-lv-wu-chou-tou-zvs-gao-pin-gan-ying-jia-re-xi-tong-dian-yuan-qu-dong-ban P1 806 494 34 comps
+case_0468 xinxinsky/power-supply P1 2419 1784 128 comps
+case_0469 esp-college/32bfc63ed181441a9a44da6cd2419809 P1 2268 1252 56 comps
+case_0470 Weishui_Changan/756912df425d489ea9d7b7a650b0bcc8 P1 1236 1755 65 comps
+case_0471 Weishui_Changan/756912df425d489ea9d7b7a650b0bcc8 功率拓扑驱动与电流采样 1977 1446 84 comps
+case_0472 Weishui_Changan/756912df425d489ea9d7b7a650b0bcc8 辅助电源与电压采样 2291 1149 68 comps
+case_0473 Weishui_Changan/756912df425d489ea9d7b7a650b0bcc8 主控与外围电路 2251 1376 68 comps
+case_0474 Weishui_Changan/756912df425d489ea9d7b7a650b0bcc8 P1 2212 1721 93 comps
+case_0475 Weishui_Changan/756912df425d489ea9d7b7a650b0bcc8 P1 1700 1399 72 comps
+case_0476 loveliang/mps-buck-boost-power-3a-adapter P1 2069 1557 77 comps
+case_0477 eda_kwazdnpkc/t113i-devboard LCD 1643 1505 26 comps
+case_0478 eda_kwazdnpkc/t113i-devboard POWER 925 682 14 comps
+case_0479 eda_kwazdnpkc/t113i-devboard CORE 1612 1814 29 comps
+case_0480 eda_kwazdnpkc/t113i-devboard CONN 3207 1740 82 comps
+case_0481 eda_kwazdnpkc/t113i-devboard WIFI 2157 1299 22 comps
+case_0482 eda_kwazdnpkc/t113i-devboard EXT 1294 994 25 comps
+case_0483 ai-thiner_openteam/aipi-rd-rotary P1 2492 1711 128 comps
+case_0484 climbsnail/spotwelder P1 2550 1575 46 comps
+case_0485 climbsnail/spotwelder P1 3336 2377 252 comps
+case_0486 alphacc/li-dian-chi-zhu-dong-jun-heng P1 4102 2261 90 comps
+case_0487 alphacc/li-dian-chi-zhu-dong-jun-heng P1 2910 1374 58 comps
+case_0488 daquan./stc32g12k128 P1 2479 1682 105 comps
+case_0489 ewwfd/2025-dian-sai P1 2569 1574 85 comps
+case_0490 ewwfd/2025-dian-sai P1 1787 1091 50 comps
+case_0491 ewwfd/2025-dian-sai P2 2333 974 77 comps
+case_0492 ss1562456164/ina233iic P1 1357 742 24 comps
+case_0493 seahi/Ai-Thinker-VCli-xian-yu-yin-kong P1 1579 939 36 comps
+case_0494 monkid/esp-fly-wu-ren-ji P1 2330 1670 90 comps
+case_0495 jwt0808/flyback P1 2040 1208 57 comps
+case_0496 flyn/mutifuncontrol T12_heat_driver 2231 1285 87 comps
+case_0497 flyn/mutifuncontrol gun_driver 2201 1489 61 comps
+case_0498 flyn/mutifuncontrol 可调电源 2424 1673 167 comps
+case_0499 flyn/mutifuncontrol MCU 2424 1729 161 comps
+case_0500 flyn/mutifuncontrol power 2434 1700 132 comps
+case_0501 flyn/mutifuncontrol quick_charge 2420 1627 78 comps
+case_0502 kill-star_sx/typec-kuai-chong-you-pian-_ Sheet_1 1082 570 29 comps
+case_0503 o0v0o/ti-simple-pid-project P1 2428 1635 41 comps
+case_0504 xingyuanwu/dcdc-two-way-step-down P1 932 1195 30 comps
+case_0505 beauty_light/cw32l011_power P1 2485 1706 94 comps
+case_0506 niaoge111/eight-port-gigabit-switch 主控 3413 2057 107 comps
+case_0507 niaoge111/eight-port-gigabit-switch 网口 4101 2443 88 comps
+case_0508 niaoge111/eight-port-gigabit-switch 电源供电 3181 1431 80 comps
+case_0509 eda_brinomhgw/c07edp_ble C07EDP_BLE_SPT_V1.1 2102 1465 30 comps
+case_0510 sm_brie/nie-qing-dian-chi-chong-dian-gai-zao P1 1850 1205 75 comps
+case_0511 lemon_wifi/desktop-small-sub-screen-docking USBC 3213 1558 101 comps
+case_0512 lemon_wifi/desktop-small-sub-screen-docking DP-MIPI 2127 1510 63 comps
+case_0513 lemon_wifi/desktop-small-sub-screen-docking POWER 2237 463 32 comps
+case_0514 lemon_wifi/desktop-small-sub-screen-docking P1 2984 2339 135 comps
+case_0515 lemon_wifi/desktop-small-sub-screen-docking P1 3251 2139 99 comps
+case_0516 ai-thiner_openteam/aipi-scp-2-4 MAIN 2295 1604 136 comps
+case_0517 ai-thiner_openteam/aipi-scp-2-4 POWER 2282 1479 60 comps
+case_0518 ai-thiner_openteam/aipi-scp-2-4 USB 1769 1197 39 comps
+case_0519 ai-thiner_openteam/aipi-scp-2-4 AUDIO 3056 2041 160 comps
+case_0520 zhongzhou-candle-dragon-yjianzu/fm-fa-she-qi P1 2431 1696 120 comps
+case_0521 alizhuangfei/smart-water-police-intelligent-wireless-water-level-alarm P1 2606 2262 88 comps
+case_0522 zhupf1984/mini-adjustable-power-supply P1 2438 1773 137 comps
+case_0523 li31951/usb-ji-xian-qi USB集线器V1.0 1629 1097 41 comps
+case_0524 ai-thiner_openteam/aihandy P1 2353 1698 80 comps
+case_0525 aknice/ji-fen-qi P1 4195 1417 142 comps
+case_0526 aknice/ji-fen-qi P1 2094 1286 57 comps
+case_0527 aknice/ji-fen-qi P1 1695 497 18 comps
+case_0528 aknice/ji-fen-qi P1 3290 1146 61 comps
+case_0529 fangs233/vfd-display-module-based-on-mps P1 3002 1588 62 comps
+case_0530 fangs233/vfd-display-module-based-on-mps P1 2315 1574 68 comps
+case_0531 tslong/g431_new_1 P1 2914 2275 275 comps
+case_0532 gcn49/sw3538 P1 2241 1615 66 comps
+case_0533 dthe-sun/aaaa P1 2210 1628 78 comps
+case_0534 team_piebbcsw/zhuo-du-chuan-gan-qi-mo-kuai P1 973 1127 30 comps
+case_0535 la-xian-xiao-dui-v1.0/mi-ni-usb-chuan-kou-mo-kuai-tie-pian MAIN 2256 818 33 comps
+case_0536 dongduzhilang/ten-square-world-a-3d-printer-main-control-board-integrated-with-linux-upper-computer IP6557 2418 1287 60 comps
+case_0537 dongduzhilang/ten-square-world-a-3d-printer-main-control-board-integrated-with-linux-upper-computer SW3518 2294 1427 42 comps
+case_0538 dongduzhilang/ten-square-world-a-3d-printer-main-control-board-integrated-with-linux-upper-computer DC-DC 10TYPE-A 2400 1588 92 comps
+case_0539 babala_ljj/rgb-color-recognition P1 3132 1785 121 comps
+case_0540 kill-star_sx/mi-ni-li-dian-chi-chong-dian P1 1191 605 20 comps
+case_0541 kill-star_sx/mi-ni-li-dian-chi-chong-dian P1 1189 669 24 comps
+case_0542 zcheng114/bmi270 P1 1512 1042 41 comps
+case_0543 ai-thiner_openteam/aipi-dsl MAIN 2358 1655 165 comps
+case_0544 ai-thiner_openteam/aipi-dsl POWER 1646 869 31 comps
+case_0545 ai-thiner_openteam/aipi-dsl USB 2316 1585 105 comps
+case_0546 fengmoxi/m2-4g-5g-wwan-mo-kuai-usbc-zhuan-jie-ban WWAN 2470 1476 117 comps
+case_0547 fengmoxi/m2-4g-5g-wwan-mo-kuai-usbc-zhuan-jie-ban POWER 1856 1014 62 comps
+case_0548 LE12138/1f51ac624d2742d7a845f79a25eda0b2 P1_1 1470 1848 37 comps
+case_0549 whx000/hong-wai-re-cheng-xiang-at32f403arc P1 3361 2396 119 comps
+case_0550 lsjl66/warm-winter-creation P1 3134 2129 143 comps
+case_0551 wyh200159/current-adjustable-constant-current-source POWER 1901 1537 72 comps
+case_0552 wyh200159/current-adjustable-constant-current-source MCU 2337 1622 210 comps
+case_0553 wyh200159/current-adjustable-constant-current-source DAC 2440 1675 106 comps
+case_0554 wyh200159/current-adjustable-constant-current-source LED-driver 1800 1582 134 comps
+case_0555 wyh200159/current-adjustable-constant-current-source 通讯 2501 1655 93 comps
+case_0556 qingchin/ji-yu-STM32dai-ye-jing-xian-shi- LCD 1861 1057 23 comps
+case_0557 diyzi-yi-ke-ji-gong-zuo-shi/intelligent-constant-temperature-system P1 2291 1190 48 comps
+case_0558 yaoch/dw01-battery-protection-board P1 967 602 9 comps
+case_0559 luosgzs/usb3.0-gl3224-tf 原理图 2126 1325 100 comps
+case_0560 tslong/foc-qu-dong-ban-_1 P1 3060 2084 169 comps
+case_0561 shilihualang/8-14-cun-ses4-se-jia-qian-qu-dong-ban P1 2272 1705 65 comps
+case_0562 shilihualang/8-14-cun-ses4-se-jia-qian-qu-dong-ban P1 2667 1955 78 comps
+case_0563 shilihualang/8-14-cun-ses4-se-jia-qian-qu-dong-ban P1 1658 1021 35 comps
+case_0564 azunya/usb-pd-sniffer_v2 P1 3544 1877 79 comps
+case_0565 azunya/usb-pd-sniffer_v2 P1 3462 1887 84 comps
+bad bundle /mnt/c/EDA/raw/bundles/51d3b3a889434d7d885680b1d0c95c87.json list index out of range
+case_0566 eda_kwazdnpkc/led_2835 P1 2015 826 28 comps
+case_0567 bigbobobo/ji-cheng-yin-pin-fang-da-dian-lu P1 953 886 21 comps
+case_0568 tomatoooo/zheng-dian-yuan-zi-atompi-3568-zi-zhi-mo-kuai P1 2313 1499 60 comps
+case_0569 li-chuang-kai-fa-ban/cw32-shu-zi-dian-ya-dian-liu-biao-kai-fa-ban-tao-jian P1 2336 1663 91 comps
+case_0570 pinkberry/li-dian-chi-chong-dian-gan-ying-deng P1 1259 586 24 comps
+case_0571 e-x-e/tuo-zhu-bu-guang-deng-ld2410b P1 2453 1719 55 comps
+case_0572 cyaroge/dz_16-n_control Sheet_1 3347 2051 118 comps
+case_0573 cyaroge/dz_16-n_control P1 3444 1632 253 comps
+case_0574 cyaroge/dz_16-n_control P1 1299 1121 102 comps
+case_0575 willitourt/charging-hub-ip5389 Core Layer 3370 2865 97 comps
+case_0576 willitourt/charging-hub-ip5389 Upper Layer 1747 1073 18 comps
+case_0577 myzhazha/esp32s3_86-kai-fa-ban P1 2382 1588 179 comps
+case_0578 myzhazha/esp32s3_86-kai-fa-ban P2 2487 1442 68 comps
+case_0579 crower/tomorrow-ark-high-precision-ultr P1 2115 1610 125 comps
+case_0580 ran-pang/charging-module-lx-keyboard P1 2524 1490 97 comps
+case_0581 early_m/hdmi-usb-switch-kvm-digital-to-a 输入 1912 1498 67 comps
+case_0582 early_m/hdmi-usb-switch-kvm-digital-to-a 切换 2202 1438 96 comps
+case_0583 early_m/hdmi-usb-switch-kvm-digital-to-a 输出 2305 1523 104 comps
+case_0584 early_m/hdmi-usb-switch-kvm-digital-to-a 电源 1679 1381 87 comps
+case_0585 early_m/hdmi-usb-switch-kvm-digital-to-a VGA 2234 1124 54 comps
+case_0586 huangguangsi/stm32-zhi-neng-che-zhu-ban P1 2231 1524 70 comps
+case_0587 Weishui_Changan/kfmO40LV4RBTA1A0qpOXJkRrLjBBdHHr P1 956 833 18 comps
+case_0588 frostautumn/tb-4117-3-s-zhuan-jie-ban-_2023-08-17_23-06-37 Sheet_1 1855 862 30 comps
+case_0589 giezjx/mpptrr mppt 3257 2643 231 comps
+case_0590 huashuo0804/tps5450ddar-dian-yuan-mo-kuai 电源模块 1660 1021 33 comps
+case_0591 poria_cocos/tong-yong-yao-kong-_poricontroller CORE 1987 1127 56 comps
+case_0592 poria_cocos/tong-yong-yao-kong-_poricontroller POWER 2017 461 29 comps
+case_0593 poria_cocos/tong-yong-yao-kong-_poricontroller BUTTON 2298 1112 56 comps
+case_0594 poria_cocos/tong-yong-yao-kong-_poricontroller BAT 1855 817 35 comps
+case_0595 gygk/usb2-0-ji-xian-qi P1 2266 1597 48 comps
+case_0596 450051a/ye-wan-ren-ti-gan-ying-deng-da-feng-zhuang-_20250403 P1 2208 1197 75 comps
+case_0597 mmmuuu/dian-yuan-2-0 P1 2424 1651 139 comps
+case_0598 heyh/cw32-VAmeter CW32电压电流表 2278 1298 56 comps
+case_0599 donnan/mt6835-ci-bian-ma-qi-2-1 Sheet_1 2347 1416 66 comps
+case_0600 a1768800804/ads1115-twoway-power-acquisition P1 2222 1748 47 comps
+case_0601 ai-thiner_openteam/aipi-scp-knob MAIN 2343 1595 131 comps
+case_0602 ai-thiner_openteam/aipi-scp-knob USB 2394 1670 70 comps
+case_0603 ai-thiner_openteam/aipi-scp-knob AUDIO 2168 1679 108 comps
+case_0604 ai-thiner_openteam/aipi-scp-knob MAIN 1348 1114 39 comps
+case_0605 q492690882/mijia-8-key-switch-lithium-batte P1 2443 1668 50 comps
+case_0606 viewofnature/april-fools-day-project P1 4127 1540 100 comps
+case_0607 eda_ifoizafni/okko 锂电池 2166 750 35 comps
+case_0608 hungryheart66/UPS-demo P1 2298 1168 71 comps
+case_0609 13090abc/xiao-zhi-0903 P1 1670 701 38 comps
+case_0610 urmouky/urmoukyopenipc SSC338Q 3941 2199 123 comps
+case_0611 urmouky/urmoukyopenipc Power 2314 1568 144 comps
+case_0612 daqolee/dian-ci-v8-fa-dong-ji-13 P1 2155 1052 68 comps
+case_0613 lceda0/rz7889 P1 2552 1197 15 comps
+case_0614 scorcher/usb_2500m_ethernet_rtl8156 P1 2756 1971 93 comps
+case_0615 xiao5333/3dda-yin-ji-klipperkong-zhi-ban MCU 3312 2259 157 comps
+case_0616 xiao5333/3dda-yin-ji-klipperkong-zhi-ban DRV 3051 1989 163 comps
+case_0617 em_16x/16-15-tx4160 P1 1996 1059 66 comps
+case_0618 sydhhd/yao-kong-li-dian-chong-fang-dian 充放电 2315 841 38 comps
+case_0619 xifengzui/shi-yong-tpyec-kuai-chong-chong-dian-tou-dai-ye-jing-de-3s-li-dian-chi-chong-dian-qi LCD_miniBoard 1228 640 22 comps
+case_0620 xifengzui/shi-yong-tpyec-kuai-chong-chong-dian-tou-dai-ye-jing-de-3s-li-dian-chi-chong-dian-qi 4switch_ina226 3357 2202 121 comps
+case_0621 xifengzui/shi-yong-tpyec-kuai-chong-chong-dian-tou-dai-ye-jing-de-3s-li-dian-chi-chong-dian-qi PD Sink 2228 1799 82 comps
+case_0622 ginttiger/duo-gong-neng-diao-su-qi MCU 3063 2209 132 comps
+case_0623 ginttiger/duo-gong-neng-diao-su-qi FAN 2348 1651 84 comps
+case_0624 leichaolin/5wEcWEKPQ0yG38oIljAZBvJkkTLlbAyP P1 2416 1770 75 comps
+case_0625 im-not-on-your-team/ji-yu-mp8009-de-poe-dian-yuan-she-ji POE 2995 2081 111 comps
+case_0626 im-not-on-your-team/ji-yu-mp8009-de-poe-dian-yuan-she-ji DC-DC 2539 2260 41 comps
+case_0627 chem4111/mo-shui-ping-mu-qu-dong-demo P1 2326 1758 81 comps
+case_0628 DreamTracks/18d4d98184bf4ba6bb30a19b2290fb50 馨腾OV7725 2540 1704 65 comps
+case_0629 eda_xdnnfnff/Miniduo-lu-ju-zai-dian-yuan P1 1972 1177 43 comps
+case_0630 eda_xdnnfnff/Miniduo-lu-ju-zai-dian-yuan P2 2193 1735 65 comps
+case_0631 cv90_105/LCD1602shu-ma-guan-shi-zhong P1 3090 1792 192 comps
+case_0632 monologuechi/dmw-blk22-xiang-ji-jia-dian-chi P1 2102 630 36 comps
+render failed slope/zhi-liu-wen-ya-dian-yuan-220v-shu-ru-5-9-12-shu-chu too many values to unpack (expected 4)
+case_0633 koukou21/ji-qi-ren-guan-jie-dian-ji-qu-dong-ban P1 3249 2358 191 comps
+case_0634 okll/tspi-mipidsi-to-rgb-adapter ALL_IN_ONE 3009 2184 51 comps
+case_0635 yunjing258/esp32-rs485dtu-with-ethernet-and ESP32 2519 1770 81 comps
+case_0636 yunjing258/esp32-rs485dtu-with-ethernet-and POWER 2303 1535 59 comps
+case_0637 yunjing258/esp32-rs485dtu-with-ethernet-and RS485 1528 642 21 comps
+case_0638 yunjing258/esp32-rs485dtu-with-ethernet-and W5500 2307 1440 79 comps
+case_0639 yunjing258/esp32-rs485dtu-with-ethernet-and ML307R 3094 1943 66 comps
+case_0640 frostautumn/sas-3-5-cun-3-pan-gong-dian-bei-ban-pro_2023-07-10_18-17-07 Sheet_1 2282 1632 108 comps
+case_0641 ms.zhangdaxian/battery-management-unit P3 2499 1678 98 comps
+case_0642 ms.zhangdaxian/battery-management-unit P2 2374 1694 64 comps
+case_0643 ms.zhangdaxian/battery-management-unit P1 2355 1637 92 comps
+case_0644 ms.zhangdaxian/battery-management-unit P2 3317 2118 112 comps
+case_0645 beizhiju/drv8701_-dian-liu-jian-ce P1 3136 2089 112 comps
+case_0646 zh_x/adjustable-eight-way-tracking-mo P1 2378 1331 93 comps
+case_0647 course-examples/mp4560-dcdc-mo-kuai P1 1876 802 52 comps
+case_0648 simpler/hub-sl2-1a P1 1334 1181 37 comps
+case_0649 simpler/hub-sl2-1a P1 1720 1223 50 comps
+case_0650 simonlalla/wu-shua-dian-diao-v0-3 P1 3280 2199 150 comps
+case_0651 mihoyo_233/jtagtoswd P1 1010 486 10 comps
+case_0652 chen-lingfeng-library/motor-driver-based-on-mps-series P1 3324 2364 163 comps
+case_0653 yzq520/stm32-02 SCH_STM32F103 V1.0 2310 1647 116 comps
+case_0654 lishuo123/slm6600-dual-battery-charger P1 1853 996 29 comps
+case_0655 xiaoyuaha/xiao-zhi-ai-training-camp P1 2413 1641 70 comps
+case_0656 bg2fas/wide-voltage-input-4-way-single- 集成电源版 2280 1292 80 comps
+case_0657 bg2fas/wide-voltage-input-4-way-single- 可调供电模块 1135 536 18 comps
+case_0658 eda_pvvekijcs/tps40057-fang-an-yan-zheng-12v-shu-chu P1 2168 1091 47 comps
+case_0659 a183181/vl822-tuo-zhan-wu P1 2381 1197 72 comps
+case_0660 ai-thiner_openteam/m6132cam POWER 1744 770 49 comps
+case_0661 a1804889557/lemon-foc-open-source-stamp-orif Sheet_1 3252 2194 125 comps
+case_0662 wzw666/huhuhu P1 1683 952 16 comps
+case_0663 alan0405/8-40vbuck-power-test-board P1 1219 591 11 comps
+case_0664 heyh/eta9697-chong-fang-dian-guan-li P1 1270 1590 77 comps
+case_0665 logeexpluoqi/qdrive P1 2362 1295 35 comps
+case_0666 hhjsmine/dc-adjustable-power-supply-based-on-renesas-development-board P1 2632 1716 83 comps
+case_0667 abfib/tracing-car P1.0 2194 1456 30 comps
+case_0668 mu-kuai/6-ceng-FPGA-he-xin-ban 外设 3272 2289 123 comps
+case_0669 mu-kuai/6-ceng-FPGA-he-xin-ban 主控 3140 2077 58 comps
+case_0670 mu-kuai/6-ceng-FPGA-he-xin-ban 电源 2248 1466 36 comps
+case_0671 xilon/resistance-strain-six-dimensiona P1 2017 1225 77 comps
+case_0672 xilon/resistance-strain-six-dimensiona P1 2364 1779 108 comps
+case_0673 ikalyes/dian-yuan-gong-cheng P2 1539 584 23 comps
+render failed zack99499/static-current-and-intelligent-control-dc-electric-energy-intelligent-precision-measuring-device too many values to unpack (expected 4)
+render failed zack99499/static-current-and-intelligent-control-dc-electric-energy-intelligent-precision-measuring-device too many values to unpack (expected 4)
+case_0674 zack99499/static-current-and-intelligent-control-dc-electric-energy-intelligent-precision-measuring-device Sheet_1 2616 1668 32 comps
+case_0675 eda_izbjcoow/stc32-development-board P2 3094 1554 122 comps
+case_0676 wanggood2019/li-dian-chi-dian-yuan-guan-li-mo-kuai P1 2301 1623 62 comps
+case_0677 swtman/desktop-electronic-clock-indoor-barometer-based-on-renesas-ra6e2-development-board RA6E2室内温度计 1324 976 12 comps
+case_0678 small_da/xuan-cai-hui-zhang-mu-kuai-BUAAb P1 499 1196 10 comps
+case_0679 mps-core-source-square/mp9931-power-module P1 2477 1465 87 comps
+case_0680 small_da/di-qiu-ming-pian P1 2490 1481 67 comps
+case_0681 mia_hang/apple-hand-warmer M 2278 1293 44 comps
+case_0682 mia_hang/apple-hand-warmer R 1556 656 28 comps
+case_0683 mia_hang/apple-hand-warmer L 1551 696 28 comps
+case_0684 siriusrt/pmsm_driver_pro Sheet_1 4085 3110 166 comps
+case_0685 kr53/usb-tuo-zhan-wu P1 2161 1432 40 comps
+case_0686 yc_chen/vfd-xian-shi-mo-kuai-san-hnv P1 2519 1809 71 comps
+case_0687 yc_chen/vfd-xian-shi-mo-kuai-san-hnv P1 2158 1696 31 comps
+case_0688 retong/qi-lu-ba-lu-hui-du-chuan-gan-qi P1 3613 2088 127 comps
+case_0689 001_xyz/zhi-liu-wu-shua-dian-ji-foc-qu-dong-ban P2 1851 1296 26 comps
+case_0690 seraph_lrk/max98357-tdm-stereo Stereo 2145 1008 31 comps
+case_0691 lemon_wifi/PS176 P1 3193 2234 126 comps
+case_0692 y.zero/mi-jia-pwm-diao-su-feng-shan-v2-0 风扇输出 2355 667 15 comps
+case_0693 y.zero/mi-jia-pwm-diao-su-feng-shan-v2-0 电源 2520 1714 68 comps
+case_0694 y.zero/mi-jia-pwm-diao-su-feng-shan-v2-0 MCU 2515 1791 52 comps
+case_0695 y.zero/mi-jia-pwm-diao-su-feng-shan-v2-0 P1 2356 1683 78 comps
+case_0696 y.zero/mi-jia-pwm-diao-su-feng-shan-v2-0 电源 2318 1369 54 comps
+case_0697 y.zero/mi-jia-pwm-diao-su-feng-shan-v2-0 MCU 2380 1700 62 comps
+case_0698 xuguiyuan/24-inch-tft-color-screen-driver- P1 2335 1719 46 comps
+case_0699 hlchen2021/esp32_s3_dock V1.0 3355 2381 193 comps
+case_0700 anpig/effector_power_v1-0 P1 3383 1846 142 comps
+case_0701 py-learning-notes/minimalist-two-port-usb-switcher P1 1899 1040 14 comps
+case_0702 Aknice/79fa85e6986e4af98d808872469bf327 P2 1968 1303 49 comps
+case_0703 eda_fbkbgqhap/ji-yu-air001-de-zhi-neng-cai-deng-yue-chi-kou P2 1742 1548 45 comps
+case_0704 yizhidianzi/ip2366-evm P1 2391 1734 184 comps
+case_0705 5234679qq/ip5306-kai-yuan-chong-dian-bao-chao-bo ip5306原理图 1751 1057 30 comps
+case_0706 azunya/mifi-ip5306 P1 1396 980 45 comps
+case_0707 la-xian-xiao-dui-v1.0/pai-yan-feng-shan-zhu-kong-ban P1 2356 1567 94 comps
+case_0708 qifenbao/zetaconverter P1 2415 1704 185 comps
+case_0709 aaronchu/6s-chong-dian-qi-ban-lv P1 911 680 9 comps
+case_0710 yzz163/low-cost-high-precision-multi-mo SGM41513_P1 1955 1434 66 comps
+case_0711 yzz163/low-cost-high-precision-multi-mo 002B_P2 2456 1684 52 comps
+case_0712 yzz163/low-cost-high-precision-multi-mo INA228_P3 773 848 14 comps
+case_0713 ruoxie188/heater-fan-based-on-lichuang-sky P1 2905 1945 85 comps
+case_0714 dingcheng/mediatek-mt7628-router 原理图 2424 1684 174 comps
+case_0715 climbsnail/snailheater_public Core 3272 2207 121 comps
+case_0716 climbsnail/snailheater_public OutBoard 2804 2116 166 comps
+case_0717 climbsnail/snailheater_public Panel 2596 1487 38 comps
+case_0718 kuaizhi/hota-chuan-chong-ban-yang-li P1 977 703 9 comps
+case_0719 revoc/minimal-radio-based-on-rda5807 P1 2206 587 30 comps
+case_0720 licy365524886/tps2378-poe-fen-li-qi-_-gai-_20260310 P1 2825 1437 61 comps
+case_0721 swtman/usb20-isolated-extension-scheme ch318 1176 1359 28 comps
+case_0722 hxp119/2022-nian-dian-sai-sheng-yi-dian-yuan P1 1746 935 61 comps
+case_0723 hxp119/2022-nian-dian-sai-sheng-yi-dian-yuan Sheet_1 2114 1500 96 comps
+case_0724 hxp119/2022-nian-dian-sai-sheng-yi-dian-yuan Sheet_1 copy 1697 1023 62 comps
+case_0725 hxp119/2022-nian-dian-sai-sheng-yi-dian-yuan P1 1392 1072 70 comps
+case_0726 hxp119/2022-nian-dian-sai-sheng-yi-dian-yuan P1 2474 1710 121 comps
+case_0727 hxp119/2022-nian-dian-sai-sheng-yi-dian-yuan P1 1508 1151 59 comps
+case_0728 gbn2333/ip6826-wu-xian-chong-dian-qi P1 2392 1116 44 comps
+case_0729 hadyn/simple-foc-v1-0 Sheet_1 3843 1984 221 comps
+case_0730 seahi/ha-sensorget P1 2446 1656 179 comps
+case_0731 ercircle/myfoc MCU 2591 2807 121 comps
+case_0732 ercircle/myfoc M0 2136 1779 101 comps
+case_0733 ercircle/myfoc M1 2046 1638 101 comps
+case_0734 ercircle/myfoc AUX 1845 970 24 comps
+case_0735 ercircle/myfoc HOLE 2131 1424 18 comps
+case_0736 swtman/love-lying-lie-detector MCU 1410 1376 23 comps
+case_0737 swtman/love-lying-lie-detector Voice 920 588 13 comps
+case_0738 swtman/love-lying-lie-detector BlueTooth 1316 548 20 comps
+case_0739 swtman/love-lying-lie-detector power 2216 1576 47 comps
+case_0740 esp-college/esp32-s3-lcd-ev-board-usb-adapter P1 1627 989 21 comps
+case_0741 gcn49/dian-liu-ji P1 2201 1373 69 comps
+case_0742 liuwenchao/chu-mo-deng-guang-zhuo-mian P1 2278 882 68 comps
+case_0743 liuwenchao/chu-mo-deng-guang-zhuo-mian P1 1798 1109 69 comps
+case_0744 o0v0o/usb-chuan-kou-zhuan-huan P1 2007 1512 58 comps
+case_0745 pessenger/qche-mo-du-lun-zhu-ban P1 3524 1761 139 comps
+case_0746 pessenger/qche-mo-du-lun-zhu-ban Core 2451 1652 78 comps
+case_0747 em_16x/mps_power P1 3193 2966 275 comps
+case_0748 em_16x/mps_power P1 3252 1463 192 comps
+case_0749 lighting-electronic-education/mt3608-ke-diao-sheng-ya-mo-kuai P1 1586 759 27 comps
+case_0750 pyserial/electronic-dice P1 2163 1588 55 comps
+case_0751 eda_xdnnfnff/gong-ye-ji-4G-485xie-yi-zhuai-hu 4G 3441 2299 107 comps
+case_0752 hhbv/rk3568b-router SOC_FLASH 3186 1056 31 comps
+case_0753 hhbv/rk3568b-router SOC_LOGIC 2856 1672 51 comps
+case_0754 hhbv/rk3568b-router SOC_COMPHY/USB 2770 1964 67 comps
+case_0755 hhbv/rk3568b-router RK809-5 3102 1759 164 comps
+case_0756 hhbv/rk3568b-router DCDC 3817 1875 98 comps
+case_0757 hhbv/rk3568b-router SOC_PWR 2992 1532 37 comps
+case_0758 hhbv/rk3568b-router LPDDR4/4X 2573 2404 132 comps
+case_0759 hhbv/rk3568b-router EMMC 1363 777 36 comps
+case_0760 lir001/usb-electron-microscope-very-low P1 2381 1676 189 comps
+case_0761 lir001/usb-electron-microscope-very-low P1 2319 1378 93 comps
+case_0762 ls12864/lan-ya-yin-xiang-2 蓝牙小功放 2235 1255 82 comps
+case_0763 ls12864/lan-ya-yin-xiang-2 P1 1167 1197 32 comps
+case_0764 fascinating_sea/stm32_pomotimer P1 2270 1682 73 comps
+case_0765 q3am3uq/raspberry-pi-zerozerow-dock usb扩展坞 2279 1287 52 comps
+case_0766 q3am3uq/raspberry-pi-zerozerow-dock 网卡 1967 935 41 comps
+case_0767 q3am3uq/raspberry-pi-zerozerow-dock 充电保护板 1457 979 25 comps
+case_0768 gx1996liu/desktop-temperature-and-humidity-meter P1 2333 1626 96 comps
+case_0769 gx1996liu/xiao-zhi-ai-assistant-886402a P1 2694 1746 122 comps
+case_0770 bestdesign/typec-a-65w-dcdc-bian-huan-qi P1 2321 1567 65 comps
+case_0771 jeremy_li/tps43060-sheng-ya-mo-kuai P1 2254 1304 99 comps
+case_0772 push_a/xing-neng-jian-shi-qi P1 2456 1676 137 comps
+case_0773 push_a/xing-neng-jian-shi-qi P2 2248 1071 61 comps
+case_0774 mgxq/scheme-of-adjustable-power P1 2012 442 10 comps
+case_0775 h_y_g/zhong-guo-di-tu-nfc-gua-jian P1 976 548 9 comps
+case_0776 raboy/hui-zhang-2_2025-03-05_17-16-56 P1 1549 1255 35 comps
+case_0777 al_user/hou-mi-dian-diao P1 2486 1702 143 comps
+case_0778 al_user/hou-mi-dian-diao P2 2323 1669 194 comps
+case_0779 al_user/hou-mi-dian-diao P1 2319 1562 60 comps
+case_0780 al_user/hou-mi-dian-diao P1 2086 1325 53 comps
+case_0781 al_user/hou-mi-dian-diao P1 3440 2439 321 comps
+case_0782 neymar_jr/xiao-zhi-training-camp P1 3142 1859 46 comps
+case_0783 laoyingzh/tp4333-sheng-ya-dian-yuan-guan-li-1 P1 1428 895 32 comps
+case_0784 arcx_1219/am32esc_aio P1 3106 743 22 comps
+case_0785 arcx_1219/am32esc_aio P1 2366 1195 54 comps
+case_0786 arcx_1219/am32esc_aio P1 1564 776 10 comps
+case_0787 yaoch/led-driver-board P1 2014 591 29 comps
+case_0788 denny_tang/dac-ce-shi-ban P1 3116 2179 47 comps
+case_0789 ecofurlab/mimosa P1 1215 774 15 comps
+case_0790 ecofurlab/mimosa P1 1384 977 32 comps
+case_0791 wzaa/zhi-neng-dian-zi-suo P1 2439 1654 77 comps
+case_0792 jiangrenbo/gl3224-du-ka-qi Sheet_GL3224 2955 2220 84 comps
+case_0793 northerntree/lux_meter P1 1892 1515 22 comps
+case_0794 talented_fish/mp3 P1 2280 1458 63 comps
+case_0795 jie326513988/dian-yuan-tong-xun-mo-kuai-_bq24074 MOD_BQ24074 1889 950 56 comps
+case_0796 shepiguai_eda/niu-kou-dian-chi-lan-ya-wen-shi-du-ji-cr2032-ch592f-sht40-bmp280 P1 2271 1365 73 comps
+case_0797 yio-lab/kong-dong-xiao-qiu P1 2406 1636 93 comps
+case_0798 jifan/xian-metro-route-nfc-xian-automo 原理图 1596 762 12 comps
+case_0799 sifli/sf32lb52-devkit-lcd P4 3090 1607 90 comps
+case_0800 sifli/sf32lb52-devkit-lcd P5 3006 1708 92 comps
+case_0801 sifli/sf32lb52-devkit-lcd P6 3085 2289 109 comps
+case_0802 sifli/sf32lb52-devkit-lcd P7 3354 2165 131 comps
+case_0803 sifli/sf32lb52-devkit-lcd P8 2787 2071 64 comps
+case_0804 trumpx/ch32x0435typec2dpboard P1 2493 2100 105 comps
+case_0805 team_crvglqzm/tai-yang-neng-chong-dian P1 2142 681 68 comps
+case_0806 eda_abmspvvl/intelligent-car 拓展部分 2379 1651 143 comps
+case_0807 eda_abmspvvl/intelligent-car 主控MCU部分 2087 1521 129 comps
+case_0808 eda_abmspvvl/intelligent-car 板载电源部分 1725 902 41 comps
+case_0809 lighting-electronic-education/ch30c-chuan-kou-xia-zai-qi-dian-deng-dian-zi P1 1502 774 36 comps
+case_0810 electgc/xiao-xiao-jian-zhong P1 2337 1552 50 comps
+render failed ytm899/mmdvm_hs_dual_hat too many values to unpack (expected 4)
+case_0811 yuguangdong/zynq7010-he-xin-ban 2_BANK0/13 2049 961 21 comps
+case_0812 yuguangdong/zynq7010-he-xin-ban 4_BANK500/501 2246 1634 32 comps
+case_0813 yuguangdong/zynq7010-he-xin-ban 6_CORE/IO_POWER 2906 2270 154 comps
+case_0814 yuguangdong/zynq7010-he-xin-ban BANK 502/DDR 2444 1462 47 comps
+case_0815 daiyue1/laboratory-based-on-drv8701e-ful P1 2955 2077 71 comps
+case_0816 eda_sskspkhkz/zi-tai-xia P1 3009 1577 88 comps
+case_0817 enzo-and-aqin/mo-shui-ping-m-2 P1 2257 1022 48 comps
+case_0818 enzo-and-aqin/mo-shui-ping-m-2 P1 2440 1348 76 comps
+case_0819 ch1111y/ltc3108-1 P1 1735 924 23 comps
+case_0820 spawm/74c8e16fb2c44bb5b0078d5376445849 原理图A 2254 976 41 comps
+case_0821 luosgzs/pd-ch224k P1 1496 1132 49 comps
+case_0822 qq946333519/cn3791-mppt-tai-yang-nen-dian-chi-ban-chong-dian-qi-li-dian-chi-chong-dian-ban-mo-kuai-1 CN3791 2005 1126 28 comps
+case_0823 team_keinkzpm/gtf95s P1 2163 1236 66 comps
+case_0824 roboticlib/wu-feng-huan-dian-fen-dian-ban P1 2477 1477 123 comps
+case_0825 yuzisoft/ji-yu-li-chuang-liang-shan-pai-d P1 1831 1337 78 comps
+case_0826 tiuyt586/mp342820v5a P1 1272 750 36 comps
+case_0827 Aknice/e3a68120fa8d49ff8bc50ad21d57ec9d P1 2936 2045 118 comps
+case_0828 bitstream/multi-function-power-supply P1 2368 1375 85 comps
+case_0829 bitstream/multi-function-power-supply P2 1189 810 18 comps
+case_0830 bitstream/multi-function-power-supply P3 2125 753 67 comps
+case_0831 bitstream/multi-function-power-supply P1 2339 1602 47 comps
+case_0832 tianluo2005/drv8801-driver-board_transfer P1 1907 966 44 comps
+case_0833 zeruns/zhi-neng-dian-zi-fu-zai P2 1708 1209 51 comps
+case_0834 zeruns/zhi-neng-dian-zi-fu-zai P3 1201 898 31 comps
+case_0835 zeruns/zhi-neng-dian-zi-fu-zai P1 2214 1479 82 comps
+case_0836 zeruns/zhi-neng-dian-zi-fu-zai P1 1165 564 21 comps
+case_0837 zeruns/zhi-neng-dian-zi-fu-zai P1 2315 1282 68 comps
+case_0838 zeruns/zhi-neng-dian-zi-fu-zai P1 2326 1656 100 comps
+case_0839 1fenglin/ups-jia-dian-chi P1 2168 1456 74 comps
+case_0840 wzw666/fs312 P1 1123 647 14 comps
+case_0841 Weishui_Changan/c823346549c743e28e3bd569055a2631 P1 2240 1417 98 comps
+case_0842 Weishui_Changan/c823346549c743e28e3bd569055a2631 P2 1776 1673 66 comps
+case_0843 jefyan/mi-tu-er-tong-shou-biao-chong-dian-bao-tp4337 P1 2111 1155 47 comps
+case_0844 kkaiwan/prodoc_-shuang-ji-xing-kong-zhi-qi-v1-2_2025-10-11 P1_1 2464 1762 185 comps
+case_0845 cloudbot/dc-buck_2025-10-22-t Sheet_1 1313 637 15 comps
+case_0846 2259123zz/opa547-ya-kong-heng-liu-yuan P1 1990 1095 63 comps
+case_0847 master__liu/hand-warmer-with-super-high-retu 主控部分 2405 1302 75 comps
+case_0848 master__liu/hand-warmer-with-super-high-retu 电源 1399 807 54 comps
+case_0849 monkid/1s-dian-chi-kuo-zhan-ban P1 995 1434 21 comps
+case_0850 q12888873/mppt9635a 功率板 2420 1631 121 comps
+case_0851 q12888873/mppt9635a 主控板 2256 1658 123 comps
+case_0852 fdsgde/pidzhengqi P1 2473 1726 67 comps
+case_0853 3.1.4.5.9.2.6/jialichuang-6th-anniversary-crea P1 2304 1663 31 comps
+case_0854 max04/ip5356m-lbz-yi-dong-dian-yuan-10000mha P1 3057 1510 139 comps
+case_0855 Alpha-go/OSC-panel Power 2697 1538 64 comps
+case_0856 Alpha-go/OSC-panel IPS_Drive 2969 2197 62 comps
+case_0857 stm32eda/bian-xie-diao-su-dian-yuan P1 3416 2449 330 comps
+case_0858 allyou/xiao-mei-ge-eda-tuo-zhan-ban P1 1422 1034 32 comps
+case_0859 qzc13457/ovs_lite MCU 2454 1813 70 comps
+case_0860 qzc13457/ovs_lite HUB 2349 1778 67 comps
+case_0861 qzc13457/ovs_lite POW 2330 1024 70 comps
+case_0862 qzc13457/ovs_lite USART 1212 936 15 comps
+case_0863 qzc13457/ovs_lite CAMERA 2096 868 40 comps
+case_0864 heyh/Macro-microscope P1 867 1715 94 comps
+case_0865 eda_ittvtyvyy/1-54-st7789-15pin P1 1021 436 15 comps
+case_0866 fascinating_sea/stm32_balancecar P1 2263 1515 53 comps
+case_0867 282292b/tps566231rqfr-yi-yan-zheng P1 1664 678 19 comps
+case_0868 ahuahu/charger A-BATTERY-MANAGE 3897 2270 104 comps
+case_0869 ahuahu/charger CONTROL 2329 1062 36 comps
+case_0870 ahuahu/charger POWER 2131 1642 60 comps
+case_0871 ahuahu/charger B-BATTERY-MANAGE 3677 1583 99 comps
+case_0872 ahuahu/charger P1 1851 1152 34 comps
+case_0873 z3263335884/2804-motor-encoder-as5600 P1 1127 867 25 comps
+case_0874 lrg_1997/simple-multi-channel-dc-power P1 3256 2344 199 comps
+case_0875 waterbird/tong-yong-chuan-kou-ping P1 2553 1289 62 comps
+case_0876 lioasis/temperature-and-humidity-detector P1 2414 1649 76 comps
+case_0877 zzzzzzzzp/bian-xie-shi-dian-yuan-chuan-kou P1 2482 1259 59 comps
+case_0878 swtblue/design-of-development-board-base stc_AI8051 3095 1624 38 comps
+case_0879 swtblue/design-of-development-board-base interface 2204 1446 23 comps
+case_0880 eda_uahyxtbgs/ch224apd32-decoy-power-module P1 2604 1740 79 comps
+case_0881 ltyxh/rm-chao-ji-dian-rong-zhu-kong-model-ling-psp-zhan-dui P1 3091 2150 152 comps
+case_0882 ivanli/sc8703-sw2305usb-lift-pressure-q P1 3675 1973 164 comps
+case_0883 ltboflay/ch344 P1 2380 1602 148 comps
+case_0884 zlog.yu/core-board-small-objects P1 2608 1659 60 comps
+case_0885 littlesun/debugger-based-on-pogopin ISP 1059 650 6 comps
+case_0886 littlesun/debugger-based-on-pogopin Interface 1580 761 15 comps
+case_0887 littlesun/debugger-based-on-pogopin Power 1339 627 28 comps
+case_0888 aknice/yin-shi-pi OPT 3031 1208 82 comps
+case_0889 aknice/yin-shi-pi AUX 3358 2293 143 comps
+case_0890 l87732382/29_Magnetic_ring_motor_drive Sheet_1 3551 2429 123 comps
+case_0891 kill-star_sx/7805-tie-pian-dcdc-dai-ti P1 997 525 21 comps
+case_0892 kill-star_sx/7805-tie-pian-dcdc-dai-ti P1 890 657 22 comps
+case_0893 kill-star_sx/7805-tie-pian-dcdc-dai-ti P1 1006 497 16 comps
+case_0894 z_star/xiang-ya-dan-zhuai-shuang-dian-y P1 1188 1150 38 comps
+case_0895 z_star/xiang-ya-dan-zhuai-shuang-dian-y P1 1501 1840 107 comps
+case_0896 z_star/xiang-ya-dan-zhuai-shuang-dian-y P1 1808 1161 35 comps
+case_0897 z_star/xiang-ya-dan-zhuai-shuang-dian-y P1 1061 811 20 comps
+case_0898 heyh/XSP16_PD_Decoy P1 1772 904 87 comps
+case_0899 bh-cai/usb-san-jin-yi-chu-kvm P1 1353 1539 36 comps
+case_0900 kkaiwan/cai-ping-kong-zhi-qi-zha-ji-qu-dong-qi-jia-qiang-ban P1 1361 1122 65 comps
+case_0901 wushuzhilu/lu-ban-miao-3-5-cun-chu-mo-ping-zhuan-jie-ban P1 1871 1279 39 comps
+case_0902 Tang1999/274f58c50e894ef0a3a4f0a76a049300 P3 2023 1444 51 comps
+case_0903 solo1778/simplefoc_-wu-shua-dian-ji-da-gong-lv-shuang-tong-dao-qu-dong-yi-yan-zheng-copy_2024-10-22_22-30-44 Sheet_1 copy 3163 2275 140 comps
+case_0904 l64481000/temperature-and-humidity-detector-425272i P1 3237 1641 149 comps
+case_0905 qgy-8556/3v-wan-yong-biao-gai-dian P1 1586 1063 50 comps
+case_0906 etberzin/usb-dian-ya-dian-liu-biao P1 2422 1688 87 comps
+case_0907 prism24/luat_air780ex_v0 P1 2780 1639 76 comps
+case_0908 55wfejafjaw/xun-xian-bu-pin-ban P2 2466 1775 79 comps
+case_0909 whitiee/motor-pwm-drive-module P1电源 2351 1345 91 comps
+case_0910 lovelessing/high-power-adjustable-digital-po DCDC_PWR 2616 1740 191 comps
+case_0911 lovelessing/high-power-adjustable-digital-po Controller 3103 1605 148 comps
+case_0912 sm_brie/ac-dc-15w-kai-guan-dian-yuan-hf500-15 P1 2104 1376 61 comps
+case_0913 q508/ra-mi-ni-zhi-wu-ji P1 2256 927 30 comps
+case_0914 dwdwdw37/keyboard_origin P1 2551 1508 82 comps
+case_0915 dwdwdw37/keyboard_origin P2 3784 2276 534 comps
+case_0916 m_zc/stm32_plc_20251215-kai-yuan 单片机 2163 1293 51 comps
+render failed m_zc/stm32_plc_20251215-kai-yuan too many values to unpack (expected 4)
+render failed m_zc/stm32_plc_20251215-kai-yuan too many values to unpack (expected 4)
+render failed m_zc/stm32_plc_20251215-kai-yuan too many values to unpack (expected 4)
+render failed m_zc/stm32_plc_20251215-kai-yuan too many values to unpack (expected 4)
+render failed m_zc/stm32_plc_20251215-kai-yuan too many values to unpack (expected 4)
+case_0917 dragon12345/fang-sheng-hu-die P1 2173 1586 64 comps
+case_0918 dragon12345/fang-sheng-hu-die P1 2173 1642 79 comps
+case_0919 xact/gp1294ai-256x48-vfd-xian-shi-mo-kuai-unl-200ap-c-_2023-09-13_19-56-46 EPC-INBN0BV1294UD 2553 1750 163 comps
+case_0920 lilidream/tai-shan-pai-duo-ping-mu-tuo-zhan-ban P1 2218 1508 31 comps
+case_0921 lighting-electronic-education/mo-ni-dian-lu-zhi-liu-wen-ya-dian-yuan P1 1733 1165 72 comps
+case_0922 o0v0o/lao-wang-400-300-san-se-mo-shui-ping-qu-dong-ban P1 2173 1572 72 comps
+case_0923 o0v0o/lao-wang-400-300-san-se-mo-shui-ping-qu-dong-ban P2 1849 1094 45 comps
+case_0924 qiming-yix-studio/wtdk32s3-ditto-s1_8-8 P1 3390 2348 107 comps
+case_0925 qiming-yix-studio/wtdk32s3-ditto-s1_8-8 P1 1397 471 16 comps
+case_0926 qingmeijiupiao/wu-xian-kai-guan-gong-lv-ji-v6 P1 3116 1377 149 comps
+case_0927 big_big_a/ke-le-chong-dian-bao-dai-wu-xian 原理图 2464 1761 204 comps
+case_0928 2025-electric-race-team-njupt/wu-ren-ji-kuo-zhan-ban-esp32_yang P1 3391 1734 167 comps
+case_0929 huhaoran/snowflake-light-easy-edition P1 2430 1114 38 comps
+case_0930 avanx/800mWtu-zhuan RTC6705_800MW_VTX 2987 2083 165 comps
+render failed avanx/800mWtu-zhuan too many values to unpack (expected 4)
+case_0931 lyr543219876/dian-ji-qu-dong P1 1096 556 25 comps
+case_0932 eda_wlxngbesj/liang-jie-li-dian-chi-chong-dian-dian-lu 原理图 2106 1080 37 comps
+case_0933 catsimple/usb-dian-yuan-ge-li-mo-kuai P1 1946 676 20 comps
+case_0934 xiaoban2333/usbhub-plus-card-reader-function P1 2465 1652 47 comps
+case_0935 jiajun.gao/The-clock-at-home-never-needs-to-change-the-battery. P1 2028 602 41 comps
+case_0936 pigrunrun/minipro-ad8129-30 供电 2181 1235 70 comps
+case_0937 pigrunrun/minipro-ad8129-30 衰减与放大 2279 1635 111 comps
+case_0938 pigrunrun/minipro-ad8129-30 P1 2288 1242 51 comps
+case_0939 pigrunrun/minipro-ad8129-30 P2 2526 2376 86 comps
+case_0940 47415y/new-project P1 2297 1482 131 comps
+case_0941 ttzzff110/emmc-shao-lu-qi P1 1589 1669 25 comps
+case_0942 lowenzahn/Dongfanghong1-SMD 控制器、衰减器、电源 3110 2302 202 comps
+case_0943 lowenzahn/Dongfanghong1-SMD 音阶振荡器、合成器 3331 1428 169 comps
+case_0944 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi RK3568_OSC/PLL/PMUIO1/2 2391 1658 65 comps
+case_0945 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi RK3568_MIPI_DSI_TX1 1248 868 11 comps
+case_0946 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi RK3568_MIPI_CSI_RX 1051 910 11 comps
+case_0947 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi 供电系统 2332 1126 70 comps
+case_0948 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi 电源管理 3186 1796 125 comps
+case_0949 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi VDD_CPU 1468 589 19 comps
+case_0950 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi 硬盘 1585 1796 51 comps
+case_0951 oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi 屏幕 1594 1375 66 comps
+case_0952 jerrycyh/power-supply-module P1 2356 2372 147 comps
+case_0953 seanpu/74hc595-ce-shi P1 3105 2239 261 comps
+case_0954 alexia0/ip5358-chong-dian-bao-01 P1 2165 1543 52 comps
+case_0955 jjjkkkkkk/espnow-gao-pin-tou-v2 P1 2365 1540 79 comps
+case_0956 aknice/ms1836 P1 3789 1934 140 comps
+case_0957 washing_controol_ap101/maimaitouchpad-controlv2-0 MCU 3350 2374 240 comps
+case_0958 washing_controol_ap101/maimaitouchpad-controlv2-0 SENSOR 3179 2341 168 comps
+case_0959 washing_controol_ap101/maimaitouchpad-controlv2-0 P1 1794 1336 56 comps
+case_0960 washing_controol_ap101/maimaitouchpad-controlv2-0 P1 2123 1788 95 comps
+case_0961 washing_controol_ap101/maimaitouchpad-controlv2-0 P1 2266 1536 111 comps
+case_0962 xwmr0924/simple-pid-project P1 2458 1704 51 comps
+case_0963 roboticlib/2025rc-duo-lun-qu-dong-ban P1 2441 1598 77 comps
+case_0964 happyhu911/SGM6232_DCDCxiang-ya-mu-kuai P1 1975 726 23 comps
+case_0965 monnina/san-xiang-shuang-xiang-SiCwu-qia P1 2554 1684 79 comps
+case_0966 monnina/san-xiang-shuang-xiang-SiCwu-qia P1 3363 2421 184 comps
+case_0967 monnina/san-xiang-shuang-xiang-SiCwu-qia power 2102 1267 47 comps
+case_0968 monnina/san-xiang-shuang-xiang-SiCwu-qia P1 2754 904 34 comps
+case_0969 monnina/san-xiang-shuang-xiang-SiCwu-qia P1 1998 1021 28 comps
+case_0970 monnina/san-xiang-shuang-xiang-SiCwu-qia P1 3090 2176 130 comps
+case_0971 monnina/san-xiang-shuang-xiang-SiCwu-qia Main 3147 2476 160 comps
+case_0972 monnina/san-xiang-shuang-xiang-SiCwu-qia Aux_power 3172 1872 81 comps
+case_0973 leichaolin/da-gong-shuai-2KWbu-jian-duan-di 初级BUCK 2192 1282 67 comps
+case_0974 leichaolin/da-gong-shuai-2KWbu-jian-duan-di 中间LLC 2396 1686 97 comps
+case_0975 leichaolin/da-gong-shuai-2KWbu-jian-duan-di 后级逆变 2402 1805 79 comps
+case_0976 leichaolin/da-gong-shuai-2KWbu-jian-duan-di 辅助电源 2496 1770 138 comps
+case_0977 leichaolin/da-gong-shuai-2KWbu-jian-duan-di 充电电路 2288 1684 102 comps
+case_0978 c1364/nae12s20dc-dc-step-down-module NAE12S20 1159 717 30 comps
+case_0979 yangruixi/gl3224 P1 2150 1383 68 comps
+case_0980 styy564/pd-deception-mp2225-buck-2-in-1 P1 2108 1505 57 comps
+case_0981 ikalyes/ft232-zynq-xia-zai-qi P1 2472 1709 115 comps
+case_0982 lhn1324/rtl8367s_rtl8213b RTL8213B 2337 2029 38 comps
+case_0983 lhn1324/rtl8367s_rtl8213b RTL8367S 2927 2012 131 comps
+case_0984 lhn1324/rtl8367s_rtl8213b Power 2344 1692 56 comps
+case_0985 lhn1324/rtl8367s_rtl8213b RJ45 2517 2418 64 comps
+case_0986 lhn1324/rtl8367s_rtl8213b SFP 1993 705 25 comps
+case_0987 156135lk/notlink_v6 MCU 2162 1550 52 comps
+case_0988 156135lk/notlink_v6 USB 1122 1412 29 comps
+case_0989 156135lk/notlink_v6 JTAG 2183 1655 104 comps
+case_0990 jamal121/simple-pid-motor-control P1 2292 1686 95 comps
+case_0991 bisen/gl823k P1 947 721 22 comps
+case_0992 wandaeda/ch339-electronic-diy-development P1 3321 2341 71 comps
+case_0993 fjiqiren3/24v-step-down-19v-step-down-module P1 2628 1690 105 comps
+case_0994 kanexu/intelligent-networking-formaldeh P1 1709 2518 76 comps
+case_0995 esp-college/esp-usb-expansion-board P1 652 1703 27 comps
+case_0996 wdmomo/2-01-jd9853 P1 2074 1334 19 comps
+case_0997 harbourliu/ping-heng-xiao-che 原理图 2431 1733 69 comps
+case_0998 l3shn/dc-3-7-12v P1 2134 1180 50 comps
+case_0999 eda_vyrtoyct/yuan-cheng-io-ji-yu-stm32f103c8t6 对外接口 2718 1277 103 comps
+case_1000 eda_vyrtoyct/yuan-cheng-io-ji-yu-stm32f103c8t6 电源电路 2297 513 28 comps
+case_1001 eda_vyrtoyct/yuan-cheng-io-ji-yu-stm32f103c8t6 隔离输入 2055 1670 88 comps
+case_1002 eda_vyrtoyct/yuan-cheng-io-ji-yu-stm32f103c8t6 隔离输出 2787 2223 78 comps
+case_1003 eda_vyrtoyct/yuan-cheng-io-ji-yu-stm32f103c8t6 RS485转TTL 1969 671 29 comps
+case_1004 eda_vyrtoyct/yuan-cheng-io-ji-yu-stm32f103c8t6 模拟量输入模块 3014 1293 44 comps
+case_1005 zzou/2025-electric-race-power-prepara P1 2365 1527 54 comps
+case_1006 zzou/2025-electric-race-power-prepara P1 2349 1299 32 comps
+case_1007 zzou/2025-electric-race-power-prepara P1 2114 1570 45 comps
+case_1008 zzou/2025-electric-race-power-prepara P1 2283 1220 26 comps
+case_1009 zzou/2025-electric-race-power-prepara P1 3314 2317 132 comps
+case_1010 zzou/2025-electric-race-power-prepara P1 2761 1827 53 comps
+case_1011 zzou/2025-electric-race-power-prepara P1 1784 988 20 comps
+case_1012 mondraker/coin-size-foc-brushless-gimbal-d MCU 1777 1231 23 comps
+case_1013 mondraker/coin-size-foc-brushless-gimbal-d Driver 2091 655 38 comps
+case_1014 mondraker/coin-size-foc-brushless-gimbal-d Power 1742 1202 54 comps
+case_1015 mondraker/coin-size-foc-brushless-gimbal-d Peripheral 1966 648 17 comps
+case_1016 mtf-electronics-studio/stm32f334c8t6-gan-buck-boost P1 2542 1891 76 comps
+case_1017 mtf-electronics-studio/stm32f334c8t6-gan-buck-boost P1 2442 1430 70 comps
+case_1018 mtf-electronics-studio/stm32f334c8t6-gan-buck-boost P1 1284 987 7 comps
+case_1019 mtf-electronics-studio/stm32f334c8t6-gan-buck-boost P1 1069 913 5 comps
+case_1020 an_ye/zhuo-mian-fu-ping P1 3093 2215 186 comps
+case_1021 an_ye/zhuo-mian-fu-ping P2 2564 2085 93 comps
+case_1022 an_ye/zhuo-mian-fu-ping P1 3248 2209 233 comps
+case_1023 an_ye/zhuo-mian-fu-ping P2 2960 1866 223 comps
+case_1024 sobin_huang/shi-zhan-yan-lian-09_esp32s3-wai-jie-1-69-cun-chu-mo-ping P1 1898 919 50 comps
+case_1025 eda_kwazdnpkc/at32f415_foc CORE 3170 1905 110 comps
+case_1026 eda_kwazdnpkc/at32f415_foc DRIVER 1907 1480 53 comps
+case_1027 eda_kwazdnpkc/at32f415_foc P1 769 1125 13 comps
+case_1028 willyanlee/ch224d-you-pian-ban P1 2067 712 20 comps
+case_1029 catsimple/bp2866-led-heng-liu-qu-dong P1 849 857 20 comps
+case_1030 carele/m-2-wifi-a-e-key-to-m-2-nvme P1 1395 1357 56 comps
+case_1031 travellium/IP5389BZ IP5389-原理图 3319 2285 355 comps
+case_1032 travellium/IP5389BZ MCU-原理图 2284 1584 119 comps
+case_1033 joker1999/klipper_toolhead_usb Sheet2 2369 1661 88 comps
+case_1034 whatthethethe/24v-0-8a-kai-guan-dian-yuan P1 2385 862 46 comps
+case_1035 allyou/jian-yi-ldo P1 3181 1634 112 comps
+case_1036 aaccbb/motocar12to05 P1 1361 608 23 comps
+case_1037 yuguangdong/ep4cgx150df23i7n-he-xin-ban POWER 2393 1259 122 comps
+case_1038 gbn2333/ji-yustm32 P1 3304 2401 159 comps
+case_1039 gbn2333/ji-yustm32 P1 3109 1944 80 comps
+case_1040 10241024x/boost-project_2025-10-14_10-48-33 P1 2010 1046 41 comps
+case_1041 ikalyes/surfacepro4-zhi-qu P1 3274 2476 218 comps
+case_1042 eda_kwazdnpkc/ch634w6g_test POWER 1544 1523 40 comps
+case_1043 eda_kwazdnpkc/ch634w6g_test USBCONN 2696 2329 87 comps
+case_1044 eda_kwazdnpkc/ch634w6g_test MCU 2619 1916 75 comps
+case_1045 freedopm/aniya_epd P1 2380 1393 111 comps
+case_1046 qxqpcb/tps54335adrcr-3a-shu-chu-tong-bu-jiang-ya-mo-kuai P1 1331 662 44 comps
+case_1047 eda_qtujpbgst/foc_driver DRIVER 2516 1700 36 comps
+case_1048 eda_qtujpbgst/foc_driver STSPIN32G4 2360 1560 86 comps
+case_1049 eda_qtujpbgst/foc_driver SENSOR 2345 1673 62 comps
+case_1050 no_chicken/lightsensorv1-2_2023-04-21 P1 2579 1857 76 comps
+case_1051 z_1_z/ab-xiang-huo-er-bian-ma-qi P1 1466 1218 24 comps
+case_1052 z_1_z/ab-xiang-huo-er-bian-ma-qi P1 2172 1292 38 comps
+case_1053 myzhazha/shen-zhi-yan-plus P1 2364 1610 168 comps
+case_1054 myzhazha/shen-zhi-yan-plus P2 2125 1291 73 comps
+case_1055 rkdl/ip5306-b628-led-ying-ji-deng-yuan Sheet_1 2340 1555 96 comps
+case_1056 swtblue/temperature-barometer-based-on-ra4e2-development-board RA4E2温度气压计 919 1502 12 comps
+case_1057 yc_chen/boe-vfd-display-screen-deskt STC-MCU 2949 2122 56 comps
+case_1058 yc_chen/boe-vfd-display-screen-deskt VFD驱动 2378 1193 44 comps
+case_1059 atcc/stm32f103rct6-zui-xiao-xi-tong P1 1477 665 17 comps
+case_1060 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2761 1973 61 comps
+case_1061 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2418 1735 87 comps
+case_1062 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2177 1440 55 comps
+case_1063 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2362 1018 31 comps
+case_1064 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2266 1729 74 comps
+case_1065 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2597 1418 56 comps
+case_1066 atcc/stm32f103rct6-zui-xiao-xi-tong P1 2201 1296 65 comps
+case_1067 fffff45451/pocket-inverter-minix10 P1 2391 1262 151 comps
+case_1068 fffff45451/pocket-inverter-minix10 P1 2401 1154 106 comps
+case_1069 zhang_sai/you-shua-qu-dong P1 2376 1573 121 comps
+case_1070 lcd0101/tft_2-4-cun-_v1-0 SCH 3321 2336 171 comps
+case_1071 maomaolan/esp32-s3-screen 主控 2448 1966 138 comps
+case_1072 maomaolan/esp32-s3-screen 屏幕接口 3233 2284 224 comps
+case_1073 vrxiaojie/ip5407-mcu-dian-yuan 2LED_IP54072D1D+IP3005A 2343 1547 69 comps
+case_1074 batterymain/buck-circuit-based-on-mps MainPower 2274 1496 98 comps
+case_1075 batterymain/buck-circuit-based-on-mps MCU 2238 1461 65 comps
+case_1076 batterymain/buck-circuit-based-on-mps Sampling 2337 1566 72 comps
+case_1077 stephen_9527/tian-kong-xing-_lvgl P1 2927 1839 85 comps
+case_1078 ccml/zhe-die-chi-gong-dian-mo-kuai P1 1587 1293 44 comps
+case_1079 li-chuang-kai-fa-ban/li-chuang-3-1-cun-mipi-ping-mu-kuo-zhan-ban P1 2554 1586 68 comps
+case_1080 hanbing666/kai-yuan-xing-guang-4s-gong-cheng 4S+5L通用V6.6 2033 1449 61 comps
+case_1081 Wander_er/891fe1d235694ef7afe684f5a2f05b73 Sheet 1954 1485 34 comps
+case_1082 double_mumu/jia-quan-jian-ce-yi P1 3107 2171 98 comps
+case_1083 huanraogonglu/chang-cheng-CRPSfu-wu-qi-dian-yu P1 2474 1780 85 comps
+case_1084 mahaiyuan/3s-jun-heng-chong-dian-qi P1 1928 1113 31 comps
+case_1085 zhupf1984/dian-nao-feng-shan-wen-kong-diao-su-qi P1 1571 769 20 comps
+case_1086 yafe_04/Yang-UART-Display-Screen P1 2412 1680 122 comps
+case_1087 liuwenchao/create-six-open-source-electroni P1 2249 2376 97 comps
+case_1088 dianzifashaoyouhhh/quan-tong-lv-bo-qi P1 1586 1154 35 comps
+case_1089 xianling/AS5600-ci-bian-ma-qi P1 947 500 17 comps
+case_1090 jhx275816/tp4056-chong-dian-mo-zu P1 3281 2343 157 comps
+case_1091 aknice/zhi-liu-sheng-gao-ya-mo-kuai P1 1852 701 34 comps
+case_1092 jia23365/shu-kong-zhi-liu-dian-yuan-ban-bu-ju-gai-jin-ban 开关控制+检测电路 1623 881 20 comps
+case_1093 jia23365/shu-kong-zhi-liu-dian-yuan-ban-bu-ju-gai-jin-ban 电源输入输出电路 2212 1163 84 comps
+case_1094 jia23365/shu-kong-zhi-liu-dian-yuan-ban-bu-ju-gai-jin-ban 主控电路 1661 1055 35 comps
+case_1095 pinkberry/hong-wai-dui-she-mo-kuai P1 1100 847 15 comps
+case_1096 sifli/sf32-keyboard 主控、HUB 2349 1693 64 comps
+case_1097 sifli/sf32-keyboard 电源、串口、屏幕、键盘、LED 2375 1661 105 comps
+case_1098 sifli/sf32-keyboard 音频、麦克风、温湿度、SD卡槽 2408 1274 69 comps
+case_1099 mikeytt/mini-handicap P1 2773 2004 115 comps
+case_1100 dongduzhilang/duo-kou-kuai-chong-zhuo-mian-dian-yuan-65w-65w-65w-65w P1 3342 2362 143 comps
+case_1101 urmouky/si-he-yi-dian-diao-di-ban P1 1658 1829 103 comps
+case_1102 2039517453qq/energy-return-device P1 1442 465 12 comps
+case_1103 2039517453qq/energy-return-device P1 2289 1210 61 comps
+case_1104 2039517453qq/energy-return-device P1 1701 886 28 comps
+case_1105 2039517453qq/energy-return-device P1 3142 2029 153 comps
+case_1106 myzhazha/tou-ying P1 3452 2449 173 comps
+case_1107 dzkjxh/shi-li-ji-yu-ch32v003-de-ke-bian-cheng-rgb-kong-zhi-qi P1 2380 1277 75 comps
+case_1108 royoo/ads1220-si-xian-dian-zu P1 1880 1599 42 comps
+render failed zjx444555/shui-xia-xiang-ji-zhu-ban '<' not supported between instances of 'NoneType' and 'int'
+case_1109 poria_cocos/2024-zeng-xin-bei-d-ti-shu-kong-dian-yuan CORE 2341 1723 100 comps
+case_1110 poria_cocos/2024-zeng-xin-bei-d-ti-shu-kong-dian-yuan POWER 2318 1468 83 comps
+case_1111 dwcvwcv/8x8-xuan-cai-pin-pu-deng P1 2278 1567 79 comps
+case_1112 inkloud/led-constant-current-driver-boar P1 1472 798 14 comps
+case_1113 caitsith13/st188-xin-lv-jian-ce P1 1669 652 29 comps
+case_1114 sun1053/esp32s3-running-lvgl-8bit-parall P1 3275 1953 136 comps
+case_1115 wire-easy-microelectronics/b1205-2w5-2k5v-6793re B1205D-2W5-6793RE-78G5N 1544 491 28 comps
+case_1116 cheerfulness/multi-function-frequency-generator P1 3332 2407 243 comps
+case_1117 cheerfulness/multi-function-frequency-generator P2 3328 2102 134 comps
+case_1118 cheerfulness/multi-function-frequency-generator P1 3357 2117 218 comps
+case_1119 cheerfulness/multi-function-frequency-generator P1 2398 1626 73 comps
+case_1120 cheerfulness/multi-function-frequency-generator P1 1618 835 35 comps
+case_1121 cheerfulness/multi-function-frequency-generator P1 3386 2284 364 comps
+case_1122 cheerfulness/multi-function-frequency-generator P2 3367 2344 310 comps
+case_1123 cheerfulness/multi-function-frequency-generator P3 2990 2000 283 comps
+case_1124 niu_njb/he-tu-xiao-che-_2022-11-10_v1-1 P1 2443 1645 73 comps
+case_1125 myself1820/zhi-neng-yu-yin-fen-lei-de-la-ji-tong P1 3485 2215 131 comps
+case_1126 yc_chen/zyc-vfd-shi-zhong VFD驱动 2424 1601 53 comps
+case_1127 yc_chen/zyc-vfd-shi-zhong Core 2475 1325 39 comps
+case_1128 redgragon/ngff_ekey_cnvio-pcie NGFF_EKEY_CNVio&PCIE 2852 2040 21 comps
+case_1129 hanbing666/xing-guang-4n-kai-yuan-6-1-ban-ben 星光4奥卡 1772 1290 56 comps
+case_1130 2211john/ip5356_led_18650-2 P1 2373 1576 62 comps
+case_1131 emmovo/usb_vl813_pro USB_HUB_VL813.SchDoc 3721 2946 145 comps
+case_1132 css01/xiao-zhi-training-camp P1 2321 1673 61 comps
+case_1133 erwinsusu/intelligent-control-fan-spark-pr P1 3192 2248 122 comps
+case_1134 em_16x/happy-new-year-uv-lamp P1 3334 1887 156 comps
+case_1135 vihor/LED-ET5120A-1_8W P1 1004 467 20 comps
+case_1136 ikalyes/atx-zhu-ban-gong-dian-mo-zu P1 2449 1670 145 comps
+case_1137 ikalyes/atx-zhu-ban-gong-dian-mo-zu P1 2486 1607 64 comps
+case_1138 ikalyes/atx-zhu-ban-gong-dian-mo-zu P1 2517 1694 114 comps
+case_1139 ikalyes/atx-zhu-ban-gong-dian-mo-zu P2 1416 808 47 comps
+case_1140 shi0826/shu-yu-zi-ji-de-dian-yuan-mo-kuai P1 2885 1957 81 comps
+case_1141 gcn49/mp2315 P1 2224 871 34 comps
+case_1142 verysunshine/a62c9b8275804243aaaf907d518367c6 一转四TTL 3063 1749 154 comps
+case_1143 threedayyuanzi/f103c8t6-chuan-kou-zhuan-usb P1 2401 1613 62 comps
+case_1144 xiaofengzi/uart-shao-xie-zhen P1 746 479 7 comps
+case_1145 bruce_sun/dual-motor-torque-feedback-control-system-based-on-foc-control P1 3171 2237 201 comps
+case_1146 li-chuang-kai-fa-ban/lckfb-ch340x-usb-to-ttl-type-c P1 2478 1135 48 comps
+case_1147 catsimple/dcdc-to-1117 P1 804 619 11 comps
+case_1148 catsimple/dcdc-to-1117 P1 797 461 11 comps
+case_1149 qiaomueda/eg1654-pfc-rev01 P1 2499 1659 92 comps
+case_1150 hbozyq/PingFOCer sheet1 3304 2360 220 comps
+case_1151 hbozyq/PingFOCer sheet1 2281 2259 165 comps
+case_1152 xaiomao/lv-he-jin-bu-guang-deng P1 2636 1778 162 comps
+case_1153 o0v0o/pcie-dian-yuan-zhuan-dc P1 971 571 14 comps
+case_1154 flyn/yBNBlBA87v2Q7eBf5Prj3rSULd3uFKcu P1 2500 1812 172 comps
+case_1155 heyh/FS312BH_PD_Decoy P1 1808 752 55 comps
+case_1156 upoaktreesup/im68a130-mems P1 1536 640 34 comps
+case_1157 upoaktreesup/im68a130-mems P1 1158 648 22 comps
+case_1158 aremhy/router-uninterruptible-power-sup P1 2663 1782 215 comps
+case_1159 aremhy/router-uninterruptible-power-sup P2 2501 1137 124 comps
+case_1160 aremhy/router-uninterruptible-power-sup P3 2179 1295 90 comps
+case_1161 o0v0o/WiFi_Smart_Switch P1 2137 1162 41 comps
+case_1162 erxianqiao-dinosaur/adc-buffer-ref-ldo P1 2181 1433 83 comps
+case_1163 conner114514/pw2162-dc-dc-3-3v-jiang-ya-ban P1 1365 625 18 comps
+case_1164 flyn/MiniPhone audio_power 2257 1234 43 comps
+case_1165 flyn/MiniPhone core 3314 2366 205 comps
+case_1166 flyn/MiniPhone P1 1734 562 19 comps
+case_1167 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Core 1767 1179 37 comps
+case_1168 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Power 1434 911 30 comps
+case_1169 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Connecter 1649 663 24 comps
+case_1170 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba Main 2901 1449 90 comps
+case_1171 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba M0 2010 1071 45 comps
+case_1172 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba main 859 934 12 comps
+case_1173 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba P1 1219 839 16 comps
+case_1174 sytnocui/ping-heng-li-fang-ti-qiu-xing-ba P1 2146 1398 48 comps
+case_1175 unraval/flyd5 DRIVER 2196 1922 67 comps
+case_1176 yoll43/stm32f407zgt6-main-control-panel STM32F407ZGT6主控板 3516 2635 311 comps
+case_1177 isijht/hai-kang-wei-shi-4117-re-cheng-xiang-mo-kuai-zhuan-jie-ban P1 1734 802 25 comps
+case_1178 mondraker/6666 P1 3223 2019 139 comps
+case_1179 zhao1999250/e8DR7deHSAP5JNyPOiUMpNvUaOf02Vs0 P1 2815 1814 44 comps
+case_1180 wanyouli/car-usb-dual-port-charger MPM3515 1475 1175 27 comps
+case_1181 wanyouli/car-usb-dual-port-charger MPQ4263_1 2394 1367 60 comps
+case_1182 wanyouli/car-usb-dual-port-charger MPF52000 2489 1644 59 comps
+case_1183 wanyouli/car-usb-dual-port-charger MPQ4263_2 2430 1347 59 comps
+case_1184 wanyouli/car-usb-dual-port-charger MCU 2502 1783 46 comps
+case_1185 xiaofengzi/pocket_audio_card P1 1953 1536 66 comps
+case_1186 night_zijiang/dian-zi-la-zhu P1 1557 1533 45 comps
+case_1187 megabite/c-a P1 2367 1034 24 comps
+case_1188 clock/chu-kong-deng-deng-si-gu-ding-ban P1 2277 1301 60 comps
+case_1189 u202213836/esp8684-kai-fa-ban P1 2371 1746 79 comps
+case_1190 beizhiju/buck-boost-3-3v-3-3v-rt6150 P1 1688 1049 55 comps
+case_1191 lightstown/tablet-bq40z50 P1 2133 1171 42 comps
+case_1192 madoka/opensk-nrf52840-mini P1 2375 1715 75 comps
+case_1193 madoka/opensk-nrf52840-mini P1 2126 1316 49 comps
+case_1194 ash-bb/qian-suan-dian-chi-chong-dian-qi 主板原理图v1.0 1809 1139 33 comps
+case_1195 ylyangling/rog-usb-voltage-and-current-detection-meter 绝密 2829 1881 29 comps
+case_1196 wuguanqiang/new-project_2025-10-27_10-57-44 P1 1438 558 11 comps
+case_1197 dongxinhua/ferris-wheel-on-the-cloud P1 1627 629 8 comps
+case_1198 lune233/cs2c4-model-replica P1 1579 1533 34 comps
+case_1199 edaf/lv-he-jin-yi-dong-dian-yuan-ip5353 面板 2267 1242 46 comps
+case_1200 wuguohao/power-supply-module P1 2286 1165 38 comps
+case_1201 toyou/wu-shua-dian-ji-qu-dong-qi-cw32 P1 3464 2480 202 comps
+case_1202 sifli/sf32lb52-devkit-nano MCU_ANA 2632 1902 58 comps
+case_1203 sifli/sf32lb52-devkit-nano CON 2883 1655 170 comps
+case_1204 dongduzhilang/2025-lichuang-electric-race IP6557 2616 1604 64 comps
+case_1205 dongduzhilang/2025-lichuang-electric-race SW6306V 2364 1730 103 comps
+case_1206 dongduzhilang/2025-lichuang-electric-race EG1190 5V 2381 1690 69 comps
+case_1207 dongduzhilang/2025-lichuang-electric-race 电压电流检测与排线 2392 1123 57 comps
+case_1208 dongduzhilang/2025-lichuang-electric-race IP6821无线充电 2115 1340 64 comps
+case_1209 dongduzhilang/2025-lichuang-electric-race 电压电流检测与排线 2584 1073 45 comps
+case_1210 dongduzhilang/2025-lichuang-electric-race STM32F407ZGT6 3389 2194 85 comps
+case_1211 dongduzhilang/2025-lichuang-electric-race P1 2333 1336 29 comps
+case_1212 zyhshh/pidtraining P1 2305 1178 48 comps
+case_1213 rcsz/rze_hw_powermodules P1 1620 999 73 comps
+case_1214 jiake/funiot-controller 主控部分 2210 1412 71 comps
+case_1215 jiake/funiot-controller 电池电源部分 2134 803 57 comps
+case_1216 jiake/funiot-controller LCD部分 959 1163 25 comps
+case_1217 jiake/funiot-controller 存储部分 1541 866 29 comps
+case_1218 jiake/funiot-controller P1 2108 464 25 comps
+case_1219 jiake/funiot-controller P1 1394 1054 29 comps
+case_1220 jiake/funiot-controller P1 2127 1089 42 comps
+case_1221 jiake/funiot-controller P1 1876 1017 36 comps
+case_1222 nokia82/mini_balancecar P1 1268 833 15 comps
+case_1223 nokia82/mini_balancecar P1 3669 2851 129 comps
+case_1224 zhousizhao666/esp32-portable-multifunction-too P1 3141 1682 127 comps
+case_1225 x2238379385/high-power-multi-port-fast-charg P1 3578 3123 163 comps
+case_1226 feifeitoo0419/12v-zhuan-5v P1 2455 1619 57 comps
+case_1227 yschdxm/5v-ups-di-ban P1 1331 1005 18 comps
+case_1228 apollo_888/multi-function-rgb-display-stand 电源 1951 600 35 comps
+case_1229 apollo_888/multi-function-rgb-display-stand 主控 2245 953 56 comps
+case_1230 apollo_888/multi-function-rgb-display-stand 输入 1738 1660 69 comps
+case_1231 apollo_888/multi-function-rgb-display-stand 灯板控制接口 789 462 12 comps
+case_1232 apollo_888/multi-function-rgb-display-stand 显示 670 438 11 comps
+case_1233 apollo_888/multi-function-rgb-display-stand 预留无线控制接口 1048 356 8 comps
+case_1234 apollo_888/multi-function-rgb-display-stand P1 936 738 32 comps
+case_1235 apollo_888/multi-function-rgb-display-stand P1 2990 1884 506 comps
+case_1236 peanutx/ke-diao-dian-yuan-ban-_2025-08-23_10-00-01 P1 3044 1756 118 comps
+case_1237 ai-thiner_openteam/li-chuang-sky-star-edition-xiao- P1 3332 2087 129 comps
+case_1238 eda_kwazdnpkc/ch334h_dev P1 3380 1885 120 comps
+case_1239 eda_kwazdnpkc/ch334h_dev P2 2264 1432 52 comps
+case_1240 eda_brinomhgw/smp37a-player P1 2297 1577 85 comps
+case_1241 xiaobei-ihmhny/intelligent-remote-control-car P1 3658 2068 90 comps
+case_1242 q2h2/ch32m030-140w-typec-dc P1 1713 1158 55 comps
+case_1243 xsjyyds/fa-sheng-an-jian P1 2344 1265 51 comps
+case_1244 dt27/dcdc-8266-nfc 8266通过NFC信号控制继电器 原理图 2046 1477 64 comps
+case_1245 5473675a/28-yuan-make-5inch-touch-display P1 2183 1499 107 comps
+case_1246 zjx444555/gan-ying-deng P1 3300 1293 48 comps
+case_1247 birdd/niao-ge-de-guan-jie-dian-ji-dian-yuan-zhuan-huan-fen-dian-ban P1 1511 807 54 comps
+case_1248 eda_dcrbmslf/openpilot_c2-jiang-ya-ban-pwm_fan0 Sheet_1 2277 1147 47 comps
+case_1249 parus_major/gnss-mo-kuai-di-ban P1 1437 747 18 comps
+case_1250 niaoshu/li-dian-chi-zhuan-gan-dian-chi P1 2361 468 38 comps
+case_1251 buchixiangcai111/pwm-generator-school-tasks P1 2176 1592 51 comps
+case_1252 waterbird/fdt7721-ping-gu-ban P1 1216 874 38 comps
+case_1253 beizhiju/buck-boost-5v-5v-tps63020 典型应用 1930 1010 55 comps
+case_1254 beizhiju/buck-boost-5v-5v-tps63020 测试板 2151 894 58 comps
+case_1255 liumoyin/3-97-cun-hdmi-bian-xie-ping-rgb888-kai-yuan P1 3470 2331 192 comps
+case_1256 huoying123456/51-dan-pian-ji-pwm-feng-shan 51单片机PWM风扇 2374 1716 121 comps
+case_1257 wanfang/sc8701-sheng-jiang-ya-mo-kuai P1 2261 1516 97 comps
+case_1258 01416a/pcb-panel-radio P1 2122 1234 68 comps
+case_1259 47415y/kai-yuan-a3-kuan-dian-chi-chong-dian-qi P1 2243 1534 106 comps
+case_1260 eda-team168/wu-ren-ji-si-zhou-fei-xing-qi P1 3564 2083 159 comps
+case_1261 eda-team168/wu-ren-ji-si-zhou-fei-xing-qi P2 1533 411 20 comps
+case_1262 eda-team168/wu-ren-ji-si-zhou-fei-xing-qi 1.P1 2995 2155 138 comps
+case_1263 eda-team168/wu-ren-ji-si-zhou-fei-xing-qi 2.P2 2015 1178 52 comps
+case_1264 kokoro/ws2812-bell P1 2254 710 33 comps
+case_1265 sukkkk/xiao-zhi-ai-re-engraving-plan-7006602a P1 2433 1671 59 comps
+case_1266 jhx275816/chuan-yue-ji-fen-dian-ban-2-6s-yi-jing-ce-shi P1 2274 1532 70 comps
+case_1267 rushairer/minions-new-year-theme-humidifie P1 1555 1559 45 comps
+case_1268 23242acd/2025-electric-race-power-problem P1 2093 1288 78 comps
+case_1269 23242acd/2025-electric-race-power-problem P1 2256 1297 78 comps
+case_1270 23242acd/2025-electric-race-power-problem P1 3829 1695 192 comps
+case_1271 23242acd/2025-electric-race-power-problem P1 4146 2413 189 comps
+case_1272 23242acd/2025-electric-race-power-problem P2 2524 1558 140 comps
+case_1273 23242acd/2025-electric-race-power-problem P1 2507 1868 91 comps
+case_1274 gongji/balance-charger-supporting-1-4-b P1 3542 2188 86 comps
+case_1275 catsimple/esp-led-pwm-diao-guang-heng-liu-qu-dong P1 2389 833 42 comps
+case_1276 catsimple/esp-led-pwm-diao-guang-heng-liu-qu-dong P1 2215 762 36 comps
+case_1277 mrbig52/ax88772ctype-c-driver-free-netwo P1 2295 2027 129 comps
+case_1278 carrothu/hdmitousb20 MS2109 2556 1561 40 comps
+case_1279 carrothu/hdmitousb20 PWR 1053 1015 31 comps
+case_1280 carrothu/hdmitousb20 Ports 2273 1014 20 comps
+case_1281 carrothu/hdmitousb20 PWR 1026 1053 31 comps
+case_1282 carrothu/hdmitousb20 Ports 2192 989 29 comps
+case_1283 carrothu/hdmitousb20 ES7240S 1178 520 7 comps
+case_1284 green_hand/usb-to-ttl-232 P1 2191 1268 32 comps
+case_1285 epcellic/shuang-lu-dian-yuan-mo-kuai P1 2577 1513 94 comps
+case_1286 eda_kwazdnpkc/v3s_lcd CORE 3310 2149 168 comps
+case_1287 eda_kwazdnpkc/v3s_lcd PWR 824 1736 49 comps
+case_1288 eda_kwazdnpkc/v3s_lcd NET 1537 1403 37 comps
+case_1289 eda_kwazdnpkc/v3s_lcd CONN 2039 2004 75 comps
+case_1290 zdldcyy/lun-zu-ping-heng-che-v2-0 Sheet_1 1384 535 17 comps
+case_1291 zdldcyy/lun-zu-ping-heng-che-v2-0 P1 2465 1866 51 comps
+case_1292 zdldcyy/lun-zu-ping-heng-che-v2-0 P2 1206 1029 34 comps
+case_1293 zdldcyy/lun-zu-ping-heng-che-v2-0 P1 3014 2294 127 comps
+case_1294 myjuly/w-td03-jian-rong-01 P1 2320 1513 61 comps
+render failed eda_ydaolrocl/200w-digital-buck-boost-power-su too many values to unpack (expected 4)
+render failed eda_ydaolrocl/200w-digital-buck-boost-power-su too many values to unpack (expected 4)
+case_1295 chenhlin/pd-kuai-chong-tou-zhuan-jie-shu-chu P1 1243 904 45 comps
+case_1296 bie_bw/charging P1 2248 1729 81 comps
+case_1297 zero--0/mps-power-supply-module P1 3177 2381 174 comps
+case_1298 felix-liao/helios-imu-v1 P1 2249 1677 198 comps
+case_1299 drzad/ji-yu-ads1292r-de-xin-lv-ecg-hu-xi-pin-lv-resp-ce-liang-mo-kuai P1 2160 1585 79 comps
+case_1300 aknice/ms9332-ms8005-demo P1 3722 3046 199 comps
+case_1301 kongkongk/cnc-power-supply_v3 P1 2152 1007 36 comps
+case_1302 kongkongk/cnc-power-supply_v3 P1 1143 787 25 comps
+case_1303 ztx6d-hardware/z.huokong P1 2534 2838 94 comps
+case_1304 ztx6d-hardware/z.huokong P2 787 817 16 comps
+case_1305 liqijian101/esp3d-tft_spi Sheet_1 3362 2405 109 comps
+case_1306 miliqwq/6s-19-5-mp9931-vision-ii P1 2295 1362 89 comps
+case_1307 wffg/type-c-dian-ya-dian-liu-biao P1 2362 1630 113 comps
+case_1308 zhaoziteng/pcb_pcb_-dian-he-beng-copy_2024-06-11 Sheet_1 copy copy 3170 1657 121 comps
+case_1309 guagauagu/gfoc OO 3033 2056 162 comps
+case_1310 cyxsnbb666/dp-to-edp-pass-through-board-40p P1 2588 2394 82 comps
+case_1311 zeruns/san-xiang-dian-liang-dian-can-shu-shu-ju-cai-ji-san-xiang-dian-ya-dian-liu-gong-lv-gong-lv-yin-shu-yong-dian-liang P1 1314 1041 27 comps
+case_1312 imin/74hc165-an-jian-mo-kuai P1 2153 789 29 comps
+case_1313 heyh/mini-discharge-load P1 2369 1645 110 comps
+case_1314 la-xian-xiao-dui-v1.0/gao-su-usb2-0-ge-li-hub P1 2526 1409 133 comps
+case_1315 hty12138/sf32lb56_-gong-kong-ping 主控电路 2396 1943 108 comps
+case_1316 hty12138/sf32lb56_-gong-kong-ping RGB屏幕 2273 1235 71 comps
+case_1317 chiasang/wled_esp01 P1 1470 1261 22 comps
+case_1318 shukkkk/lao-wang-_3-2-cun-ips-ping-mu-_tft1p7148_rm68041_p MB_TFT 2433 1801 114 comps
+case_1319 niaoge111/constant-voltage-constant-curren_transfer P1 3256 2415 180 comps
+case_1320 niaoge111/constant-voltage-constant-curren_transfer P1 2355 1183 27 comps
+case_1321 xiezhaoyan/51-dan-pian-ji-diy-kai-fa-ban-97-zhi-cha-jian P1 3149 1967 149 comps
+case_1322 hezistudio/fast-charge-bluetooth-mp3-charging-treasure P1 3188 1683 196 comps
+case_1323 vincent0/ics-43434 P1 1239 690 16 comps
+case_1324 mtbsk8/ji-yu-am32-gu-jian-he-g071-de-32-wei-wu-shua-dian-ji-dian-diao-esc P1 2455 1513 212 comps
+case_1325 trumpx/ipadrescreen-ipad34 main 2474 1788 135 comps
+case_1326 trumpx/ipadrescreen-ipad34 power 2436 1640 110 comps
+case_1327 trumpx/ipadrescreen-ipad34 audio 1986 1016 57 comps
+case_1328 trumpx/ipadrescreen-ipad34 connector 2108 1324 70 comps
+case_1329 trumpx/ipadrescreen-ipad34 P1 1767 1659 32 comps
+case_1330 trumpx/ipadrescreen-ipad34 P1 2371 1358 61 comps
+case_1331 mzz_hm/ai-yin-xiang ESP32S3 3304 1932 56 comps
+case_1332 mzz_hm/ai-yin-xiang Power 2321 1566 74 comps
+case_1333 ghjstc/ji-yu-ESP32-S3de-li-fan-kui-xuan 原理图 3301 1781 149 comps
+case_1334 o0v0o/matepadpro12-6-jian-pan-huo-er-pai-xian P1 1429 494 11 comps
+case_1335 qzc13457/fk_loli3 mcu 2461 1635 35 comps
+case_1336 qzc13457/fk_loli3 power 2152 1516 50 comps
+case_1337 qzc13457/fk_loli3 接收 2071 1501 25 comps
+case_1338 stm32eda/duo-lu-pd3-1-kuai-chong-mo-kuai P1 2811 2057 108 comps
+case_1339 hengxingbujian/stm32h750vbt6-based-camera P1 3656 1929 110 comps
+case_1340 paff1124/lt8705-buckboost P1 2459 1522 93 comps
+case_1341 eda_jzbzladel/ke-long F334最小系统 3110 2032 76 comps
+case_1342 eda_jzbzladel/ke-long G5800 3141 1716 80 comps
+case_1343 eda_jzbzladel/ke-long BUCK 3448 2323 164 comps
+case_1344 eda_jzbzladel/ke-long 逆变 3567 2289 183 comps
+case_1345 lighting-electronic-education/shu-kong-dian-yuan P1 2231 1601 92 comps
+case_1346 jed.liu/bq25672-tps63070-esp32_v5-0 bq25672 2452 1557 71 comps
+case_1347 jed.liu/bq25672-tps63070-esp32_v5-0 Interface 1835 1033 24 comps
+case_1348 jed.liu/bq25672-tps63070-esp32_v5-0 esp8266 2252 1555 53 comps
+case_1349 joujoo/sparrow-7z_lite Mcu 2184 1381 89 comps
+case_1350 joujoo/sparrow-7z_lite Power_conect 2270 1338 50 comps
+case_1351 joujoo/sparrow-7z_lite Endstop_switch 2288 1641 113 comps
+case_1352 joujoo/sparrow-7z_lite Mos_switch 2193 1165 63 comps
+case_1353 joujoo/sparrow-7z_lite Motor_drive 2422 1684 142 comps
+case_1354 wk28/cnc-power-supply P1 2421 1848 130 comps
+case_1355 eda_kwazdnpkc/wch-linke P1 3216 1676 67 comps
+case_1356 libc0607/hi3516ev200_imx307_rtl8731bu_aio_v1p1_rel sch_full_v1p1 3348 2312 361 comps
+case_1357 wolfsister/dian-ji-qu-dong P1 2341 1299 134 comps
+case_1358 tnanastar/sw3556-140w-geng-huan-mos P1 3155 2002 64 comps
+case_1359 xiaosuan/ftdi4232spiflash P1 1520 1270 30 comps
+case_1360 rez-ti/metered-version-of-smart-socket P1（小雷）_参考修改 2304 1517 51 comps
+case_1361 rez-ti/metered-version-of-smart-socket P1 2037 956 28 comps
+case_1362 cyanmystey/pw5100-low-power-consumption-37-l-5-solution P1 699 476 9 comps
+case_1363 zzydd/lm3481-nixie-tube-boost-module-5v-zzydd-001 P1 1600 652 21 comps
+case_1364 hujs/mps-power-supply-design Main 2294 1618 105 comps
+case_1365 anzre/night-light-wireless-power-suppl P1 2313 1346 66 comps
+case_1366 icecreamx89/tong-yong-spi-mo-shui-ping-qu-dong-ban P1 3204 1715 58 comps
+case_1367 icecreamx89/tong-yong-spi-mo-shui-ping-qu-dong-ban P1 3020 1910 56 comps
+case_1368 travellium/12v-desktop-power-supply LM5143_SCH 2737 2243 231 comps
+case_1369 travellium/12v-desktop-power-supply MK9218_SCH 1297 1252 75 comps
+case_1370 travellium/12v-desktop-power-supply P1 1940 1044 66 comps
+case_1371 travellium/12v-desktop-power-supply EG1163S_C_SCH 2242 1483 116 comps
+case_1372 travellium/12v-desktop-power-supply MK9218_double_SCH 1392 1428 82 comps
+case_1373 travellium/12v-desktop-power-supply EG1163S_P_SCH 2280 1297 81 comps
+case_1374 jnu_sober/mps-bi-sai 24V支路 2443 1304 150 comps
+case_1375 jnu_sober/mps-bi-sai 48V转24V12V 2827 1719 149 comps
+case_1376 max04/24v-battery-charging-management P1 1789 1016 64 comps
+case_1377 kjpig/while-punching-and-discharging-u P1 3439 2305 127 comps
+case_1378 swtman/wireless-electronic-thermometer 无线电子温度计 2327 1658 76 comps
+case_1379 zhang_ttl/Desktop_charging_dock SW3526->Type-C 892 529 28 comps
+case_1380 zhang_ttl/Desktop_charging_dock SW3526->Type-A 798 448 24 comps
+case_1381 zhang_ttl/Desktop_charging_dock P1 1111 917 51 comps
+case_1382 hongscholar/lm2596-jiang-ya-mo-kuai-3a-dc-dc P1 1091 720 20 comps
+case_1383 oldfox126/people-in-induction-lamp 原理图 2378 1400 63 comps
+case_1384 oldfox126/people-in-induction-lamp 原理图 1144 755 49 comps
+case_1385 rotay/dgm-qu-dong-qi-fu-ke-v1-2 P1 3344 1886 107 comps
+case_1386 la-xian-xiao-dui-v1.0/t12_mini-rev2-1 01 MCU 4068 2677 268 comps
+case_1387 fengl/mp2980-ultra-small-buck-boost P1 2961 1273 75 comps
+case_1388 donnan/gong-xun-tai-yang-neng-xiao-che-kong-zhi-di-ban P1 2419 1572 91 comps
+case_1389 holyzhang/tai-yang-neng-kong-zhi-qi Sheet_1 2646 1509 108 comps
+case_1390 hzsj/esp32c3mini-wang-luo-shi-zhong-wen-shi-du-ji-v1-0-0 P1 3314 2258 99 comps
+case_1391 eryuanhanshu/da-dian-liu-dian-zi-kai-guan P1 1846 1577 53 comps
+case_1392 jianchibuyongduo/board2 P1 2257 1196 34 comps
+case_1393 hvan/usb_can P1 2370 1338 67 comps
+case_1394 wzw666/huhuhu-max P1 1845 1276 12 comps
+case_1395 huzhonghui/nfc-personalized-label POWER 2355 1533 89 comps
+case_1396 huzhonghui/nfc-personalized-label 主控 2609 1235 60 comps
+case_1397 liu__xin/foc-drv8313 P1 3318 2217 149 comps
+case_1398 ky.syh/force-feedback-steering-wheel MCU 3135 2238 111 comps
+case_1399 ky.syh/force-feedback-steering-wheel POWER 2253 1477 68 comps
+case_1400 ky.syh/force-feedback-steering-wheel P1 1037 755 19 comps
+case_1401 ky.syh/force-feedback-steering-wheel P4 1610 661 14 comps
+case_1402 ky.syh/force-feedback-steering-wheel P1 950 517 19 comps
+case_1403 nps-2750x/auto-buck-boost-power-module P1 2158 1642 69 comps
+case_1404 sun1053/thermalcamera1-0 P1 3434 1761 103 comps
+case_1405 lijinlei0907/lattepandamu-stepper-motor-drive P1 2463 1772 68 comps
+case_1406 75219a/elw0901aa-oled-screen P1 1742 617 45 comps
+case_1407 weiwst/1-8-5-5v-50a-dan-an-jian-kai-guan-dian-lu-v1_mps003-kai-guan-ji P1 998 936 17 comps
+case_1408 morna/san-chuan-dian-chi-jun-heng-bao-hu-ban P1 3109 1449 87 comps
+case_1409 ackict/vesc_75_300_1-0 P1 3145 1788 133 comps
+case_1410 ackict/vesc_75_300_1-0 F405 3410 1695 208 comps
+case_1411 ackict/vesc_75_300_1-0 驱动电路 3436 2253 195 comps
+case_1412 aknice/jw3651 P1 1315 1066 52 comps
+case_1413 xhx0518/0402x. P1 2975 1842 111 comps
+case_1414 samomi/softxsw-rtl8367s-os 主控 3144 1811 76 comps
+case_1415 samomi/softxsw-rtl8367s-os 接口 3264 2044 40 comps
+case_1416 samomi/softxsw-rtl8367s-os 电源 2253 1425 154 comps
+case_1417 wdx4/dynamic-electronic-load P1 3395 2333 136 comps
+case_1418 fengmoxi/tspi-86-panel POE 1740 957 81 comps
+case_1419 fengmoxi/tspi-86-panel GMAC 2545 1631 174 comps
+case_1420 fengmoxi/tspi-86-panel EXP_PWR 2257 1349 52 comps
+case_1421 fengmoxi/tspi-86-panel P1 2382 1298 157 comps
+case_1422 zjfdhhhf/simple-pid-project P1 2498 1547 66 comps
+case_1423 ylllllla/nazarite-turbo-drive-wu-shua-dian-diao-natd P1 3637 2751 237 comps
+case_1424 leichaolin/xing-huo-ji-hua-3.5KWda-gong-shu 前级升压 2274 1686 161 comps
+case_1425 leichaolin/xing-huo-ji-hua-3.5KWda-gong-shu 后级逆变 2259 926 63 comps
+case_1426 leichaolin/xing-huo-ji-hua-3.5KWda-gong-shu 辅助电源 2468 1701 100 comps
+case_1427 liugongchengshi/cw32-multi-play-method-balance-car 扩展电路 2150 1174 64 comps
+case_1428 oldfox126/86xing-wu-kong-ji-liang-cha-zuo-10a 插座主体 2452 1294 94 comps
+case_1429 li31951/ji-yu-ip5389-yi-dong-dian-yuan IP5389功率电路 3326 2304 99 comps
+case_1430 li31951/ji-yu-ip5389-yi-dong-dian-yuan MCU 3361 1174 42 comps
+case_1431 li31951/ji-yu-ip5389-yi-dong-dian-yuan BM3451锂电池保护 2295 1500 44 comps
+case_1432 yyy2363/sy8368-dc-dc P1 1932 906 38 comps
+case_1433 shgwyuliang/sci-fi-wind-desktop-ceramic-fila Lab-Power 3096 2068 122 comps
+case_1434 eda_iuoblnfga/22-years-of-wireless_car P1 1506 1964 59 comps
+case_1435 eda_iuoblnfga/22-years-of-wireless_car P1 2043 1513 42 comps
+case_1436 eda_iuoblnfga/22-years-of-wireless_car P1 3561 2408 129 comps
+case_1437 eda_iuoblnfga/22-years-of-wireless_car P2 2131 945 47 comps
+case_1438 eda_iuoblnfga/22-years-of-wireless_car P1 3698 2300 123 comps
+case_1439 Aknice/1dfda80b41104751846aecc99dd9e055 P2 3423 2164 91 comps
+case_1440 Aknice/1dfda80b41104751846aecc99dd9e055 Sheet_1 3482 2104 91 comps
+case_1441 chaunceyliu/12vin_boost12-35v-buck5-12v P1 2333 1590 120 comps
+case_1442 sxy2020/ren-ti-ju-li-gan-ying-kong-zhi-ban P1 1971 885 81 comps
+case_1443 styy564/mps-power-project 充电模块 1412 1351 14 comps
+case_1444 styy564/mps-power-project 降压诱骗 1952 1387 51 comps
+case_1445 styy564/mps-power-project P1 739 608 13 comps
+case_1446 eda_xdnnfnff/TOFji-guang-ce-ju-yi 测距 2287 1702 115 comps
+case_1447 alan0405/ttl-to-rs-485 P1 1240 874 31 comps
+case_1448 magee/5s_li_charger P1 3254 2439 133 comps
+case_1449 shiskzkz/sc8808_demo P1 3392 2325 150 comps
+case_1450 eda_xdnnfnff/dian-zi-luo-pan-di-ci-yi P1 2123 1520 71 comps
+case_1451 eda_xdnnfnff/dian-zi-luo-pan-di-ci-yi MCU 2352 1742 71 comps
+case_1452 eda_xdnnfnff/dian-zi-luo-pan-di-ci-yi IO 745 846 16 comps
+case_1453 eda_xdnnfnff/dian-zi-luo-pan-di-ci-yi POWER 1852 1234 52 comps
+case_1454 eda_xdnnfnff/dian-zi-luo-pan-di-ci-yi POWER1 2320 1670 62 comps
+case_1455 mtbsk8/ji-yu-blheil_s-gu-jian-dan-ti-wu-shua-dian-ji-dian-diao-esc P1 2368 1417 178 comps
+case_1456 kkaiwan/qi-che-qiang-qi P1 592 975 9 comps
+case_1457 eda_rgprdhwej/tiny-pmu-axp173 P1 1171 858 38 comps
+case_1458 zyz1010/tp5000 P1 1328 868 26 comps
+case_1459 19e2k67/ch344q-usb-ji-xian-qi P1 2552 1656 147 comps
+case_1460 national_bad_flowers/xueyangyi1 Sheet_1 3206 1645 114 comps
+case_1461 double_mumu/ji-jia-feng-kou-dai-bu-guang-deng-kai-yuan 口袋补光灯 2231 1299 75 comps
+case_1462 l64481000/ai8051ucutecard P1 2996 1588 83 comps
+case_1463 l64481000/ai8051ucutecard P2 2335 1646 62 comps
+case_1464 lingsir/lm317-chuan-lian-xing-zhi-liu-wen-ya-dian-yuan P1 2393 1171 47 comps
+case_1465 laochen/2s-ip2326-23-3x13-5mm-0603-sv2 SCH 2200 726 31 comps
+case_1466 techboardteam/usb3-2-kuo-zhan-qi USB_PORT 3294 1998 92 comps
+case_1467 techboardteam/usb3-2-kuo-zhan-qi POWER 3091 2051 110 comps
+case_1468 vilesmeier/2023-a-single-phase-inverter-par_transfer P1 3092 1802 125 comps
+case_1469 vilesmeier/2023-a-single-phase-inverter-par_transfer P1 3198 2190 190 comps
+case_1470 huoying123456/high-power-portable-ups-power-su 升压电路 2114 1341 113 comps
+case_1471 huoying123456/high-power-portable-ups-power-su 正弦波后级 2041 1672 88 comps
+case_1472 huoying123456/high-power-portable-ups-power-su 防反接电路和接线端子 1188 799 24 comps
+case_1473 huoying123456/high-power-portable-ups-power-su SG3525逆变器前级驱动板3.0 2115 1205 139 comps
+case_1474 huoying123456/high-power-portable-ups-power-su 充电与控制电路 2568 1784 186 comps
+case_1475 huoying123456/high-power-portable-ups-power-su 辅电电源 1555 742 37 comps
+case_1476 huoying123456/high-power-portable-ups-power-su 继电器切换和EMI滤波电路 1535 841 16 comps
+case_1477 huoying123456/high-power-portable-ups-power-su 主电 2475 1213 135 comps
+case_1478 xu-hai-university-20th-intellige/20-jie-zhi-neng-che-jing-sai-suo-wei-guang-dian-zu-you-shua-qu-dong-v2-0 P1 2369 1616 77 comps
+case_1479 micimili/stm32f103c8t6-based-two-wheel-balanced-car P1 2339 1432 62 comps
+case_1480 wangda888/mobile_voltage_supply P1 2767 1561 124 comps
+case_1481 a3300a1/ordinary-electric-fan-speed-regu P1 2458 1361 46 comps
+case_1482 eda_izbjcoow/high-power-instant-water-heater P1 2024 2514 61 comps
+case_1483 boeing_377/analogmeterclock P1 2373 1741 143 comps
+case_1484 sifli/sf32lb58-mod Memory 3123 1664 87 comps
+case_1485 huangliguo/rusa_test SCH_MAIN 2824 1824 88 comps
+case_1486 hopeyy09/analog-power-amplifier P1 2122 1540 77 comps
+case_1487 batterymain/mps-eda-dian-yuan-she-ji P3 5V5A 1789 700 39 comps
+case_1488 zdyukino/shou-lei-chong-dian-bao P1 3113 1961 85 comps
+case_1489 yizhidianzi/st-link-v2-1 P1 2629 1682 146 comps
+case_1490 wanyouli/300007d1v1 P1_2 2311 1225 94 comps
+case_1491 wanyouli/300007d1v1 P1_1 2447 1306 99 comps
+case_1492 wanyouli/300007d1v1 P2_1 2286 1391 62 comps
+case_1493 wanyouli/300007d1v1 P2 2221 1325 66 comps
+case_1494 bryan_he/usb_dc_ps MCU 2286 1582 76 comps
+case_1495 bryan_he/usb_dc_ps PowerManager 2491 1800 133 comps
+case_1496 huoying123456/400w-chun-zheng-xian-bo-ni-bian-qi 升压电路 1934 1397 121 comps
+case_1497 huoying123456/400w-chun-zheng-xian-bo-ni-bian-qi 正弦波后级 1675 1080 53 comps
+case_1498 huoying123456/400w-chun-zheng-xian-bo-ni-bian-qi 防反接电路和接线端子 1005 731 19 comps
+case_1499 fcy767660386/5g-zhuan-jie-ban-v1-3 P1 2820 3070 128 comps
+case_1500 beauty_light/cw32-chao-hao-yong-de-dian-sai-5-lu-xun-ji-mo-kuai P1 2298 1617 75 comps
+case_1501 waterbird/74hc595-r-2r-dac-mo-kuai P1 1591 1110 43 comps
+case_1502 guest233/lmr38020 P1 1764 602 32 comps
+case_1503 90i0/color-ai8051-development-board P1 3078 2815 208 comps
+case_1504 haohao2054/fan-ke-rgb-zhuan-zheng-dian-yuan-zi-zhuan-jie-ban P1 1729 1242 15 comps
+case_1505 fanlingg/remote-usb-reset-power-up-debugg MCU 2425 1688 90 comps
+case_1506 fanlingg/remote-usb-reset-power-up-debugg HUB 1450 751 14 comps
+case_1507 gnosis/hk32f030-xiang-guan P1 3029 1385 34 comps
+case_1508 pr_lemon/jian-yi-xian-xing-dian-yuan-ban POWER 2113 1565 87 comps
+case_1509 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai P1 2686 948 83 comps
+case_1510 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai ESP32-S3 1905 1267 103 comps
+case_1511 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai 电源 1314 1070 37 comps
+case_1512 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai 电机驱动 1432 810 29 comps
+case_1513 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai 外部接口 2160 883 49 comps
+case_1514 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai 压力传感器 1762 1057 44 comps
+case_1515 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai P1 3484 1220 204 comps
+case_1516 chnmasterog/tp78_foc_-zhi-neng-xuan-niu-jian-pan-kuo-zhan-mo-kuai P1 2909 1245 102 comps
+case_1517 ai-thiner_openteam/aipi-remote MAIN 3030 1998 134 comps
+case_1518 ai-thiner_openteam/aipi-remote POWER 2134 1511 71 comps
+case_1519 ai-thiner_openteam/aipi-remote USB 3051 2151 109 comps
+case_1520 ttianao/bh1750h-light-intensity-meter P1 2574 1418 36 comps
+case_1521 davidyang1983/mt3608_12v-shou-dian-zuan-gong-ban-li-dian-chi-gai-typec-chong-dian-_2025-10-13_13-20-59 MT3608_TYPEC 1345 599 22 comps
+case_1522 seahi/homeassistant-smart-home-infrared-remote-control P1 2365 1687 134 comps
+case_1523 davidyang1983/xiao-niu-485-tong-xun-dian-lu-ban 小牛485通讯_SOP8母座 2038 1235 54 comps
+case_1524 frostautumn/frme-pm-01a-ky Sheet_1 2370 1644 119 comps
+case_1525 jusha/rx8025t-mo-kuai P1 2082 549 27 comps
+case_1526 apollo_888/parking-phone-plate USB+太阳能充电电路 3291 1962 123 comps
+case_1527 apollo_888/parking-phone-plate LED灯电路 2184 538 60 comps
+case_1528 apollo_888/parking-phone-plate 主控电路 2199 994 58 comps
+case_1529 eda_kwazdnpkc/t113-s3-86panel CORE 3452 2355 132 comps
+case_1530 eda_kwazdnpkc/t113-s3-86panel LCD 1611 1211 22 comps
+case_1531 eda_kwazdnpkc/t113-s3-86panel CONN 1882 1933 54 comps
+case_1532 eda_kwazdnpkc/t113-s3-86panel NET 2164 1217 26 comps
+case_1533 eda_kwazdnpkc/t113-s3-86panel PWR 894 1151 28 comps
+case_1534 zzq123456111/multiple-power-output P1 2543 1706 117 comps
+case_1535 bryan_he/hand-rub-buck-boost-power-supply P1 2543 1742 87 comps
+case_1536 bryan_he/hand-rub-buck-boost-power-supply Power 2344 1682 97 comps
+case_1537 bryan_he/hand-rub-buck-boost-power-supply Input 2421 1692 83 comps
+case_1538 bryan_he/hand-rub-buck-boost-power-supply MCU 2516 1718 88 comps
+case_1539 clouding/mo-shui-ping-wen-shi-du-ji P1 3172 1747 92 comps
+case_1540 seahi/bruntools P1 2370 1685 232 comps
+case_1541 tuyaopen/tuya-t5-pixels Single_Wire_Array 1658 1425 40 comps
+case_1542 PCBguy/uSPBGri2mj45mioEDFejlfLEuDxynjyQ_transfer Sheet_1 2104 1586 159 comps
+case_1543 123lhx1234/heng-liu-yuan-dian-zu-ce-liang-dian-lu P1 1589 817 34 comps
+case_1544 jusha/re-cheng-xiang-yi-v0-3 P1 2128 1919 103 comps
+case_1545 jusha/re-cheng-xiang-yi-v0-3 P1 1104 1960 40 comps
+case_1546 li31951/sw6208-yi-dong-dian-yuan 已验证 基于SW6208移动电源V1.1 3087 2204 67 comps
+render failed f_yl/odrive-ffb_2026 too many values to unpack (expected 4)
+render failed f_yl/odrive-ffb_2026 too many values to unpack (expected 4)
+case_1547 jiangfeng6533/led-ping-mu-shi-zhong P1 1829 1554 52 comps
+case_1548 suger_tree/dian-yuan-tang-shu P1 1839 854 33 comps
+case_1549 movecall/ultra-thin-19-inch-electronic-te P1 2416 1766 96 comps
+case_1550 hujs/xiao-zhi-ai MCU 2494 1840 70 comps
+case_1551 hujs/xiao-zhi-ai POWER 2347 1329 73 comps
+case_1552 552ds/hanlin P1 2324 1590 48 comps
+case_1553 qingmeijiupiao/wireless-switching-power-meter P1 3210 1586 134 comps
+case_1554 qingmeijiupiao/wireless-switching-power-meter P1 2418 1656 114 comps
+case_1555 qingmeijiupiao/wireless-switching-power-meter P1 1984 907 70 comps
+case_1556 carele/powerbox_v2 P1 2396 1645 137 comps
+case_1557 carele/powerbox_v2 P1 2459 1735 112 comps
+case_1558 carele/powerbox_v2 P2 2114 867 73 comps
+case_1559 qwhyq/25q-xi-lie-flash-dao-ch341-bian-cheng-qi-zhuan-jie-ban P1 1507 1094 18 comps
+case_1560 magee/thermocouple-debugging-powe P1 1258 643 13 comps
+case_1561 eda_ekkahtyoh/800w-high-power-llc-power-supply PFC 2365 1557 122 comps
+case_1562 eda_ekkahtyoh/800w-high-power-llc-power-supply LLC 1919 1740 78 comps
+case_1563 eda_ekkahtyoh/800w-high-power-llc-power-supply SR 2271 1711 141 comps
+case_1564 taosi/ElectronBotyu-yin-ban main 3036 1901 53 comps
+case_1565 taosi/ElectronBotyu-yin-ban P1 2072 1175 31 comps
+case_1566 taosi/ElectronBotyu-yin-ban P1 1614 1119 41 comps
+case_1567 taosi/ElectronBotyu-yin-ban P1 1694 1160 15 comps
+case_1568 chenrunyu/clevopowersupply P1 3198 1815 88 comps
+case_1569 chenrunyu/clevopowersupply MCU 3479 1979 92 comps
+case_1570 chenrunyu/clevopowersupply FAN/TS/ADC 2787 875 54 comps
+case_1571 chenrunyu/clevopowersupply P1 3196 1269 86 comps
+case_1572 dvwad/usb-tuo-zhan-wu P1 2164 1697 51 comps
+case_1573 lazy-cat/2023nian-dian-sai-Fti POWER 1356 777 42 comps
+case_1574 lazy-cat/2023nian-dian-sai-Fti CON 2179 1612 28 comps
+case_1575 lazy-cat/2023nian-dian-sai-Fti Peri 2281 1584 60 comps
+case_1576 lazy-cat/2023nian-dian-sai-Fti STlink 2319 1438 81 comps
+case_1577 lazy-cat/2023nian-dian-sai-Fti P1 2016 1128 71 comps
+case_1578 lazy-cat/2023nian-dian-sai-Fti FRONTEND 2941 2133 212 comps
+case_1579 lazy-cat/2023nian-dian-sai-Fti POWER 1746 1460 72 comps
+case_1580 lazy-cat/2023nian-dian-sai-Fti P1_1 1479 798 38 comps
+case_1581 airtech/powerminiv3 MCU 3919 1915 123 comps
+case_1582 airtech/powerminiv3 Buck 4154 2790 247 comps
+case_1583 tnanastar/shu-xian-cai-ping-zhuo-mian-dian-yuan P1 1004 726 10 comps
+case_1584 alwaysexploring/ji-yu-cn3722-de-mppt-tai-yang-neng-chong-dian-ban P1 2336 1282 79 comps
+case_1585 eda_xdnnfnff/xie-yang-yi-MAX30102 P1 2483 1820 115 comps
+case_1586 ai-thiner_openteam/aipi-loraboard_v1-1 LAN 2182 1629 131 comps
+case_1587 just_do_it_123/dian-nao-chuan-kou-qu-dong-ws2812 P1 1581 797 33 comps
+case_1588 yokes686/5-12v-zhi-liu-bian-ma-qi-dian-ji-qu-dong-ban P1 3167 1844 129 comps
+case_1589 zjx444555/remote-control-underwater-fish-w P1 2753 956 60 comps
+case_1590 zjx444555/remote-control-underwater-fish-w NS1021_Host_Internal_Po 2477 1580 53 comps
+case_1591 zjx444555/remote-control-underwater-fish-w NS1021_Device_Internal_ 2050 1129 59 comps
+case_1592 keleh31415/lighting-painting-based-on-sgl8022w P1 2095 1589 46 comps
+case_1593 hexiaojunde/led-heng-liu-qu-dong P1 1199 638 11 comps
+case_1594 supercaii/wireless-laser-engraving-machine P1 3378 2337 119 comps
+case_1595 swtman/cw32-voltage-ammeter P1 2458 1717 96 comps
+case_1596 swtman/cw32-voltage-ammeter P2 2179 1580 54 comps
+case_1597 ikalyes/duo-xie-yi-zhuo-mian-chong-dian-zhan-2-0 P1 2512 1412 96 comps
+case_1598 ikalyes/duo-xie-yi-zhuo-mian-chong-dian-zhan-2-0 MCU 2239 1517 120 comps
+case_1599 ikalyes/duo-xie-yi-zhuo-mian-chong-dian-zhan-2-0 POWER（IP6657） 2287 1440 93 comps
+case_1600 ikalyes/duo-xie-yi-zhuo-mian-chong-dian-zhan-2-0 POWER（IP6538） 1720 778 29 comps
+case_1601 12344321a/duo-gong-nen-xuan-zhuan-han-tai-1 Sheet_1 3511 1694 142 comps
+case_1602 ch108/new-project_2025-06-05_21-55-12 P1 2348 1008 86 comps
+case_1603 la-xian-xiao-dui-v1.0/c210-lite MCU 3397 2226 150 comps
+case_1604 element115mc/st-link-v3minie_adap_broad P1 1725 867 27 comps
+case_1605 djtudingzhen/stc32-dian-diao-zhu-fei-dian-diao P1 2662 1531 61 comps
+case_1606 liuwenchao/chu-mo-fa-guang-zhuo-sheng-ji-ban P1 2325 1223 55 comps
+case_1607 alum/12v-300w-inverter 功率级 2044 1295 72 comps
+case_1608 alum/12v-300w-inverter P1 2481 1707 101 comps
+case_1609 code666/emmc2tf-short-open P1 1002 1783 12 comps
+case_1610 hotant/multi-function-pixel-signage-noi P1 3392 2030 136 comps
+case_1611 yanqisui/jian-yi-lora2cat-1-wang-guan STM32 2228 1145 34 comps
+case_1612 yanqisui/jian-yi-lora2cat-1-wang-guan Device 1796 1441 19 comps
+case_1613 yanqisui/jian-yi-lora2cat-1-wang-guan Power 1807 695 19 comps
+case_1614 ch108/sc8201-tong-bu-sheng-ya P1 1972 891 65 comps
+case_1615 wei-lai-dian-zi-gong-zuo-shi/zui-xiao-xi-tong-stc32g12k128 P1 2488 1723 48 comps
+case_1616 jin3014/jian-dan-shi-yong-di-cheng-ben-jia-re-tai-bga-han-tai-copy_2024-09-18_16-59-55 Sheet 2279 1437 52 comps
+case_1617 wzw666/yan-wu-jing-hua-qi Sheet_1 1498 1282 20 comps
+case_1618 wzw666/yan-wu-jing-hua-qi P1 1598 1208 20 comps
+case_1619 ceylan/low-cost-18650-battery-level-det P1 2098 410 31 comps
+case_1620 shilihualang/lao-wu-7-5-cun-mo-shui-ping 自定义版本 2139 727 51 comps
+case_1621 shilihualang/lao-wu-7-5-cun-mo-shui-ping P1 3348 2392 229 comps
+case_1622 pursue.c/c2000_f280049c-control-core-card P1 3159 2415 124 comps
+case_1623 lcet7122/stc-am32-firmware-porting P1 3036 1569 137 comps
+case_1624 leichaolin/b44d38dab051434490a99e46faf71ec5 P1 2499 1840 95 comps
+case_1625 animal/SuperChange 充电宝 2131 1713 96 comps
+case_1626 animal/SuperChange 均衡板 1351 791 50 comps
+case_1627 lyh6767/32-bit-four-in-one-esc-4in1-esc 功率部分 3409 2290 130 comps
+case_1628 lyh6767/32-bit-four-in-one-esc-4in1-esc P1 2728 1781 64 comps
+case_1629 lyh6767/32-bit-four-in-one-esc-4in1-esc P2 2756 1385 58 comps
+case_1630 lyh6767/32-bit-four-in-one-esc-4in1-esc P3 2720 1407 58 comps
+case_1631 lyh6767/32-bit-four-in-one-esc-4in1-esc P4 2787 1383 58 comps
+render failed daimage/upsflayback Page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+case_1632 daimage/upsflayback PWM控制 1679 1098 25 comps
+case_1633 daimage/upsflayback 电压电流环 2869 2178 59 comps
+case_1634 daimage/upsflayback 微控制器 3120 2302 44 comps
+case_1635 xifenghuyang/5v-to-33v-dc-dc-power-supply-ver P1 1147 771 26 comps
+case_1636 epcellic/dian-zu-ban P1 2260 943 43 comps
+case_1637 wanfang/dp-zhuan-edp-mo-kuai P1 2313 1715 84 comps
+case_1638 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu PD-12V 2209 952 30 comps
+case_1639 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu TPA3116 2511 1596 84 comps
+case_1640 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu STM32F4 2368 1639 64 comps
+case_1641 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu WM8978 2458 1745 61 comps
+case_1642 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu GaN-65W 2344 1748 74 comps
+case_1643 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu LM5122 2200 1274 58 comps
+case_1644 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu HDMI 3721 2341 222 comps
+case_1645 qzc13457/Q302zhuo-mian-duo-mei-ti-HiFizhu BL8033 1506 933 29 comps
+case_1646 47415y/4s-li-dian-bao-hu-ban 保护板 2359 1240 113 comps
+case_1647 47415y/4s-li-dian-bao-hu-ban 充电板 1804 1270 69 comps
+case_1648 zchaungke/xt60-jian-yi-dian-liu-biao P1 3277 2049 71 comps
+case_1649 liuwenchao/wu-shua-feng-shan-stc32g P1 3302 2229 105 comps
+case_1650 ssd521/led-driver-module P1 3214 1753 86 comps
+case_1651 lingyundesign/ch340 CH340C 1421 1435 32 comps
+case_1652 qsszbsc/8-port-all-gigabit-poe-power-supply-and-receiving-network-switch-maximum-90w RTL8370N 2731 1471 89 comps
+case_1653 qsszbsc/8-port-all-gigabit-poe-power-supply-and-receiving-network-switch-maximum-90w CONN_TRAN_RJ45 2571 2236 21 comps
+case_1654 qsszbsc/8-port-all-gigabit-poe-power-supply-and-receiving-network-switch-maximum-90w PSE 2999 1138 121 comps
+case_1655 qsszbsc/8-port-all-gigabit-poe-power-supply-and-receiving-network-switch-maximum-90w PD_BT 1927 1128 58 comps
+case_1656 qsszbsc/8-port-all-gigabit-poe-power-supply-and-receiving-network-switch-maximum-90w POWER 2108 1209 60 comps
+case_1657 birdd612/f450aio POWER 2146 981 55 comps
+case_1658 birdd612/f450aio MCU 2463 1569 87 comps
+case_1659 birdd612/f450aio ESC1 2186 1231 55 comps
+case_1660 birdd612/f450aio ESC2 1947 1219 55 comps
+case_1661 birdd612/f450aio ESC3 1944 1229 54 comps
+case_1662 birdd612/f450aio ESC4 1855 1270 54 comps
+case_1663 xiao_wine/lm5145 P1 2108 1562 91 comps
+case_1664 hbozyq/Blheil_s-8S60Adian-diao Main 3043 2453 114 comps
+case_1665 limengmeng12345/ji-chu-ying-usb-gong-lv-ji P1 2326 1749 66 comps
+case_1666 ryan_huang/ads1115-based-temperature-measur P1 1240 1018 56 comps
+case_1667 teslatony/bm3451-5s P1 1950 1080 62 comps
+case_1668 nps-2750x/ip2368-battery-management P1 1704 1680 105 comps
+case_1669 qingmeijiupiao/da-dian-liu-dian-zi-kai-guan P1 1758 1043 19 comps
+case_1670 eda_kwazdnpkc/mt7628_router CORE 1799 1367 36 comps
+case_1671 eda_kwazdnpkc/mt7628_router NET 923 2156 52 comps
+case_1672 eda_kwazdnpkc/mt7628_router PWR 963 1070 30 comps
+case_1673 what-if-im-not-prepared-at-all-a/gmr-bian-ma-qi-i2c-kuo-zhan-ban P1 2294 1250 53 comps
+case_1674 linkf/nfc-xin-pian-mfrc522-de-i2c-tong-xin-ipex-tian-xian-an-li 电路参考 1888 1214 36 comps
+case_1675 yy002/sw6306vevb P1 2490 1619 95 comps
+case_1676 iludwig/six-in-one-industrial-communicat USBHub_ETH_TF 2264 1342 49 comps
+case_1677 iludwig/six-in-one-industrial-communicat PCAN 2166 1323 26 comps
+case_1678 iludwig/six-in-one-industrial-communicat 343P_RS422 2313 1364 39 comps
+case_1679 iludwig/six-in-one-industrial-communicat 9102F_串口TTL带隔离 1967 1549 22 comps
+case_1680 iludwig/six-in-one-industrial-communicat USB输入与扩展 2230 1221 27 comps
+case_1681 iludwig/six-in-one-industrial-communicat 供电稳压 1367 1480 40 comps
+case_1682 magee/solar-uninterruptible-power-supp P1 2428 1641 73 comps
+case_1683 lxw122333/simple-timspm0-based-pid-getting P1 2439 1577 72 comps
+case_1684 embeddedboys/shi-yong-yu-st7305-fan-she-shi-tft-de-zhuan-jie-ban P1 1318 982 21 comps
+case_1685 humphreylin/sk-can-pwmx8 P1 2403 1678 46 comps
+case_1686 roboeda111/407m_oledkeyextend P1 1509 994 44 comps
+case_1687 yefeng88/stc-zui-jian-usb-zhuan-shuang-chuan-kou P1 2243 1453 59 comps
+case_1688 dian-zi-huo-jian-dui/wwwwww P1 2269 1396 50 comps
+case_1689 jusha/li-ion-9v P1 1405 886 42 comps
+case_1690 wanlanlan/automatic-driving-car-based-on-ra4l1-development-board Sheet_1 3756 2625 129 comps
+case_1691 liuyuhe/YmF2cisISGKglfTH8lzRbJNF3xb9YT80 sheet_1 2240 1403 57 comps
+case_1692 sshepard/mio15 P1 2327 1627 85 comps
+case_1693 opensourcealthaea/gl823kdemo P1 1803 916 31 comps
+case_1694 q12888873/usb_ttl_ch340n_sti3470 P1 953 962 26 comps
+case_1695 abchoo/150mhz-frequency-meter Frequre 3289 2172 160 comps
+case_1696 apachectl/independent-smart-home-controlle P1 1712 999 34 comps
+case_1697 eda_xdnnfnff/1u-kong-zhi-ban_transfer P1 1358 749 29 comps
+case_1698 yc_chen/v2-vfd-7-bt-317nk-wifi-shi-zhong VFD驱动 2366 1526 61 comps
+case_1699 yc_chen/v2-vfd-7-bt-317nk-wifi-shi-zhong MCU Core 2251 1607 56 comps
+case_1700 infinite_cloisters/sy8088 P1 875 678 16 comps
+case_1701 Sark1tama/add6905883eb46ecbf69d0580761d5f9 P1 3076 1919 151 comps
+case_1702 wang_studio/stc-foclitev2-faster-and-stronge P1 3308 2229 73 comps
+case_1703 wang007/electronbot_servodrive main 1353 1107 39 comps
+case_1704 zhao1999250/BZLQqwoj3rjVM6kXpDGsWSSGfwN4UvOU P1 1336 955 23 comps
+case_1705 arros_as/DC-DC_MP2225 P1 1431 525 24 comps
+render failed jsyzlyk/NEW_KILLER3000 too many values to unpack (expected 4)
+case_1706 tsy2001/hdmi-portable-screen-with-touch- HDMI TO RGB 2481 1657 44 comps
+case_1707 tsy2001/hdmi-portable-screen-with-touch- POWER 1990 1067 54 comps
+case_1708 tsy2001/hdmi-portable-screen-with-touch- MCU 2061 982 21 comps
+case_1709 5257903a/guang-gu-hua-deng uv原理图 2927 1289 56 comps
+case_1710 dingcheng/GaN-Programmable-Switching-Power-Supply-Board P1 2405 1710 184 comps
+case_1711 jic-h/wu-xian-chong-jie-shou-di-zuo P1 1578 913 29 comps
+case_1712 jiajun.gao/open-source-pure-hardware-screw- 原理图 2302 1605 165 comps
+cases 1712
+case_0001 76.28
+case_0002 23.92
+case_0003 85.87
+case_0004 63.93
+case_0005 64.37
+case_0006 55.95
+case_0007 96.31
+case_0008 94.29
+case_0009 90.12
+case_0010 85.52
+case_0011 84.38
+case_0012 80.47
+case_0013 71.33
+case_0014 86.32
+case_0015 89.17
+case_0016 88.27
+case_0017 83.07
+case_0018 25.67
+case_0019 78.18
+case_0020 19.08
+case_0021 91.42
+case_0022 57.32
+case_0023 68.37
+case_0024 76.96
+case_0025 85.55
+case_0026 86.27
+case_0027 82.43
+case_0028 81.19
+case_0029 90.33
+case_0030 81.71
+case_0031 62.62
+case_0032 75.44
+case_0033 86.76
+case_0034 92.93
+case_0035 36.84
+case_0036 87.88
+case_0037 74.02
+case_0038 93.96
+case_0039 90.21
+case_0040 94.92
+case_0041 100.0
+case_0042 89.73
+case_0043 60.33
+case_0044 86.94
+case_0045 58.72
+case_0046 71.32
+case_0047 56.3
+case_0048 70.97
+case_0049 78.16
+case_0050 74.57
+case_0051 39.73
+case_0052 66.68
+case_0053 66.03
+case_0054 82.07
+case_0055 65.92
+case_0056 92.87
+case_0057 85.95
+case_0058 88.66
+case_0059 89.64
+case_0060 85.9
+case_0061 84.59
+case_0062 84.08
+case_0063 89.44
+case_0064 74.64
+case_0065 47.02
+case_0066 84.72
+case_0067 66.73
+case_0068 64.8
+case_0069 59.33
+case_0070 63.61
+case_0071 78.97
+case_0072 66.97
+case_0073 65.8
+case_0074 63.98
+case_0075 76.47
+case_0076 79.51
+case_0077 81.26
+case_0078 67.75
+case_0079 75.0
+case_0080 87.62
+case_0081 75.72
+case_0082 56.08
+case_0083 72.71
+case_0084 86.03
+case_0085 73.0
+case_0086 88.15
+case_0087 84.81
+case_0088 56.79
+case_0089 84.33
+case_0090 78.35
+case_0091 72.53
+case_0092 86.77
+case_0093 50.5
+case_0094 69.2
+case_0095 79.24
+case_0096 81.95
+case_0097 75.18
+case_0098 73.08
+case_0099 86.23
+case_0100 82.96
+case_0101 69.06
+case_0102 58.37
+case_0103 14.38
+case_0104 88.47
+case_0105 55.12
+case_0106 74.67
+case_0107 79.42
+case_0108 80.49
+case_0109 72.68
+case_0110 64.41
+case_0111 64.67
+case_0112 77.35
+case_0113 93.01
+case_0114 95.41
+case_0115 91.08
+case_0116 77.39
+case_0117 84.89
+case_0118 71.21
+case_0119 82.99
+case_0120 82.68
+case_0121 100.0
+case_0122 82.78
+case_0123 90.67
+case_0124 89.72
+case_0125 16.34
+case_0126 38.83
+case_0127 84.65
+case_0128 82.88
+case_0129 80.77
+case_0130 91.35
+case_0131 69.09
+case_0132 87.03
+case_0133 92.98
+case_0134 59.8
+case_0135 81.24
+case_0136 93.1
+case_0137 55.46
+case_0138 79.26
+case_0139 80.73
+case_0140 74.82
+case_0141 91.37
+case_0142 64.24
+case_0143 85.16
+case_0144 44.05
+case_0145 97.09
+case_0146 82.46
+case_0147 81.41
+case_0148 87.2
+case_0149 77.66
+case_0150 56.92
+case_0151 94.24
+case_0152 83.89
+case_0153 26.04
+case_0154 71.43
+case_0155 75.1
+case_0156 62.95
+case_0157 76.69
+case_0158 73.65
+case_0159 84.99
+case_0160 69.94
+case_0161 66.54
+case_0162 57.36
+case_0163 74.52
+case_0164 96.09
+case_0165 90.35
+case_0166 74.72
+case_0167 69.46
+case_0168 78.34
+case_0169 82.65
+case_0170 77.66
+case_0171 90.44
+case_0172 90.69
+case_0173 93.52
+case_0174 88.0
+case_0175 93.38
+case_0176 97.65
+case_0177 80.74
+case_0178 96.7
+case_0179 86.13
+case_0180 78.19
+case_0181 78.44
+case_0182 55.03
+case_0183 68.11
+case_0184 60.66
+case_0185 36.79
+case_0186 51.54
+case_0187 87.81
+case_0188 82.9
+case_0189 90.06
+case_0190 76.22
+case_0191 80.2
+case_0192 88.92
+case_0193 70.35
+case_0194 50.0
+case_0195 56.64
+case_0196 61.23
+case_0197 67.48
+case_0198 56.74
+case_0199 65.31
+case_0200 63.28
+case_0201 68.61
+case_0202 47.82
+case_0203 94.42
+case_0204 91.87
+case_0205 98.75
+case_0206 81.33
+case_0207 68.31
+case_0208 49.52
+case_0209 87.75
+case_0210 32.34
+case_0211 65.35
+case_0212 82.35
+case_0213 86.42
+case_0214 84.98
+case_0215 80.1
+case_0216 62.53
+case_0217 69.53
+case_0218 87.15
+case_0219 53.67
+case_0220 71.76
+case_0221 77.94
+case_0222 83.31
+case_0223 60.76
+case_0224 72.37
+case_0225 60.19
+case_0226 79.33
+case_0227 69.8
+case_0228 83.19
+case_0229 42.89
+case_0230 75.79
+case_0231 82.84
+case_0232 86.07
+case_0233 71.16
+case_0234 85.18
+case_0235 39.44
+case_0236 83.0
+case_0237 75.44
+case_0238 85.82
+case_0239 87.26
+case_0240 24.54
+case_0241 92.21
+case_0242 79.47
+case_0243 86.84
+case_0244 95.69
+case_0245 88.94
+case_0246 71.07
+case_0247 50.97
+case_0248 32.63
+case_0249 68.05
+case_0250 82.48
+case_0251 73.85
+case_0252 40.99
+case_0253 88.18
+case_0254 90.71
+case_0255 75.75
+case_0256 94.86
+case_0257 79.74
+case_0258 81.05
+case_0259 94.82
+case_0260 85.52
+case_0261 89.34
+case_0262 90.77
+case_0263 85.34
+case_0264 83.74
+case_0265 82.92
+case_0266 58.57
+case_0267 91.05
+case_0268 51.94
+case_0269 76.25
+case_0270 61.91
+case_0271 87.59
+case_0272 39.58
+case_0273 57.31
+case_0274 89.44
+case_0275 90.38
+case_0276 66.14
+case_0277 56.09
+case_0278 75.18
+case_0279 69.12
+case_0280 46.41
+case_0281 75.26
+case_0282 15.7
+case_0283 79.82
+case_0284 57.96
+case_0285 87.19
+case_0286 89.96
+case_0287 83.13
+case_0288 78.01
+case_0289 86.07
+case_0290 73.37
+case_0291 96.19
+case_0292 80.41
+case_0293 98.75
+case_0294 82.35
+case_0295 63.69
+case_0296 80.59
+case_0297 67.15
+case_0298 55.99
+case_0299 71.17
+case_0300 72.39
+case_0301 55.83
+case_0302 58.31
+case_0303 65.11
+case_0304 51.47
+case_0305 75.13
+case_0306 88.73
+case_0307 78.49
+case_0308 65.6
+case_0309 85.55
+case_0310 83.55
+case_0311 62.34
+case_0312 92.65
+case_0313 85.73
+case_0314 88.84
+case_0315 78.22
+case_0316 49.18
+case_0317 65.99
+case_0318 94.39
+case_0319 95.26
+case_0320 82.47
+case_0321 88.78
+case_0322 2.91
+case_0323 84.15
+case_0324 98.97
+case_0325 74.85
+case_0326 80.0
+case_0327 83.71
+case_0328 52.93
+case_0329 93.27
+case_0330 84.53
+case_0331 76.88
+case_0332 60.17
+case_0333 86.0
+case_0334 89.81
+case_0335 63.86
+case_0336 49.3
+case_0337 67.37
+case_0338 82.57
+case_0339 93.11
+case_0340 87.53
+case_0341 60.48
+case_0342 51.63
+case_0343 76.16
+case_0344 70.96
+case_0345 55.46
+case_0346 90.35
+case_0347 70.6
+case_0348 100.0
+case_0349 87.25
+case_0350 74.04
+case_0351 69.06
+case_0352 85.67
+case_0353 84.27
+case_0354 79.59
+case_0355 81.16
+case_0356 76.28
+case_0357 81.91
+case_0358 58.71
+case_0359 90.54
+case_0360 76.03
+case_0361 55.29
+case_0362 81.98
+case_0363 60.62
+case_0364 80.29
+case_0365 79.81
+case_0366 79.08
+case_0367 81.4
+case_0368 53.1
+case_0369 88.36
+case_0370 74.9
+case_0371 69.59
+case_0372 62.27
+case_0373 28.35
+case_0374 58.49
+case_0375 78.61
+case_0376 78.21
+case_0377 81.21
+case_0378 68.33
+case_0379 89.52
+case_0380 93.78
+case_0381 98.77
+case_0382 74.77
+case_0383 65.23
+case_0384 77.57
+case_0385 73.23
+case_0386 85.78
+case_0387 65.65
+case_0388 61.3
+case_0389 51.42
+case_0390 68.23
+case_0391 96.27
+case_0392 86.94
+case_0393 73.69
+case_0394 58.04
+case_0395 68.59
+case_0396 74.51
+case_0397 45.26
+case_0398 64.89
+case_0399 73.69
+case_0400 48.07
+case_0401 70.7
+case_0402 84.5
+case_0403 62.51
+case_0404 84.41
+case_0405 76.12
+case_0406 81.21
+case_0407 62.97
+case_0408 78.04
+case_0409 80.12
+case_0410 77.26
+case_0411 77.55
+case_0412 44.8
+case_0413 74.41
+case_0414 85.45
+case_0415 31.01
+case_0416 75.26
+case_0417 69.64
+case_0418 61.73
+case_0419 81.56
+case_0420 64.96
+case_0421 65.32
+case_0422 60.78
+case_0423 93.83
+case_0424 43.86
+case_0425 84.53
+case_0426 31.07
+case_0427 77.29
+case_0428 81.42
+case_0429 79.01
+case_0430 82.91
+case_0431 83.46
+case_0432 70.48
+case_0433 78.61
+case_0434 66.24
+case_0435 78.54
+case_0436 48.73
+case_0437 69.38
+case_0438 81.38
+case_0439 81.4
+case_0440 82.08
+case_0441 24.43
+case_0442 72.94
+case_0443 67.35
+case_0444 91.96
+case_0445 65.32
+case_0446 74.98
+case_0447 66.52
+case_0448 77.85
+case_0449 88.33
+case_0450 67.22
+case_0451 61.76
+case_0452 68.21
+case_0453 65.79
+case_0454 78.15
+case_0455 66.07
+case_0456 66.39
+case_0457 72.46
+case_0458 79.43
+case_0459 92.15
+case_0460 81.18
+case_0461 70.27
+case_0462 0.0
+case_0463 14.11
+case_0464 72.8
+case_0465 89.15
+case_0466 84.67
+case_0467 47.15
+case_0468 88.43
+case_0469 86.15
+case_0470 23.36
+case_0471 68.18
+case_0472 59.22
+case_0473 83.69
+case_0474 39.46
+case_0475 61.79
+case_0476 87.62
+case_0477 44.04
+case_0478 100.0
+case_0479 29.77
+case_0480 90.29
+case_0481 79.48
+case_0482 86.6
+case_0483 75.25
+case_0484 37.73
+case_0485 77.77
+case_0486 61.83
+case_0487 70.57
+case_0488 55.42
+case_0489 86.46
+case_0490 71.27
+case_0491 72.12
+case_0492 93.02
+case_0493 69.93
+case_0494 73.71
+case_0495 73.52
+case_0496 74.59
+case_0497 73.0
+case_0498 74.67
+case_0499 78.61
+case_0500 89.83
+case_0501 80.46
+case_0502 81.2
+case_0503 65.92
+case_0504 96.0
+case_0505 83.49
+case_0506 95.43
+case_0507 57.82
+case_0508 66.92
+case_0509 78.03
+case_0510 87.7
+case_0511 58.35
+case_0512 60.05
+case_0513 67.9
+case_0514 48.98
+case_0515 64.79
+case_0516 54.14
+case_0517 77.44
+case_0518 79.66
+case_0519 52.93
+case_0520 93.03
+case_0521 86.24
+case_0522 86.9
+case_0523 85.36
+case_0524 82.76
+case_0525 63.36
+case_0526 57.17
+case_0527 59.77
+case_0528 71.27
+case_0529 84.82
+case_0530 92.76
+case_0531 64.03
+case_0532 77.47
+case_0533 76.95
+case_0534 95.99
+case_0535 74.55
+case_0536 51.42
+case_0537 65.09
+case_0538 74.46
+case_0539 80.85
+case_0540 84.45
+case_0541 89.7
+case_0542 83.23
+case_0543 47.26
+case_0544 77.43
+case_0545 75.01
+case_0546 56.86
+case_0547 67.77
+case_0548 47.24
+case_0549 73.89
+case_0550 82.95
+case_0551 66.51
+case_0552 40.24
+case_0553 55.03
+case_0554 63.07
+case_0555 71.03
+case_0556 41.74
+case_0557 55.64
+case_0558 56.16
+case_0559 55.7
+case_0560 28.13
+case_0561 34.16
+case_0562 46.85
+case_0563 35.59
+case_0564 82.28
+case_0565 88.6
+case_0566 94.6
+case_0567 69.32
+case_0568 65.8
+case_0569 59.4
+case_0570 97.19
+case_0571 34.1
+case_0572 80.36
+case_0573 50.46
+case_0574 10.83
+case_0575 76.0
+case_0576 75.11
+case_0577 38.95
+case_0578 83.64
+case_0579 52.13
+case_0580 56.95
+case_0581 22.55
+case_0582 19.81
+case_0583 27.07
+case_0584 28.17
+case_0585 25.0
+case_0586 74.01
+case_0587 78.95
+case_0588 47.23
+case_0589 63.89
+case_0590 74.83
+case_0591 86.0
+case_0592 84.09
+case_0593 54.6
+case_0594 79.43
+case_0595 93.91
+case_0596 84.07
+case_0597 93.54
+case_0598 74.95
+case_0599 86.14
+case_0600 76.38
+case_0601 57.06
+case_0602 69.92
+case_0603 63.14
+case_0604 74.81
+case_0605 84.19
+case_0606 60.33
+case_0607 74.37
+case_0608 77.91
+case_0609 46.46
+case_0610 67.18
+case_0611 81.1
+case_0612 69.43
+case_0613 99.86
+case_0614 63.67
+case_0615 80.96
+case_0616 67.7
+case_0617 83.44
+case_0618 93.53
+case_0619 42.55
+case_0620 67.11
+case_0621 84.46
+case_0622 84.94
+case_0623 67.7
+case_0624 77.3
+case_0625 57.5
+case_0626 90.9
+case_0627 80.42
+case_0628 68.19
+case_0629 67.08
+case_0630 86.17
+case_0631 50.02
+case_0632 84.03
+case_0633 79.2
+case_0634 62.77
+case_0635 77.37
+case_0636 85.97
+case_0637 80.64
+case_0638 77.9
+case_0639 72.53
+case_0640 39.17
+case_0641 77.97
+case_0642 90.83
+case_0643 76.87
+case_0644 81.35
+case_0645 84.86
+case_0646 82.84
+case_0647 93.65
+case_0648 80.43
+case_0649 53.33
+case_0650 81.05
+case_0651 95.47
+case_0652 80.17
+case_0653 73.36
+case_0654 60.24
+case_0655 77.38
+case_0656 87.32
+case_0657 69.25
+case_0658 73.37
+case_0659 80.48
+case_0660 77.52
+case_0661 82.55
+case_0662 68.83
+case_0663 100.0
+case_0664 61.52
+case_0665 53.57
+case_0666 91.59
+case_0667 73.56
+case_0668 73.56
+case_0669 24.83
+case_0670 89.24
+case_0671 87.01
+case_0672 79.66
+case_0673 19.29
+case_0674 57.75
+case_0675 78.54
+case_0676 81.15
+case_0677 92.17
+case_0678 18.73
+case_0679 65.73
+case_0680 82.72
+case_0681 85.35
+case_0682 75.17
+case_0683 80.75
+case_0684 67.14
+case_0685 92.07
+case_0686 91.5
+case_0687 83.73
+case_0688 57.39
+case_0689 87.97
+case_0690 86.45
+case_0691 75.83
+case_0692 86.26
+case_0693 90.01
+case_0694 88.83
+case_0695 92.54
+case_0696 93.34
+case_0697 89.84
+case_0698 84.74
+case_0699 73.01
+case_0700 82.96
+case_0701 76.09
+case_0702 41.07
+case_0703 83.51
+case_0704 65.14
+case_0705 90.25
+case_0706 75.59
+case_0707 60.53
+case_0708 78.67
+case_0709 95.54
+case_0710 90.07
+case_0711 85.28
+case_0712 64.73
+case_0713 66.3
+case_0714 62.1
+case_0715 26.99
+case_0716 26.88
+case_0717 54.5
+case_0718 61.24
+case_0719 87.1
+case_0720 66.08
+case_0721 75.18
+case_0722 69.97
+case_0723 46.25
+case_0724 75.84
+case_0725 66.1
+case_0726 69.55
+case_0727 63.93
+case_0728 90.21
+case_0729 69.88
+case_0730 72.17
+case_0731 53.79
+case_0732 72.78
+case_0733 71.35
+case_0734 68.02
+case_0735 77.06
+case_0736 76.39
+case_0737 78.06
+case_0738 96.34
+case_0739 92.65
+case_0740 94.29
+case_0741 94.6
+case_0742 69.96
+case_0743 83.6
+case_0744 53.93
+case_0745 36.34
+case_0746 59.96
+case_0747 61.1
+case_0748 55.72
+case_0749 97.27
+case_0750 82.67
+case_0751 78.97
+case_0752 37.48
+case_0753 45.71
+case_0754 25.32
+case_0755 60.24
+case_0756 86.97
+case_0757 45.12
