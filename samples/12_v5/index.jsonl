@@ -1893,3 +1893,23 @@
 {"uuid": "72e0dd248113465882be2f8ef5b6b9fd", "path": "qiaomueda/ji-yu-eg6562-de-200w-dan-ji-apfc", "license": "CC BY-NC-ND 3.0", "status": "ok", "sheets": 1, "missing_symbols": 0}
 {"uuid": "2248780085a4459d967086ead3d8183e", "path": "torah/xing-huo-ji-hua-ba-gua-jian-pan-by-sudo-wang-yq", "license": "GPL 3.0", "status": "no schematic"}
 {"uuid": "d906731f64e4498e8dea8b70a5188378", "path": "geek-crafts/GCPB_O001", "license": "CERN Open Hardware License", "status": "no schematic"}
+{"uuid": "eeb8ade99da049cabfa25749a0f2a9b6", "path": "frostautumn/hua-wei-460w-dian-yuan-zhuan-jie-ban-_2022-09-04_14-10-41", "license": "CC BY-NC-SA 4.0", "status": "no schematic"}
+{"uuid": "e114fc7d233441629ebeaa0bad678ade", "path": "ai-thiner_openteam/k2101_sip_test_brd_v1-6", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "e5685e4a39ff459b90ffb557cac0fa81", "path": "fewrf/ov2640_", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "3375058e5ce247afbbcccdc5aea70e93", "path": "liubinkaixin/xf2485-module", "license": "Public Domain", "status": "no schematic"}
+{"uuid": "af424189625c45bd8cddc83cd6d4816f", "path": "abc255/pcb1", "license": "Public Domain", "status": "no schematic"}
+{"uuid": "5c6568e2f3c54d9aa1e9365cc5ca0ef1", "path": "l-xun/shu-ru-24v-chong-dian-ban", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "1441088938734b9594a803a3c88b5614", "path": "laotiexialtx/si-xian-ce-shi-zu-pai", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "90f6cb180c1546f38c2afbbdbe71445a", "path": "o0v0o/hua-wei-jian-pan-wu-xian-chong-dian-pai-xian", "license": "Public Domain", "status": "no schematic"}
+{"uuid": "529b4c15f68d416ebac12ad6a37a5baf", "path": "engineer_jiang/ji-yu-gl3224-qfn48-zhu-kong-emmc-du-xie-fang-an", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "84f945fcf55f48bea80c5bf9037a4ceb", "path": "sisst/voron24bed", "license": "Public Domain", "status": "no schematic"}
+{"uuid": "811280987a1647b99a00582ebea54d17", "path": "kira5/p1", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "9ca2d0268c80497c8bbb184476ab2fcb", "path": "justaonecat/senvi-ctickit-blank-edition", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "0eb543dd1d164f668c6402c2f311d7c9", "path": "cryzan/fu-zhou-zhi-ye-ji-shu-xue-yuan-xiao-yuan-ka", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "e30ce6cfb34e408eafe544d4fb8331df", "path": "eda_tgfcfivmi/hou-lang-gua-jian-ka-pian-ban", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "af02fe61f37f427ea078607d1b271841", "path": "eda_tgfcfivmi/houlang", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "6f3f944dd077470fb25e3ef1439709af", "path": "tjdxryx/human-body-sensor-bulb-based-on-", "license": "CC BY-NC-SA 3.0", "status": "no schematic"}
+{"uuid": "769a8edd6306445cb588ebc8c3c59fd0", "path": "qwer789asd456zxc123/hu-nan-cheng-shi-xue-yuan-xiao-yuan-ka", "license": "CC BY 3.0", "status": "no schematic"}
+{"uuid": "18d6b16cbd5b499abb0575d02df8d5fc", "path": "rjgawuie/flash_slot", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "756c90b8371e4e9d9c188738c22f79fe", "path": "yiriqianli/pciex16844-split-adapter-x8-half", "license": "GPL 3.0", "status": "no schematic"}
+{"uuid": "697b6fd3082b41a7a73f1c57698acc51", "path": "macancan/open-source-six-way-desktop-super-charging-station-zc106p-color-screen-display-201-inch-sw3536sw3538-desktop-charging-station", "license": "GPL 3.0", "status": "no schematic"}
